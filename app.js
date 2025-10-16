@@ -117,5 +117,12 @@ require(['vs/editor/editor.main'], function () {
       setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 0);
     }
   });
+  // 文字入力（a-z）直後にも確実にサジェストを起動（IMEや環境差の影響を避ける）
+  editor.onDidType((text) => {
+    if (/^[a-z]$/.test(text)) {
+      // 編集反映後に発火
+      setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 0);
+    }
+  });
   // 変更イベントでの自動サジェストは行わない
 });
