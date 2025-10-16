@@ -1,4 +1,4 @@
-const CACHE = 'ke-site-v4';
+const CACHE = 'ke-site-v5';
 const ASSETS = [
   './',
   './index.html',
