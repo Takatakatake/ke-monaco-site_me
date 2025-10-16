@@ -5,12 +5,18 @@ require(['vs/editor/editor.main'], function () {
   // 言語登録と語境界
   monaco.languages.register({ id: 'kanji-esperanto' });
   monaco.languages.setLanguageConfiguration('kanji-esperanto', {
-    wordPattern: /([a-zA-Z]+)|([\u3400-\u9fff々〻]+)/g
+    // No global flag to avoid stateful RegExp interactions
+    wordPattern: /([a-zA-Z]+)|([\u3400-\u9fff々〻]+)/
   });
 
   // 遅延読込用のシンプルキャッシュ（先頭文字 → アイテム配列）
   const cache = new Map();
   const SUGGEST_LIMIT = 100;
+  // Preload buckets once to avoid fetch timing differences (no behavior change)
+  (async () => {
+    const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    try { await Promise.all(letters.map(ch => loadBucket(ch))); } catch {}
+  })();
 
   async function loadBucket(ch) {
     const key = (ch || '').toLowerCase();
