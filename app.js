@@ -249,12 +249,14 @@ require(['vs/editor/editor.main'], function () {
       if (!prefix) { hideSuggest(); return; }
       const maybe = loadBucket(prefix[0]);
       Promise.resolve(maybe).then(() => {
-        // 編集反映後に確実に再トリガー（辞書ロード完了後）
-        setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 0);
+        // 一度候補を閉じてから再度開く（Monaco Editorの再計算を強制）
+        hideSuggest();
+        setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 10);
       });
     } catch {
       // fallback trigger（失敗時は閉じるより提示を優先）
-      setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 0);
+      hideSuggest();
+      setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 10);
     }
   });
   // 変更イベントでの自動サジェストは行わない
