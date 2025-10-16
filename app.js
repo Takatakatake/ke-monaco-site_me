@@ -50,10 +50,11 @@ require(['vs/editor/editor.main'], function () {
   // NOTE: No global fallback (all.json) — use only the active bucket or inline snippets
 
   function extractAsciiPrefix(line, caret0) {
-    // 直前の ASCII 語根を抽出（途中に単一スペースが混ざっても許容）
+    // カーソル直前の連続したアルファベットのみを抽出
+    // スペースや漢字の後ろのアルファベットだけを取得
     const left = line.slice(0, caret0);
-    const m = left.match(/[A-Za-z](?:\s?[A-Za-z])*$/);
-    return m ? m[0].replace(/\s+/g, '') : '';
+    const m = left.match(/[A-Za-z]+$/);
+    return m ? m[0] : '';
   }
 
   function currentPrefix(model, position) {
@@ -62,7 +63,7 @@ require(['vs/editor/editor.main'], function () {
     return extractAsciiPrefix(line, col0);
   }
 
-  async function buildItemsForPrefix(prefix, position, leftIdx, col0) {
+  async function buildItemsForPrefix(prefix, position, col0) {
     let source = [];
     const bucket = await loadBucket(prefix[0]);
     if (bucket && bucket.length) {
@@ -82,7 +83,8 @@ require(['vs/editor/editor.main'], function () {
         range: new monaco.Range(position.lineNumber, col0 - prefix.length + 1, position.lineNumber, col0 + 1),
         detail: s.detail || '',
         documentation: s.documentation || undefined,
-        sortText: ('0' + (s.sortText || s.prefix))
+        // 入力したprefixと完全一致する長さを優先してソート
+        sortText: ('0'.repeat(10 - Math.abs(String(s.prefix).length - prefix.length)) + (s.sortText || s.prefix))
       }));
     return items;
   }
@@ -100,12 +102,12 @@ require(['vs/editor/editor.main'], function () {
       // 通常入力（a-z）でも補完を自動発火させる
       // onDidType での明示トリガーも併用し、どちらからでも開くように冗長化
       triggerCharacters: 'abcdefghijklmnopqrstuvwxyz'.split(''),
-      provideCompletionItems: async (model, position, context, token) => {
+      provideCompletionItems: async (model, position, _context, token) => {
         const line = model.getLineContent(position.lineNumber);
         const col0 = position.column - 1; // 0-based caret index
         const prefix = extractAsciiPrefix(line, col0);
         if (!prefix || prefix.length < 1) return { suggestions: [] }; // 1文字以上で候補
-        let items = await buildItemsForPrefix(prefix, position, col0 - prefix.length - 1, col0);
+        let items = await buildItemsForPrefix(prefix, position, col0);
         // exact match がある場合はそれだけに限定（ローカル神仕様に寄せる）
         const exact = items.filter(i => i.label && String(i.label).startsWith(prefix + ' '));
         if (exact.length) items = exact;
@@ -118,7 +120,7 @@ require(['vs/editor/editor.main'], function () {
         // まれに辞書ロードの直後で空になる揺らぎに対応（1回だけ待って再試行）
         if (!items.length && inflight.has(prefix[0].toLowerCase())) {
           try { await inflight.get(prefix[0].toLowerCase()); } catch {}
-          items = await buildItemsForPrefix(prefix, position, col0 - prefix.length - 1, col0);
+          items = await buildItemsForPrefix(prefix, position, col0);
           const exact2 = items.filter(i => i.label && String(i.label).startsWith(prefix + ' '));
           if (exact2.length) items = exact2;
         }
@@ -222,9 +224,17 @@ require(['vs/editor/editor.main'], function () {
   });
   // 文字入力（a-z）直後にも確実にサジェストを起動（IMEや環境差の影響を避ける）
   editor.onDidType((text) => {
-    // 空白や非英字が入力されたら即座に候補を閉じる
-    if (/^\s$/.test(text) || /[^a-z]/.test(text)) { hideSuggest(); return; }
-    if (!/^[a-z]$/.test(text)) return;
+    // スペースが入力されたら即座に候補を閉じて終了
+    if (/^\s$/.test(text)) {
+      hideSuggest();
+      return;
+    }
+    // a-z以外が入力されたら候補を閉じる
+    if (!/^[a-z]$/i.test(text)) {
+      hideSuggest();
+      return;
+    }
+    // a-zが入力された場合のみ候補を表示
     try {
       const model = editor.getModel();
       const pos = editor.getPosition();
