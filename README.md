@@ -56,8 +56,15 @@ Actions による自動デプロイ（同梱）:
 ## 仕様のポイント
 - Monaco worker は data URL で自己完結（CDN 金輪際に依存、サーバ側設定不要）
 - `wordPattern` は ASCII 語根と CJK(々/〻) の語境界を想定
-- Backspace/Delete 後に候補を自動再表示、Ctrl+Space で強制表示
+- 通常入力（a-z）でも候補を自動表示＋Backspace/Delete 後に候補を自動再表示、Ctrl+Space で強制表示
 - 大辞書は 1 文字バケツで遅延読込（更に大規模なら 2 文字バケツや Trie を検討）
+
+## ローカル保存と履歴
+- 入力内容は自動で `localStorage` に保存・復元されます（キー: `ke-doc-v1`）。
+- 簡易履歴（最大50スナップショット）を保持します（キー: `ke-doc-hist-v1`）。
+- 便利アクション:
+  - `Ctrl+Alt+R` … 最後のスナップショットを復元
+  - `Ctrl+Alt+Backspace` … ローカル保存と履歴を削除
 
 ## ライセンス
 - Monaco Editor: MIT（© Microsoft）

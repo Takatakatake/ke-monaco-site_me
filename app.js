@@ -15,6 +15,9 @@ require(['vs/editor/editor.main'], function () {
   const SUGGEST_LIMIT = 100;
   const params = new URLSearchParams(location.search);
   const STRICT = params.get('strict') === '1';
+  const STORAGE_KEY = 'ke-doc-v1';
+  const HISTORY_KEY = 'ke-doc-hist-v1';
+  const HISTORY_LIMIT = 50;
 
   async function loadBucket(ch) {
     const key = (ch || '').toLowerCase();
@@ -47,10 +50,16 @@ require(['vs/editor/editor.main'], function () {
   // NOTE: No global fallback (all.json) — use only the active bucket or inline snippets
 
   function extractAsciiPrefix(line, caret0) {
-    // 直前の ASCII 連続語を厳格に抽出（1文字以上=ローカル仕様）
+    // 直前の ASCII 語根を抽出（途中に単一スペースが混ざっても許容）
     const left = line.slice(0, caret0);
-    const m = left.match(/[A-Za-z]+$/);
-    return m ? m[0] : '';
+    const m = left.match(/[A-Za-z](?:\s?[A-Za-z])*$/);
+    return m ? m[0].replace(/\s+/g, '') : '';
+  }
+
+  function currentPrefix(model, position) {
+    const line = model.getLineContent(position.lineNumber);
+    const col0 = position.column - 1;
+    return extractAsciiPrefix(line, col0);
   }
 
   async function buildItemsForPrefix(prefix, position, leftIdx, col0) {
@@ -91,7 +100,7 @@ require(['vs/editor/editor.main'], function () {
       // 通常入力（a-z）でも補完を自動発火させる
       // onDidType での明示トリガーも併用し、どちらからでも開くように冗長化
       triggerCharacters: 'abcdefghijklmnopqrstuvwxyz'.split(''),
-      provideCompletionItems: async (model, position) => {
+      provideCompletionItems: async (model, position, context, token) => {
         const line = model.getLineContent(position.lineNumber);
         const col0 = position.column - 1; // 0-based caret index
         const prefix = extractAsciiPrefix(line, col0);
@@ -100,6 +109,12 @@ require(['vs/editor/editor.main'], function () {
         // exact match がある場合はそれだけに限定（ローカル神仕様に寄せる）
         const exact = items.filter(i => i.label && String(i.label).startsWith(prefix + ' '));
         if (exact.length) items = exact;
+        // レース防止: 返却直前のプレフィクスが当初と異なる場合は結果を捨てる
+        try {
+          if (token && token.isCancellationRequested) return { suggestions: [] };
+          const nowPrefix = currentPrefix(model, editor.getPosition());
+          if (nowPrefix !== prefix) return { suggestions: [] };
+        } catch {}
         // まれに辞書ロードの直後で空になる揺らぎに対応（1回だけ待って再試行）
         if (!items.length && inflight.has(prefix[0].toLowerCase())) {
           try { await inflight.get(prefix[0].toLowerCase()); } catch {}
@@ -116,8 +131,12 @@ require(['vs/editor/editor.main'], function () {
   const host = document.getElementById('editor');
   let extraOpts = {};
   try { extraOpts = JSON.parse(host.getAttribute('data-options') || '{}'); } catch {}
+  // 直前の内容を復元（ローカル保存）
+  let saved = null;
+  try { saved = localStorage.getItem(STORAGE_KEY); } catch {}
+
   const editor = monaco.editor.create(host, Object.assign({
-    value: '更bon\n',
+    value: saved || '更bon\n',
     language: 'kanji-esperanto',
     theme: 'vs',
     fontSize: 16,
@@ -132,6 +151,50 @@ require(['vs/editor/editor.main'], function () {
     label: 'Kanji Esperanto: Trigger Suggest',
     keybindings: [monaco.KeyMod.CtrlCmd | monaco.KeyCode.Space],
     run: () => editor.trigger('ke', 'editor.action.triggerSuggest', {})
+  });
+
+  // ローカル保存 & 履歴（簡易スナップショット）
+  function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+  const saveNow = () => {
+    try {
+      const v = editor.getValue();
+      localStorage.setItem(STORAGE_KEY, v);
+      let hist = [];
+      try { hist = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); } catch {}
+      const last = hist[hist.length - 1];
+      if (!last || last.v !== v) {
+        hist.push({ t: Date.now(), v });
+        if (hist.length > HISTORY_LIMIT) hist = hist.slice(-HISTORY_LIMIT);
+        localStorage.setItem(HISTORY_KEY, JSON.stringify(hist));
+      }
+    } catch {}
+  };
+  const saveDebounced = debounce(saveNow, 300);
+  editor.onDidChangeModelContent(saveDebounced);
+
+  editor.addAction({
+    id: 'ke-restore-last-snapshot',
+    label: 'KE: Restore Last Snapshot',
+    keybindings: [monaco.KeyMod.CtrlCmd | monaco.KeyMod.Alt | monaco.KeyCode.KeyR],
+    run: () => {
+      try {
+        const hist = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+        const last = hist[hist.length - 1];
+        if (last && typeof last.v === 'string') {
+          editor.setValue(last.v);
+          localStorage.setItem(STORAGE_KEY, last.v);
+        }
+      } catch {}
+    }
+  });
+
+  editor.addAction({
+    id: 'ke-clear-storage',
+    label: 'KE: Clear Local Storage',
+    keybindings: [monaco.KeyMod.CtrlCmd | monaco.KeyMod.Alt | monaco.KeyCode.Backspace],
+    run: () => {
+      try { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(HISTORY_KEY); } catch {}
+    }
   });
 
   function hideSuggest() {
