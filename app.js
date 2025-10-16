@@ -88,8 +88,9 @@ require(['vs/editor/editor.main'], function () {
 
   function registerProvider() {
     monaco.languages.registerCompletionItemProvider('kanji-esperanto', {
-      // 文字入力後の明示トリガーに統一（onDidTypeで呼ぶ）
-      triggerCharacters: [],
+      // 通常入力（a-z）でも補完を自動発火させる
+      // onDidType での明示トリガーも併用し、どちらからでも開くように冗長化
+      triggerCharacters: 'abcdefghijklmnopqrstuvwxyz'.split(''),
       provideCompletionItems: async (model, position) => {
         const line = model.getLineContent(position.lineNumber);
         const col0 = position.column - 1; // 0-based caret index
