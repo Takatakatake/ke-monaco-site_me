@@ -47,9 +47,9 @@ require(['vs/editor/editor.main'], function () {
   // NOTE: No global fallback (all.json) — use only the active bucket or inline snippets
 
   function extractAsciiPrefix(line, caret0) {
-    // 直前の ASCII 連続語を厳格に抽出（2文字以上）
+    // 直前の ASCII 連続語を厳格に抽出（1文字以上=ローカル仕様）
     const left = line.slice(0, caret0);
-    const m = left.match(/[A-Za-z]{2,}$/);
+    const m = left.match(/[A-Za-z]+$/);
     return m ? m[0] : '';
   }
 
@@ -93,7 +93,7 @@ require(['vs/editor/editor.main'], function () {
         const line = model.getLineContent(position.lineNumber);
         const col0 = position.column - 1; // 0-based caret index
         const prefix = extractAsciiPrefix(line, col0);
-        if (!prefix || prefix.length < 2) return { suggestions: [] }; // 2文字以上で候補
+        if (!prefix || prefix.length < 1) return { suggestions: [] }; // 1文字以上で候補
         let items = await buildItemsForPrefix(prefix, position, col0 - prefix.length - 1, col0);
         // まれに辞書ロードの直後で空になる揺らぎに対応（1回だけ待って再試行）
         if (!items.length && inflight.has(prefix[0].toLowerCase())) {
