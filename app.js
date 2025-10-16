@@ -12,11 +12,6 @@ require(['vs/editor/editor.main'], function () {
   // 遅延読込用のシンプルキャッシュ（先頭文字 → アイテム配列）
   const cache = new Map();
   const SUGGEST_LIMIT = 100;
-  // Preload buckets once to avoid fetch timing differences (no behavior change)
-  (async () => {
-    const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
-    try { await Promise.all(letters.map(ch => loadBucket(ch))); } catch {}
-  })();
 
   async function loadBucket(ch) {
     const key = (ch || '').toLowerCase();
@@ -36,10 +31,11 @@ require(['vs/editor/editor.main'], function () {
 
   // NOTE: No global fallback (all.json) — use only the active bucket or inline snippets
 
-  function findAsciiPrefixLeft(line, caret0) {
-    let i = caret0 - 1;
-    while (i >= 0 && /[A-Za-z]/.test(line[i])) i--;
-    return i; // ASCII 以外で止まった位置
+  function extractAsciiPrefix(line, caret0) {
+    // 直前の ASCII 連続語を厳格に抽出（実装差異や IME の影響を最小化）
+    const left = line.slice(0, caret0);
+    const m = left.match(/[A-Za-z]{2,}$/);
+    return m ? m[0] : '';
   }
 
   async function buildItemsForPrefix(prefix, position, leftIdx, col0) {
@@ -59,7 +55,7 @@ require(['vs/editor/editor.main'], function () {
         kind: monaco.languages.CompletionItemKind.Snippet,
         insertText: s.body,
         insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
-        range: new monaco.Range(position.lineNumber, leftIdx + 2, position.lineNumber, col0 + 1),
+        range: new monaco.Range(position.lineNumber, col0 - prefix.length + 1, position.lineNumber, col0 + 1),
         detail: s.detail || '',
         documentation: s.documentation || undefined,
         sortText: ('0' + (s.sortText || s.prefix))
@@ -74,10 +70,9 @@ require(['vs/editor/editor.main'], function () {
     provideCompletionItems: async (model, position) => {
       const line = model.getLineContent(position.lineNumber);
       const col0 = position.column - 1; // 0-based caret index
-      const leftIdx = findAsciiPrefixLeft(line, col0);
-      const prefix = line.slice(leftIdx + 1, col0);
+      const prefix = extractAsciiPrefix(line, col0);
       if (!prefix || prefix.length < 2) return { suggestions: [] }; // 2文字以上のみ
-      const items = await buildItemsForPrefix(prefix, position, leftIdx, col0);
+      const items = await buildItemsForPrefix(prefix, position, col0 - prefix.length - 1, col0);
       return { suggestions: items };
     }
   });
