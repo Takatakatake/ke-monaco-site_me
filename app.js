@@ -11,22 +11,35 @@ require(['vs/editor/editor.main'], function () {
 
   // 遅延読込用のシンプルキャッシュ（先頭文字 → アイテム配列）
   const cache = new Map();
+  const inflight = new Map();
   const SUGGEST_LIMIT = 100;
 
   async function loadBucket(ch) {
     const key = (ch || '').toLowerCase();
     if (!key || key.length !== 1) return [];
     if (cache.has(key)) return cache.get(key);
-    try {
-      const res = await fetch(`./data/ke-${key}.json`, { cache: 'force-cache' });
-      if (!res.ok) return [];
-      const json = await res.json();
-      const arr = Array.isArray(json.items) ? json.items : [];
-      cache.set(key, arr);
-      return arr;
-    } catch (_) {
-      return [];
-    }
+    if (inflight.has(key)) return inflight.get(key);
+    const p = (async () => {
+      try {
+        const url = `./data/ke-${key}.json`;
+        let res = await fetch(url, { cache: 'force-cache' });
+        if (!res.ok) {
+          // one retry with cache busting to avoid transient 404/opaque
+          res = await fetch(url + `?v=${Date.now()}`);
+        }
+        if (!res.ok) return [];
+        const json = await res.json();
+        const arr = Array.isArray(json.items) ? json.items : [];
+        cache.set(key, arr);
+        return arr;
+      } catch {
+        return [];
+      } finally {
+        inflight.delete(key);
+      }
+    })();
+    inflight.set(key, p);
+    return p;
   }
 
   // NOTE: No global fallback (all.json) — use only the active bucket or inline snippets
@@ -78,14 +91,17 @@ require(['vs/editor/editor.main'], function () {
   });
 
   // エディタ作成
-  const editor = monaco.editor.create(document.getElementById('editor'), {
+  const host = document.getElementById('editor');
+  let extraOpts = {};
+  try { extraOpts = JSON.parse(host.getAttribute('data-options') || '{}'); } catch {}
+  const editor = monaco.editor.create(host, Object.assign({
     value: '更bon\n',
     language: 'kanji-esperanto',
     theme: 'vs',
     fontSize: 16,
     minimap: { enabled: false },
     automaticLayout: true
-  });
+  }, extraOpts));
 
   // Ctrl+Space で常に候補を表示
   editor.addAction({
