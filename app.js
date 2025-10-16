@@ -291,4 +291,135 @@ require(['vs/editor/editor.main'], function () {
     }
   });
   // 変更イベントでの自動サジェストは行わない
+
+  // === Mobile-friendly Clipboard & Utility Toolbar ===
+  // Buttons are defined in index.html header. Wire them up here.
+  (function setupMobileToolbar(){
+    const toastEl = document.getElementById('ke-toast');
+    const showToast = (msg) => {
+      if (!toastEl) { return; }
+      toastEl.textContent = msg;
+      clearTimeout(showToast._t);
+      showToast._t = setTimeout(() => { toastEl.textContent = ''; }, 1800);
+    };
+
+    // Create a plain textarea for OS-native copy/paste when needed
+    const appRoot = document.getElementById('app');
+    const plain = document.createElement('textarea');
+    plain.id = 'ke-plain';
+    plain.style.display = 'none';
+    plain.style.width = '100%';
+    plain.style.height = '100%';
+    plain.style.boxSizing = 'border-box';
+    plain.style.fontFamily = 'monospace';
+    plain.style.fontSize = '16px';
+    plain.style.padding = '10px';
+    appRoot.appendChild(plain);
+
+    function switchToPlain() {
+      try { plain.value = editor.getValue(); } catch {}
+      host.style.display = 'none';
+      plain.style.display = 'block';
+      plain.focus();
+      showToast('テキストエリアに切替（長押しでコピペ可）');
+    }
+    function switchToMonaco() {
+      try { editor.setValue(plain.value); saveNow(); } catch {}
+      plain.style.display = 'none';
+      host.style.display = 'block';
+      editor.focus();
+      showToast('Monacoに戻りました');
+    }
+    let plainMode = false;
+
+    async function copySelectionOrAll() {
+      try {
+        const model = editor.getModel();
+        const sel = editor.getSelection();
+        let text = '';
+        if (sel && !sel.isEmpty()) {
+          text = model.getValueInRange(sel);
+        } else {
+          text = model.getValue();
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(text);
+          showToast('コピーしました');
+          return;
+        }
+      } catch {}
+      // Fallback via temporary textarea
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = editor.getModel().getValue();
+        ta.style.position = 'fixed';
+        ta.style.left = '-9999px';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        showToast('コピーしました（フォールバック）');
+      } catch {
+        showToast('コピーに失敗しました');
+      }
+    }
+
+    async function pasteFromClipboard() {
+      // Attempt modern API first (requires user gesture & HTTPS)
+      try {
+        if (navigator.clipboard && navigator.clipboard.readText) {
+          const text = await navigator.clipboard.readText();
+          if (text) {
+            const sel = editor.getSelection();
+            editor.executeEdits('ke-paste', [{ range: sel, text, forceMoveMarkers: true }]);
+            editor.focus();
+            showToast('ペーストしました');
+            return;
+          }
+        }
+      } catch {}
+      // Fallback prompt (works across browsers;ユーザーが長押しで貼り付け)
+      const fallback = window.prompt('クリップボード読み取り不可です。ここに貼り付けてください：', '');
+      if (fallback != null) {
+        const sel = editor.getSelection();
+        editor.executeEdits('ke-paste', [{ range: sel, text: String(fallback), forceMoveMarkers: true }]);
+        editor.focus();
+        showToast('ペーストしました');
+      }
+    }
+
+    function selectAll() {
+      try { editor.trigger('ke', 'editor.action.selectAll'); editor.focus(); showToast('全選択しました'); } catch {}
+    }
+
+    async function shareSelectionOrAll() {
+      try {
+        const model = editor.getModel();
+        const sel = editor.getSelection();
+        const text = (sel && !sel.isEmpty()) ? model.getValueInRange(sel) : model.getValue();
+        if (navigator.share && text) {
+          const snippet = text.length > 10000 ? text.slice(0, 10000) + '\n…' : text;
+          await navigator.share({ text: snippet, title: 'Kanji Esperanto Text' });
+          return;
+        }
+      } catch {}
+      // Fallback to copy
+      copySelectionOrAll();
+    }
+
+    const byId = (id) => document.getElementById(id);
+    const wire = (id, fn) => { const el = byId(id); if (el) el.addEventListener('click', fn, { passive: true }); };
+    wire('btn-copy', () => copySelectionOrAll());
+    wire('btn-paste', () => pasteFromClipboard());
+    wire('btn-select-all', () => selectAll());
+    wire('btn-share', () => shareSelectionOrAll());
+    wire('btn-plain-toggle', () => {
+      plainMode = !plainMode;
+      const btn = document.getElementById('btn-plain-toggle');
+      if (plainMode) { switchToPlain(); btn && (btn.textContent = 'Monacoに戻る'); }
+      else { switchToMonaco(); btn && (btn.textContent = 'シンプル編集'); }
+    });
+  })();
+
+  // === End of Mobile-friendly Toolbar ===
 });
