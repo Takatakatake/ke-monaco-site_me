@@ -127,6 +127,16 @@ require(['vs/editor/editor.main'], function () {
     run: () => editor.trigger('ke', 'editor.action.triggerSuggest', {})
   });
 
+  function hideSuggest() {
+    try {
+      editor.trigger('ke', 'hideSuggestWidget', {});
+    } catch {}
+    try {
+      const c = editor.getContribution && editor.getContribution('editor.contrib.suggestController');
+      if (c && typeof c.cancel === 'function') c.cancel();
+    } catch {}
+  }
+
   // strict モードは全データ読込後に補完プロバイダを登録（初回から決定的）
   preloadAllBucketsIfStrict().then(registerProvider).catch(registerProvider);
 
@@ -135,9 +145,15 @@ require(['vs/editor/editor.main'], function () {
     if (e.keyCode === monaco.KeyCode.Backspace || e.keyCode === monaco.KeyCode.Delete) {
       setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 0);
     }
+    if (e.keyCode === monaco.KeyCode.Space) {
+      // 空白入力時は候補を閉じる（次の語根に備えてクリーンな状態へ）
+      setTimeout(() => hideSuggest(), 0);
+    }
   });
   // 文字入力（a-z）直後にも確実にサジェストを起動（IMEや環境差の影響を避ける）
   editor.onDidType((text) => {
+    // 空白や非英字が入力されたら即座に候補を閉じる
+    if (/^\s$/.test(text) || /[^a-z]/.test(text)) { hideSuggest(); return; }
     if (!/^[a-z]$/.test(text)) return;
     try {
       const model = editor.getModel();
@@ -145,14 +161,14 @@ require(['vs/editor/editor.main'], function () {
       const col0 = pos.column - 1;
       const line = model.getLineContent(pos.lineNumber);
       const prefix = extractAsciiPrefix(line, col0);
-      if (!prefix) return;
+      if (!prefix) { hideSuggest(); return; }
       const maybe = loadBucket(prefix[0]);
       Promise.resolve(maybe).then(() => {
         // 編集反映後に確実に再トリガー（辞書ロード完了後）
         setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 0);
       });
     } catch {
-      // fallback trigger
+      // fallback trigger（失敗時は閉じるより提示を優先）
       setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 0);
     }
   });
