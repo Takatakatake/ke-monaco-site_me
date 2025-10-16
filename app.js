@@ -72,9 +72,9 @@ require(['vs/editor/editor.main'], function () {
       source = window.KE_SNIPPETS;
     }
 
+    // 入力したprefixで始まるものだけをフィルタリング（大文字小文字区別）
     let items = source
       .filter(s => s.prefix && String(s.prefix).startsWith(prefix))
-      .slice(0, SUGGEST_LIMIT)
       .map(s => ({
         label: (s.label || (s.prefix + ' → ' + s.body)),
         kind: monaco.languages.CompletionItemKind.Snippet,
@@ -83,9 +83,12 @@ require(['vs/editor/editor.main'], function () {
         range: new monaco.Range(position.lineNumber, col0 - prefix.length + 1, position.lineNumber, col0 + 1),
         detail: s.detail || '',
         documentation: s.documentation || undefined,
-        // 入力したprefixと完全一致する長さを優先してソート
-        sortText: ('0'.repeat(10 - Math.abs(String(s.prefix).length - prefix.length)) + (s.sortText || s.prefix))
-      }));
+        // 辞書順でソート（完全一致を優先）
+        sortText: (String(s.prefix) === prefix ? '0' : '1') + String(s.prefix),
+        // 完全一致を先頭に
+        preselect: String(s.prefix) === prefix
+      }))
+      .slice(0, SUGGEST_LIMIT);
     return items;
   }
 
