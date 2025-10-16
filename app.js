@@ -13,6 +13,8 @@ require(['vs/editor/editor.main'], function () {
   const cache = new Map();
   const inflight = new Map();
   const SUGGEST_LIMIT = 100;
+  const params = new URLSearchParams(location.search);
+  const STRICT = params.get('strict') === '1';
 
   async function loadBucket(ch) {
     const key = (ch || '').toLowerCase();
@@ -78,17 +80,30 @@ require(['vs/editor/editor.main'], function () {
 
   // No test hooks or debug endpoints in production — keep behavior minimal/explicit
 
-  monaco.languages.registerCompletionItemProvider('kanji-esperanto', {
-    triggerCharacters: 'abcdefghijklmnopqrstuvwxyz'.split(''),
-    provideCompletionItems: async (model, position) => {
-      const line = model.getLineContent(position.lineNumber);
-      const col0 = position.column - 1; // 0-based caret index
-      const prefix = extractAsciiPrefix(line, col0);
-      if (!prefix || prefix.length < 2) return { suggestions: [] }; // 2文字以上で候補
-      const items = await buildItemsForPrefix(prefix, position, col0 - prefix.length - 1, col0);
-      return { suggestions: items };
-    }
-  });
+  function preloadAllBucketsIfStrict() {
+    if (!STRICT) return Promise.resolve();
+    const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    return Promise.all(letters.map(ch => loadBucket(ch)));
+  }
+
+  function registerProvider() {
+    monaco.languages.registerCompletionItemProvider('kanji-esperanto', {
+      triggerCharacters: 'abcdefghijklmnopqrstuvwxyz'.split(''),
+      provideCompletionItems: async (model, position) => {
+        const line = model.getLineContent(position.lineNumber);
+        const col0 = position.column - 1; // 0-based caret index
+        const prefix = extractAsciiPrefix(line, col0);
+        if (!prefix || prefix.length < 2) return { suggestions: [] }; // 2文字以上で候補
+        let items = await buildItemsForPrefix(prefix, position, col0 - prefix.length - 1, col0);
+        // まれに辞書ロードの直後で空になる揺らぎに対応（1回だけ待って再試行）
+        if (!items.length && inflight.has(prefix[0].toLowerCase())) {
+          try { await inflight.get(prefix[0].toLowerCase()); } catch {}
+          items = await buildItemsForPrefix(prefix, position, col0 - prefix.length - 1, col0);
+        }
+        return { suggestions: items };
+      }
+    });
+  }
 
   // エディタ作成
   const host = document.getElementById('editor');
@@ -111,6 +126,9 @@ require(['vs/editor/editor.main'], function () {
     keybindings: [monaco.KeyMod.CtrlCmd | monaco.KeyCode.Space],
     run: () => editor.trigger('ke', 'editor.action.triggerSuggest', {})
   });
+
+  // strict モードは全データ読込後に補完プロバイダを登録（初回から決定的）
+  preloadAllBucketsIfStrict().then(registerProvider).catch(registerProvider);
 
   // Backspace/Delete 後に候補再表示（ローカルに寄せた最小挙動）
   editor.onKeyDown((e) => {
