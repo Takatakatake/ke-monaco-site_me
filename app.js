@@ -15,9 +15,10 @@ require(['vs/editor/editor.main'], function () {
   const SUGGEST_LIMIT = 100;
   const params = new URLSearchParams(location.search);
   const STRICT = params.get('strict') === '1';
-  const STORAGE_KEY = 'ke-doc-v1';
-  const HISTORY_KEY = 'ke-doc-hist-v1';
+  const STORAGE_KEY = `ke-doc-v1:${location.pathname}`;
+  const HISTORY_KEY = `ke-doc-hist-v1:${location.pathname}`;
   const HISTORY_LIMIT = 50;
+  let lastCompletionSnapshot = { prefix: '', fingerprint: '', timestamp: 0 };
 
   async function loadBucket(ch) {
     const key = (ch || '').toLowerCase();
@@ -92,6 +93,16 @@ require(['vs/editor/editor.main'], function () {
     return items;
   }
 
+  function finalizeItems(prefix, items) {
+    const exact = items.filter(i => i.label && String(i.label).startsWith(prefix + ' '));
+    return exact.length ? exact : items;
+  }
+
+  function fingerprintItems(prefix, items) {
+    const head = items.slice(0, 5).map(i => String(i.label)).join('||');
+    return `${prefix}|${items.length}|${head}`;
+  }
+
   // No test hooks or debug endpoints in production — keep behavior minimal/explicit
 
   function preloadAllBucketsIfStrict() {
@@ -109,26 +120,23 @@ require(['vs/editor/editor.main'], function () {
         const line = model.getLineContent(position.lineNumber);
         const col0 = position.column - 1; // 0-based caret index
         const prefix = extractAsciiPrefix(line, col0);
-        // デバッグ: 一時的にコンソールログを追加
-        console.log('[KE] prefix:', prefix, 'line:', line, 'col:', col0);
         if (!prefix || prefix.length < 1) return { suggestions: [] }; // 1文字以上で候補
         let items = await buildItemsForPrefix(prefix, position, col0);
-        // exact match がある場合はそれだけに限定（ローカル神仕様に寄せる）
-        const exact = items.filter(i => i.label && String(i.label).startsWith(prefix + ' '));
-        if (exact.length) items = exact;
+        items = finalizeItems(prefix, items);
         // レース防止: 返却直前のプレフィクスが当初と異なる場合は結果を捨てる
         try {
           if (token && token.isCancellationRequested) return { suggestions: [] };
           const nowPrefix = currentPrefix(model, editor.getPosition());
           if (nowPrefix !== prefix) return { suggestions: [] };
-        } catch {}
+        } catch { }
         // まれに辞書ロードの直後で空になる揺らぎに対応（1回だけ待って再試行）
         if (!items.length && inflight.has(prefix[0].toLowerCase())) {
-          try { await inflight.get(prefix[0].toLowerCase()); } catch {}
+          try { await inflight.get(prefix[0].toLowerCase()); } catch { }
           items = await buildItemsForPrefix(prefix, position, col0);
-          const exact2 = items.filter(i => i.label && String(i.label).startsWith(prefix + ' '));
-          if (exact2.length) items = exact2;
+          items = finalizeItems(prefix, items);
         }
+        const fingerprint = fingerprintItems(prefix, items);
+        lastCompletionSnapshot = { prefix, fingerprint, timestamp: Date.now() };
         return { suggestions: items };
       }
     });
@@ -137,10 +145,10 @@ require(['vs/editor/editor.main'], function () {
   // エディタ作成
   const host = document.getElementById('editor');
   let extraOpts = {};
-  try { extraOpts = JSON.parse(host.getAttribute('data-options') || '{}'); } catch {}
+  try { extraOpts = JSON.parse(host.getAttribute('data-options') || '{}'); } catch { }
   // 直前の内容を復元（ローカル保存）
   let saved = null;
-  try { saved = localStorage.getItem(STORAGE_KEY); } catch {}
+  try { saved = localStorage.getItem(STORAGE_KEY); } catch { }
 
   const editor = monaco.editor.create(host, Object.assign({
     value: saved || 'Kiam Okcidento renkontas Orienton kaj surmetis orientan vestaĵon, unu lingvo nun havas du aspektons - ambaŭ belaj, nova kompreno naskiĝas.\n何时 西o 遇as 东方on 和 上置is 东方an 服物on, 一 语o 今 有as 二 观ojn - 两 美aj, 新a 懂o 生成as.\n',
@@ -167,14 +175,14 @@ require(['vs/editor/editor.main'], function () {
       const v = editor.getValue();
       localStorage.setItem(STORAGE_KEY, v);
       let hist = [];
-      try { hist = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); } catch {}
+      try { hist = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); } catch { }
       const last = hist[hist.length - 1];
       if (!last || last.v !== v) {
         hist.push({ t: Date.now(), v });
         if (hist.length > HISTORY_LIMIT) hist = hist.slice(-HISTORY_LIMIT);
         localStorage.setItem(HISTORY_KEY, JSON.stringify(hist));
       }
-    } catch {}
+    } catch { }
   };
   const saveDebounced = debounce(saveNow, 300);
   editor.onDidChangeModelContent(saveDebounced);
@@ -191,7 +199,7 @@ require(['vs/editor/editor.main'], function () {
           editor.setValue(last.v);
           localStorage.setItem(STORAGE_KEY, last.v);
         }
-      } catch {}
+      } catch { }
     }
   });
 
@@ -200,18 +208,18 @@ require(['vs/editor/editor.main'], function () {
     label: 'KE: Clear Local Storage',
     keybindings: [monaco.KeyMod.CtrlCmd | monaco.KeyMod.Alt | monaco.KeyCode.Backspace],
     run: () => {
-      try { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(HISTORY_KEY); } catch {}
+      try { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(HISTORY_KEY); } catch { }
     }
   });
 
   function hideSuggest() {
     try {
       editor.trigger('ke', 'hideSuggestWidget', {});
-    } catch {}
+    } catch { }
     try {
       const c = editor.getContribution && editor.getContribution('editor.contrib.suggestController');
       if (c && typeof c.cancel === 'function') c.cancel();
-    } catch {}
+    } catch { }
   }
 
   // strict モードは全データ読込後に補完プロバイダを登録（初回から決定的）
@@ -248,11 +256,34 @@ require(['vs/editor/editor.main'], function () {
       const prefix = extractAsciiPrefix(line, col0);
       if (!prefix) { hideSuggest(); return; }
       const maybe = loadBucket(prefix[0]);
-      Promise.resolve(maybe).then(() => {
-        // 一度候補を閉じてから再度開く（Monaco Editorの再計算を強制）
-        hideSuggest();
-        setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 10);
-      });
+      Promise.resolve(maybe)
+        .then(async () => {
+          let shouldRetrigger = true;
+          try {
+            const curModel = editor.getModel();
+            const curPos = editor.getPosition();
+            if (!curModel || !curPos) return;
+            const curCol0 = curPos.column - 1;
+            const curLine = curModel.getLineContent(curPos.lineNumber);
+            const curPrefix = extractAsciiPrefix(curLine, curCol0);
+            if (curPrefix !== prefix) return;
+            let projected = await buildItemsForPrefix(prefix, curPos, curCol0);
+            projected = finalizeItems(prefix, projected);
+            const fingerprint = fingerprintItems(prefix, projected);
+            if (lastCompletionSnapshot.prefix === prefix && lastCompletionSnapshot.fingerprint === fingerprint) {
+              shouldRetrigger = false;
+            }
+          } catch {
+            shouldRetrigger = true;
+          }
+          if (!shouldRetrigger) return;
+          hideSuggest();
+          setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 10);
+        })
+        .catch(() => {
+          hideSuggest();
+          setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 10);
+        });
     } catch {
       // fallback trigger（失敗時は閉じるより提示を優先）
       hideSuggest();
