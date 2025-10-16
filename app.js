@@ -109,6 +109,8 @@ require(['vs/editor/editor.main'], function () {
         const line = model.getLineContent(position.lineNumber);
         const col0 = position.column - 1; // 0-based caret index
         const prefix = extractAsciiPrefix(line, col0);
+        // デバッグ: 一時的にコンソールログを追加
+        console.log('[KE] prefix:', prefix, 'line:', line, 'col:', col0);
         if (!prefix || prefix.length < 1) return { suggestions: [] }; // 1文字以上で候補
         let items = await buildItemsForPrefix(prefix, position, col0);
         // exact match がある場合はそれだけに限定（ローカル神仕様に寄せる）
