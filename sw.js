@@ -1,4 +1,4 @@
-const CACHE = 'ke-site-v1';
+const CACHE = 'ke-site-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -14,6 +14,7 @@ const ASSETS = [
   'https://esm.sh/@codemirror/view@6.34.1',
   'https://esm.sh/@codemirror/commands@6.5.0',
   'https://esm.sh/@codemirror/autocomplete@6.13.3',
+  'https://esm.sh/@codemirror/view@6.34.1/style.css',
   // CM app
   './cm/index.html',
   './cm/app.js',
@@ -55,4 +56,3 @@ self.addEventListener('fetch', (event) => {
     }
   })());
 });
-
