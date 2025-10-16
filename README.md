@@ -6,7 +6,7 @@ Monaco Editor を使った「漢字化エスペラント」最小デモサイト
 1. このフォルダを静的ホスティングで配信するか、簡易サーバで開きます。
    - 例: `python3 -m http.server -d ke-monaco-site 5173`
    - 例: `npx serve ke-monaco-site`
-2. ブラウザで `http://localhost:5173/` を開く。
+2. ブラウザで `http://localhost:5173/` を開く（初回から決定的にするには `?strict=1` を付与: `http://localhost:5173/?strict=1`）。
 3. エディタに `更bon` と入力 → 候補「好」が表示。Enter で確定。
 
 ## フォルダ構成
@@ -22,7 +22,7 @@ ke-monaco-site/
 ## 大辞書（分割・遅延読込）
 - `data/ke-a.json`, `data/ke-b.json`, ... に `{ items: [{ prefix, body, detail? }] }` 形式で保存。
 - `app.js` が先頭文字のバケツのみ `fetch()` し、キャッシュします。
-- 2文字未満では補完を出さないため、体感を軽く保ちます。
+- 1文字未満では補完を出さないため、体感を軽く保ちます（ローカル仕様に合わせて 1 文字から候補を出します）。
 
 分割支援:
 ```
