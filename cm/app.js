@@ -111,7 +111,7 @@ const autoTrigger = EditorView.updateListener.of(update => {
 });
 
 // Load initial text
-let initial = '更bon\n';
+let initial = 'Kiam Okcidento renkontas Orienton kaj surmetis orientan vestaĵon, unu lingvo nun havas du aspektons - ambaŭ belaj, nova kompreno naskiĝas.\n何时 西o 遇as 东方on 和 上置is 东方an 服物on, 一 语o 今 有as 二 观ojn - 两 美aj, 新a 懂o 生成as.\n';
 try { initial = localStorage.getItem(STORAGE_KEY) || initial; } catch {}
 
 const view = new EditorView({
