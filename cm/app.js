@@ -80,10 +80,9 @@ function keComplete(ctx){
 }
 
 // Save & history
-function buildPersistence(view){
-  const save = () => {
+function buildPersistence(){
+  const onChange = debounce((v) => {
     try {
-      const v = view.state.doc.toString();
       localStorage.setItem(STORAGE_KEY, v);
       let hist = [];
       try { hist = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); } catch {}
@@ -94,10 +93,9 @@ function buildPersistence(view){
         localStorage.setItem(HISTORY_KEY, JSON.stringify(hist));
       }
     } catch {}
-  };
-  const onChange = debounce(save, 250);
+  }, 250);
   return EditorView.updateListener.of(update => {
-    if (update.docChanged) onChange();
+    if (update.docChanged) onChange(update.state.doc.toString());
   });
 }
 
@@ -105,7 +103,9 @@ function buildPersistence(view){
 const autoTrigger = EditorView.updateListener.of(update => {
   if (!update.docChanged) return;
   // Close on whitespace-only changes to avoid stale list, then reopen
-  const text = update.state.sliceDoc(update.state.selection.main.from - 1, update.state.selection.main.from);
+  const pos = update.state.selection.main.from;
+  if (pos <= 0) { startCompletion(update.view); return; }
+  const text = update.state.sliceDoc(pos - 1, pos);
   if (/^\s$/.test(text)) { closeCompletion(update.view); return; }
   startCompletion(update.view);
 });
@@ -119,16 +119,31 @@ const view = new EditorView({
     doc: initial,
     extensions: [
       history(),
-      keymap.of([...defaultKeymap, ...historyKeymap, ...completionKeymap]),
+      keymap.of([
+        ...defaultKeymap,
+        ...historyKeymap,
+        ...completionKeymap,
+        { key: 'Mod-Alt-r', run: (view)=>{
+            try {
+              const hist = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+              const last = hist[hist.length - 1];
+              if (last && typeof last.v === 'string') {
+                view.dispatch({changes: {from: 0, to: view.state.doc.length, insert: last.v}});
+                return true;
+              }
+            } catch {}
+            return false;
+          }
+        },
+        { key: 'Mod-Alt-Backspace', run: ()=>{ try { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(HISTORY_KEY);} catch{} return true; } }
+      ]),
       autocompletion({override: [keComplete], defaultKeymap: true, activateOnTyping: true}),
       autoTrigger,
-      buildPersistence(null)
+      buildPersistence()
     ]
   }),
   parent: document.getElementById('editor')
 });
 
-// Rebind persistence with view
-view.dispatch({ effects: [] });
-view.dispatch = view.dispatch.bind(view);
-
+// Focus the editor for immediate typing
+setTimeout(()=> view.focus(), 0);
