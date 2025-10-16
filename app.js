@@ -100,7 +100,8 @@ require(['vs/editor/editor.main'], function () {
     theme: 'vs',
     fontSize: 16,
     minimap: { enabled: false },
-    automaticLayout: true
+    automaticLayout: true,
+    suggestOnTriggerCharacters: true
   }, extraOpts));
 
   // Ctrl+Space で常に候補を表示
@@ -119,21 +120,21 @@ require(['vs/editor/editor.main'], function () {
   });
   // 文字入力（a-z）直後にも確実にサジェストを起動（IMEや環境差の影響を避ける）
   editor.onDidType((text) => {
-    if (/^[a-z]$/.test(text)) {
-      try {
-        const model = editor.getModel();
-        const pos = editor.getPosition();
-        const col0 = pos.column - 1;
-        // 直近の ASCII 連続語（1文字以上）
-        const left = model.getLineContent(pos.lineNumber).slice(0, col0);
-        const m = left.match(/[A-Za-z]+$/);
-        const seg = m ? m[0] : '';
-        if (seg) {
-          // 先頭文字のバケツを先行ロード（次キーで遅延無しに）
-          loadBucket(seg[0]);
-        }
-      } catch {}
-      // 編集反映後にサジェスト起動
+    if (!/^[a-z]$/.test(text)) return;
+    try {
+      const model = editor.getModel();
+      const pos = editor.getPosition();
+      const col0 = pos.column - 1;
+      const line = model.getLineContent(pos.lineNumber);
+      const prefix = extractAsciiPrefix(line, col0);
+      if (!prefix) return;
+      const maybe = loadBucket(prefix[0]);
+      Promise.resolve(maybe).then(() => {
+        // 編集反映後に確実に再トリガー（辞書ロード完了後）
+        setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 0);
+      });
+    } catch {
+      // fallback trigger
       setTimeout(() => editor.trigger('ke', 'editor.action.triggerSuggest', {}), 0);
     }
   });
