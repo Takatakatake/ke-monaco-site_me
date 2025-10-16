@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kanji Esperanto Editor (Monaco)</title>
+  <meta name="description" content="Kanji Esperanto input demo using Monaco Editor" />
+  <style>
+    html, body, #app { height: 100%; margin: 0; }
+    #app { display: grid; grid-template-rows: 56px 1fr; }
+    header { display:flex; align-items:center; gap:12px; padding:8px 16px; border-bottom:1px solid #ddd; }
+    header strong { font-size: 16px; }
+    .hint { font-size: 12px; color: #666; }
+    #editor { height: 100%; }
+    footer { font-size: 12px; color:#666; padding: 8px 16px; border-top: 1px solid #eee; }
+  </style>
+  <script>
+    // Self-contained worker via data URL so the page works from static hosting
+    window.MonacoEnvironment = { getWorkerUrl: function (_moduleId, label) {
+      return `data:text/javascript;charset=utf-8,${encodeURIComponent(`
+        self.MonacoEnvironment = { baseUrl: 'https://unpkg.com/monaco-editor@0.52.0/min/' };
+        importScripts('https://unpkg.com/monaco-editor@0.52.0/min/vs/base/worker/workerMain.js');
+      `)}`;
+    }};
+  </script>
+  <script src="https://unpkg.com/monaco-editor@0.52.0/min/vs/loader.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <strong>Kanji Esperanto Editor</strong>
+      <span class="hint">例：更bon と打つと「好」候補が出ます（Ctrl+Spaceで強制表示）</span>
+    </header>
+    <div id="editor"></div>
+  </div>
+
+  <!-- Small dictionary (override with your real data or use data/ lazy buckets) -->
+  <script src="./ke-snippets.js"></script>
+  <script src="./app.js"></script>
+
+  <footer>
+    © 2025 — Monaco Editor (MIT). 辞書の出典/ライセンスは README を参照。
+  </footer>
+</body>
+</html>
+
