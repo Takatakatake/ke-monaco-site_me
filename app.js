@@ -88,17 +88,23 @@ require(['vs/editor/editor.main'], function () {
 
   function registerProvider() {
     monaco.languages.registerCompletionItemProvider('kanji-esperanto', {
-      triggerCharacters: 'abcdefghijklmnopqrstuvwxyz'.split(''),
+      // 文字入力後の明示トリガーに統一（onDidTypeで呼ぶ）
+      triggerCharacters: [],
       provideCompletionItems: async (model, position) => {
         const line = model.getLineContent(position.lineNumber);
         const col0 = position.column - 1; // 0-based caret index
         const prefix = extractAsciiPrefix(line, col0);
         if (!prefix || prefix.length < 1) return { suggestions: [] }; // 1文字以上で候補
         let items = await buildItemsForPrefix(prefix, position, col0 - prefix.length - 1, col0);
+        // exact match がある場合はそれだけに限定（ローカル神仕様に寄せる）
+        const exact = items.filter(i => i.label && String(i.label).startsWith(prefix + ' '));
+        if (exact.length) items = exact;
         // まれに辞書ロードの直後で空になる揺らぎに対応（1回だけ待って再試行）
         if (!items.length && inflight.has(prefix[0].toLowerCase())) {
           try { await inflight.get(prefix[0].toLowerCase()); } catch {}
           items = await buildItemsForPrefix(prefix, position, col0 - prefix.length - 1, col0);
+          const exact2 = items.filter(i => i.label && String(i.label).startsWith(prefix + ' '));
+          if (exact2.length) items = exact2;
         }
         return { suggestions: items };
       }
