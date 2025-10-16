@@ -59,6 +59,17 @@ Actions による自動デプロイ（同梱）:
 - 通常入力（a-z）でも候補を自動表示＋Backspace/Delete 後に候補を自動再表示、Ctrl+Space で強制表示
 - 大辞書は 1 文字バケツで遅延読込（更に大規模なら 2 文字バケツや Trie を検討）
 
+## CodeMirror 版（よりシンプルな代替）
+`/cm` に CodeMirror 6 ベースの最小実装を同梱しました。
+
+- URL: `./cm/index.html`（Pages公開後は `https://<user>.github.io/ke-monaco-site/cm/`）
+- 特徴:
+  - 依存は ESM CDN のみ。Web Worker や AMD ローダ設定が不要。
+  - 通常入力・Backspace で自動補完が確実に発火。
+  - 末尾の ASCII 語根は「p l i」のような単一スペース混じりも `pli` として正規化。
+  - localStorage に自動保存＋スナップショット履歴（最大50）。
+  - `../all.json` を読み込み、前方一致で候補提示。
+
 ## ローカル保存と履歴
 - 入力内容は自動で `localStorage` に保存・復元されます（キー: `ke-doc-v1`）。
 - 簡易履歴（最大50スナップショット）を保持します（キー: `ke-doc-hist-v1`）。

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kanji Esperanto Editor (CodeMirror)</title>
+    <style>
+      html, body, #app { height: 100%; margin: 0; }
+      #app { display: grid; grid-template-rows: 56px 1fr; }
+      header { display:flex; align-items:center; gap:12px; padding:8px 16px; border-bottom:1px solid #ddd; }
+      header strong { font-size: 16px; }
+      .hint { font-size: 12px; color:#666; }
+      #editor { height: 100%; }
+      .cm-editor { height: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <strong>Kanji Esperanto Editor (CodeMirror)</strong>
+        <span class="hint">更bon → 「好」／通常入力・Backspaceでも候補が出ます</span>
+      </header>
+      <div id="editor"></div>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+  </html>
+
