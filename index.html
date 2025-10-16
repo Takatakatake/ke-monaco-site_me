@@ -23,6 +23,7 @@
       `)}`;
     }};
   </script>
+  <link rel="manifest" href="./manifest.webmanifest">
   <script src="https://unpkg.com/monaco-editor@0.52.0/min/vs/loader.js"></script>
 </head>
 <body>
@@ -37,6 +38,14 @@
   <!-- Small dictionary (override with your real data or use data/ lazy buckets) -->
   <script src="./ke-snippets.js"></script>
   <script src="./app.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(()=>{});
+      });
+    }
+  </script>
 
   <footer>
     © 2025 — Monaco Editor (MIT). 辞書の出典/ライセンスは README を参照。

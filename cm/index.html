@@ -13,6 +13,7 @@
       #editor { height: 100%; }
       .cm-editor { height: 100%; }
     </style>
+    <link rel="manifest" href="../manifest.webmanifest">
   </head>
   <body>
     <div id="app">
@@ -23,6 +24,12 @@
       <div id="editor"></div>
     </div>
     <script type="module" src="./app.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('../sw.js').catch(()=>{});
+        });
+      }
+    </script>
   </body>
   </html>
-

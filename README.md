@@ -68,7 +68,15 @@ Actions による自動デプロイ（同梱）:
   - 通常入力・Backspace で自動補完が確実に発火。
   - 末尾の ASCII 語根は「p l i」のような単一スペース混じりも `pli` として正規化。
   - localStorage に自動保存＋スナップショット履歴（最大50）。
-  - `../all.json` を読み込み、前方一致で候補提示。
+- `../all.json` を読み込み、前方一致で候補提示。
+
+## PWA（オフライン対応）
+- ルートに `manifest.webmanifest` と `sw.js` を追加。`index.html` と `cm/index.html` で登録しています。
+- 初回アクセス時に以下を事前キャッシュし、以後はオフラインでも動作します。
+  - ルート: `index.html`, `app.js`, `all.json`, `data/ke-*.json`
+  - CodeMirror 版: `cm/index.html`, `cm/app.js`, ESM依存（`@codemirror/*`）
+  - Monaco 版の最小依存（loader/worker）
+- 注意: PWAのスコープは GitHub Pages の公開パス（例: `/ke-monaco-site/`）。`manifest.webmanifest` の `start_url`/`scope` はそれに合わせています。
 
 ## ローカル保存と履歴
 - 入力内容は自動で `localStorage` に保存・復元されます（キー: `ke-doc-v1`）。
