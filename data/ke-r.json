@@ -1,0 +1,654 @@
+{
+  "items": [
+    {
+      "prefix": "rab",
+      "body": "抢",
+      "detail": "rab to 抢"
+    },
+    {
+      "prefix": "rabot",
+      "body": "刨",
+      "detail": "rabot to 刨"
+    },
+    {
+      "prefix": "raci",
+      "body": "理",
+      "detail": "raci to 理"
+    },
+    {
+      "prefix": "rad",
+      "body": "轮",
+      "detail": "rad to 轮"
+    },
+    {
+      "prefix": "radi",
+      "body": "射ʀ",
+      "detail": "radi to 射ʀ"
+    },
+    {
+      "prefix": "radik",
+      "body": "根",
+      "detail": "radik to 根"
+    },
+    {
+      "prefix": "radikal",
+      "body": "根ʀʟ",
+      "detail": "radikal to 根ʀʟ"
+    },
+    {
+      "prefix": "rafan",
+      "body": "萝卜",
+      "detail": "rafan to 萝卜"
+    },
+    {
+      "prefix": "rafin",
+      "body": "精炼",
+      "detail": "rafin to 精炼"
+    },
+    {
+      "prefix": "rajd",
+      "body": "骑",
+      "detail": "rajd to 骑"
+    },
+    {
+      "prefix": "rajt",
+      "body": "权",
+      "detail": "rajt to 权"
+    },
+    {
+      "prefix": "raket",
+      "body": "火箭",
+      "detail": "raket to 火箭"
+    },
+    {
+      "prefix": "rakont",
+      "body": "述",
+      "detail": "rakont to 述"
+    },
+    {
+      "prefix": "ramp",
+      "body": "爬",
+      "detail": "ramp to 爬"
+    },
+    {
+      "prefix": "ran",
+      "body": "蛙",
+      "detail": "ran to 蛙"
+    },
+    {
+      "prefix": "ranc",
+      "body": "腐",
+      "detail": "ranc to 腐"
+    },
+    {
+      "prefix": "rand",
+      "body": "缘",
+      "detail": "rand to 缘"
+    },
+    {
+      "prefix": "rang",
+      "body": "级",
+      "detail": "rang to 级"
+    },
+    {
+      "prefix": "rapid",
+      "body": "快ʀ",
+      "detail": "rapid to 快ʀ"
+    },
+    {
+      "prefix": "raport",
+      "body": "报告",
+      "detail": "raport to 报告"
+    },
+    {
+      "prefix": "ras",
+      "body": "种族",
+      "detail": "ras to 种族"
+    },
+    {
+      "prefix": "rat",
+      "body": "大鼠",
+      "detail": "rat to 大鼠"
+    },
+    {
+      "prefix": "rauxk",
+      "body": "哑ʀ",
+      "detail": "rauxk to 哑ʀ"
+    },
+    {
+      "prefix": "rav",
+      "body": "迷",
+      "detail": "rav to 迷"
+    },
+    {
+      "prefix": "raz",
+      "body": "剃",
+      "detail": "raz to 剃"
+    },
+    {
+      "prefix": "re",
+      "body": "再",
+      "detail": "re to 再"
+    },
+    {
+      "prefix": "reakci",
+      "body": "反应",
+      "detail": "reakci to 反应"
+    },
+    {
+      "prefix": "real",
+      "body": "现实",
+      "detail": "real to 现实"
+    },
+    {
+      "prefix": "recenz",
+      "body": "评论",
+      "detail": "recenz to 评论"
+    },
+    {
+      "prefix": "recept",
+      "body": "方",
+      "detail": "recept to 方"
+    },
+    {
+      "prefix": "reciprok",
+      "body": "互",
+      "detail": "reciprok to 互"
+    },
+    {
+      "prefix": "redakci",
+      "body": "编辑",
+      "detail": "redakci to 编辑"
+    },
+    {
+      "prefix": "redakt",
+      "body": "编ʀ",
+      "detail": "redakt to 编ʀ"
+    },
+    {
+      "prefix": "redaktor",
+      "body": "编者",
+      "detail": "redaktor to 编者"
+    },
+    {
+      "prefix": "redukt",
+      "body": "减ʀ",
+      "detail": "redukt to 减ʀ"
+    },
+    {
+      "prefix": "referenc",
+      "body": "参",
+      "detail": "referenc to 参"
+    },
+    {
+      "prefix": "reflekt",
+      "body": "反射",
+      "detail": "reflekt to 反射"
+    },
+    {
+      "prefix": "refut",
+      "body": "反驳",
+      "detail": "refut to 反驳"
+    },
+    {
+      "prefix": "reg",
+      "body": "治",
+      "detail": "reg to 治"
+    },
+    {
+      "prefix": "regal",
+      "body": "款待",
+      "detail": "regal to 款待"
+    },
+    {
+      "prefix": "region",
+      "body": "域",
+      "detail": "region to 域"
+    },
+    {
+      "prefix": "registr",
+      "body": "登记",
+      "detail": "registr to 登记"
+    },
+    {
+      "prefix": "regn",
+      "body": "王国",
+      "detail": "regn to 王国"
+    },
+    {
+      "prefix": "regul",
+      "body": "规",
+      "detail": "regul to 规"
+    },
+    {
+      "prefix": "regx",
+      "body": "王",
+      "detail": "regx to 王"
+    },
+    {
+      "prefix": "regxim",
+      "body": "制度",
+      "detail": "regxim to 制度"
+    },
+    {
+      "prefix": "reklam",
+      "body": "广告",
+      "detail": "reklam to 广告"
+    },
+    {
+      "prefix": "rekomend",
+      "body": "荐",
+      "detail": "rekomend to 荐"
+    },
+    {
+      "prefix": "rekompenc",
+      "body": "酬",
+      "detail": "rekompenc to 酬"
+    },
+    {
+      "prefix": "rekord",
+      "body": "纪录",
+      "detail": "rekord to 纪录"
+    },
+    {
+      "prefix": "rekrement",
+      "body": "渣",
+      "detail": "rekrement to 渣"
+    },
+    {
+      "prefix": "rekt",
+      "body": "直ʀ",
+      "detail": "rekt to 直ʀ"
+    },
+    {
+      "prefix": "rektor",
+      "body": "校长",
+      "detail": "rektor to 校长"
+    },
+    {
+      "prefix": "rel",
+      "body": "轨",
+      "detail": "rel to 轨"
+    },
+    {
+      "prefix": "relativ",
+      "body": "相对",
+      "detail": "relativ to 相对"
+    },
+    {
+      "prefix": "religi",
+      "body": "宗教",
+      "detail": "religi to 宗教"
+    },
+    {
+      "prefix": "rem",
+      "body": "划",
+      "detail": "rem to 划"
+    },
+    {
+      "prefix": "rembur",
+      "body": "填",
+      "detail": "rembur to 填"
+    },
+    {
+      "prefix": "ren",
+      "body": "肾",
+      "detail": "ren to 肾"
+    },
+    {
+      "prefix": "rendevu",
+      "body": "约会",
+      "detail": "rendevu to 约会"
+    },
+    {
+      "prefix": "renkont",
+      "body": "遇",
+      "detail": "renkont to 遇"
+    },
+    {
+      "prefix": "rent",
+      "body": "租ʀ",
+      "detail": "rent to 租ʀ"
+    },
+    {
+      "prefix": "renvers",
+      "body": "翻",
+      "detail": "renvers to 翻"
+    },
+    {
+      "prefix": "reprezent",
+      "body": "代表",
+      "detail": "reprezent to 代表"
+    },
+    {
+      "prefix": "reputaci",
+      "body": "声誉",
+      "detail": "reputaci to 声誉"
+    },
+    {
+      "prefix": "respekt",
+      "body": "尊",
+      "detail": "respekt to 尊"
+    },
+    {
+      "prefix": "respektiv",
+      "body": "各",
+      "detail": "respektiv to 各"
+    },
+    {
+      "prefix": "respond",
+      "body": "答",
+      "detail": "respond to 答"
+    },
+    {
+      "prefix": "respublik",
+      "body": "共和",
+      "detail": "respublik to 共和"
+    },
+    {
+      "prefix": "rest",
+      "body": "剩",
+      "detail": "rest to 剩"
+    },
+    {
+      "prefix": "restoraci",
+      "body": "餐厅",
+      "detail": "restoraci to 餐厅"
+    },
+    {
+      "prefix": "resum",
+      "body": "摘",
+      "detail": "resum to 摘"
+    },
+    {
+      "prefix": "ret",
+      "body": "网",
+      "detail": "ret to 网"
+    },
+    {
+      "prefix": "rev",
+      "body": "梦想",
+      "detail": "rev to 梦想"
+    },
+    {
+      "prefix": "revizi",
+      "body": "审查",
+      "detail": "revizi to 审查"
+    },
+    {
+      "prefix": "revizor",
+      "body": "查官",
+      "detail": "revizor to 查官"
+    },
+    {
+      "prefix": "revoluci",
+      "body": "革命",
+      "detail": "revoluci to 革命"
+    },
+    {
+      "prefix": "rezerv",
+      "body": "存ʀ",
+      "detail": "rezerv to 存ʀ"
+    },
+    {
+      "prefix": "rezign",
+      "body": "辞",
+      "detail": "rezign to 辞"
+    },
+    {
+      "prefix": "rezist",
+      "body": "抵抗",
+      "detail": "rezist to 抵抗"
+    },
+    {
+      "prefix": "rezon",
+      "body": "理ʀᴢ",
+      "detail": "rezon to 理ʀᴢ"
+    },
+    {
+      "prefix": "rezult",
+      "body": "结果",
+      "detail": "rezult to 结果"
+    },
+    {
+      "prefix": "rezultat",
+      "body": "成果",
+      "detail": "rezultat to 成果"
+    },
+    {
+      "prefix": "ribel",
+      "body": "反叛",
+      "detail": "ribel to 反叛"
+    },
+    {
+      "prefix": "ricev",
+      "body": "收",
+      "detail": "ricev to 收"
+    },
+    {
+      "prefix": "ricx",
+      "body": "富",
+      "detail": "ricx to 富"
+    },
+    {
+      "prefix": "rid",
+      "body": "笑",
+      "detail": "rid to 笑"
+    },
+    {
+      "prefix": "rif",
+      "body": "礁",
+      "detail": "rif to 礁"
+    },
+    {
+      "prefix": "rifugx",
+      "body": "避难",
+      "detail": "rifugx to 避难"
+    },
+    {
+      "prefix": "rifuz",
+      "body": "拒",
+      "detail": "rifuz to 拒"
+    },
+    {
+      "prefix": "rigard",
+      "body": "看",
+      "detail": "rigard to 看"
+    },
+    {
+      "prefix": "rigid",
+      "body": "硬",
+      "detail": "rigid to 硬"
+    },
+    {
+      "prefix": "rigor",
+      "body": "严格",
+      "detail": "rigor to 严格"
+    },
+    {
+      "prefix": "rikolt",
+      "body": "收ʀᴋ",
+      "detail": "rikolt to 收ʀᴋ"
+    },
+    {
+      "prefix": "rilat",
+      "body": "关ʀ",
+      "detail": "rilat to 关ʀ"
+    },
+    {
+      "prefix": "rim",
+      "body": "韵",
+      "detail": "rim to 韵"
+    },
+    {
+      "prefix": "rimark",
+      "body": "注ʀ",
+      "detail": "rimark to 注ʀ"
+    },
+    {
+      "prefix": "rimed",
+      "body": "手段",
+      "detail": "rimed to 手段"
+    },
+    {
+      "prefix": "rimen",
+      "body": "皮带",
+      "detail": "rimen to 皮带"
+    },
+    {
+      "prefix": "ring",
+      "body": "环",
+      "detail": "ring to 环"
+    },
+    {
+      "prefix": "rip",
+      "body": "肋",
+      "detail": "rip to 肋"
+    },
+    {
+      "prefix": "ripar",
+      "body": "修",
+      "detail": "ripar to 修"
+    },
+    {
+      "prefix": "ripet",
+      "body": "重复",
+      "detail": "ripet to 重复"
+    },
+    {
+      "prefix": "ripoz",
+      "body": "休",
+      "detail": "ripoz to 休"
+    },
+    {
+      "prefix": "riprocx",
+      "body": "责",
+      "detail": "riprocx to 责"
+    },
+    {
+      "prefix": "risk",
+      "body": "冒险",
+      "detail": "risk to 冒险"
+    },
+    {
+      "prefix": "rit",
+      "body": "礼ʀᴛ",
+      "detail": "rit to 礼ʀᴛ"
+    },
+    {
+      "prefix": "ritm",
+      "body": "节奏",
+      "detail": "ritm to 节奏"
+    },
+    {
+      "prefix": "rivel",
+      "body": "露",
+      "detail": "rivel to 露"
+    },
+    {
+      "prefix": "river",
+      "body": "河",
+      "detail": "river to 河"
+    },
+    {
+      "prefix": "riverenc",
+      "body": "礼ʀ",
+      "detail": "riverenc to 礼ʀ"
+    },
+    {
+      "prefix": "rivolu",
+      "body": "旋转",
+      "detail": "rivolu to 旋转"
+    },
+    {
+      "prefix": "riz",
+      "body": "米",
+      "detail": "riz to 米"
+    },
+    {
+      "prefix": "rob",
+      "body": "袍",
+      "detail": "rob to 袍"
+    },
+    {
+      "prefix": "rok",
+      "body": "岩",
+      "detail": "rok to 岩"
+    },
+    {
+      "prefix": "rol",
+      "body": "角",
+      "detail": "rol to 角"
+    },
+    {
+      "prefix": "roman",
+      "body": "小说",
+      "detail": "roman to 小说"
+    },
+    {
+      "prefix": "romanc",
+      "body": "情歌",
+      "detail": "romanc to 情歌"
+    },
+    {
+      "prefix": "romantik",
+      "body": "浪漫",
+      "detail": "romantik to 浪漫"
+    },
+    {
+      "prefix": "romp",
+      "body": "破",
+      "detail": "romp to 破"
+    },
+    {
+      "prefix": "rond",
+      "body": "圆",
+      "detail": "rond to 圆"
+    },
+    {
+      "prefix": "ros",
+      "body": "露ʀꜱ",
+      "detail": "ros to 露ʀꜱ"
+    },
+    {
+      "prefix": "rost",
+      "body": "烧ʀ",
+      "detail": "rost to 烧ʀ"
+    },
+    {
+      "prefix": "rostr",
+      "body": "嘴",
+      "detail": "rostr to 嘴"
+    },
+    {
+      "prefix": "rot",
+      "body": "连",
+      "detail": "rot to 连"
+    },
+    {
+      "prefix": "ruband",
+      "body": "丝带",
+      "detail": "ruband to 丝带"
+    },
+    {
+      "prefix": "rugx",
+      "body": "红",
+      "detail": "rugx to 红"
+    },
+    {
+      "prefix": "rul",
+      "body": "滚",
+      "detail": "rul to 滚"
+    },
+    {
+      "prefix": "rutin",
+      "body": "常规",
+      "detail": "rutin to 常规"
+    },
+    {
+      "prefix": "ruz",
+      "body": "狡猾",
+      "detail": "ruz to 狡猾"
+    }
+  ]
+}

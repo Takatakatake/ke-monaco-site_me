@@ -1,0 +1,499 @@
+{
+  "items": [
+    {
+      "prefix": "labor",
+      "body": "劳",
+      "detail": "labor to 劳"
+    },
+    {
+      "prefix": "laboratori",
+      "body": "实验室",
+      "detail": "laboratori to 实验室"
+    },
+    {
+      "prefix": "lac",
+      "body": "累",
+      "detail": "lac to 累"
+    },
+    {
+      "prefix": "lacx",
+      "body": "系带",
+      "detail": "lacx to 系带"
+    },
+    {
+      "prefix": "lad",
+      "body": "缶",
+      "detail": "lad to 缶"
+    },
+    {
+      "prefix": "lag",
+      "body": "湖",
+      "detail": "lag to 湖"
+    },
+    {
+      "prefix": "lak",
+      "body": "漆",
+      "detail": "lak to 漆"
+    },
+    {
+      "prefix": "lake",
+      "body": "仆",
+      "detail": "lake to 仆"
+    },
+    {
+      "prefix": "lakt",
+      "body": "乳",
+      "detail": "lakt to 乳"
+    },
+    {
+      "prefix": "laktuk",
+      "body": "生菜",
+      "detail": "laktuk to 生菜"
+    },
+    {
+      "prefix": "lam",
+      "body": "刃",
+      "detail": "lam to 刃"
+    },
+    {
+      "prefix": "lamen",
+      "body": "片ʟ",
+      "detail": "lamen to 片ʟ"
+    },
+    {
+      "prefix": "lament",
+      "body": "叹",
+      "detail": "lament to 叹"
+    },
+    {
+      "prefix": "lamp",
+      "body": "灯",
+      "detail": "lamp to 灯"
+    },
+    {
+      "prefix": "lan",
+      "body": "毛",
+      "detail": "lan to 毛"
+    },
+    {
+      "prefix": "land",
+      "body": "国",
+      "detail": "land to 国"
+    },
+    {
+      "prefix": "lang",
+      "body": "舌",
+      "detail": "lang to 舌"
+    },
+    {
+      "prefix": "lantern",
+      "body": "灯笼",
+      "detail": "lantern to 灯笼"
+    },
+    {
+      "prefix": "largx",
+      "body": "宽",
+      "detail": "largx to 宽"
+    },
+    {
+      "prefix": "laring",
+      "body": "喉",
+      "detail": "laring to 喉"
+    },
+    {
+      "prefix": "larm",
+      "body": "泪",
+      "detail": "larm to 泪"
+    },
+    {
+      "prefix": "larv",
+      "body": "幼虫",
+      "detail": "larv to 幼虫"
+    },
+    {
+      "prefix": "las",
+      "body": "放",
+      "detail": "las to 放"
+    },
+    {
+      "prefix": "last",
+      "body": "末",
+      "detail": "last to 末"
+    },
+    {
+      "prefix": "lat",
+      "body": "板条",
+      "detail": "lat to 板条"
+    },
+    {
+      "prefix": "later",
+      "body": "侧ʟ",
+      "detail": "later to 侧ʟ"
+    },
+    {
+      "prefix": "latitud",
+      "body": "纬度",
+      "detail": "latitud to 纬度"
+    },
+    {
+      "prefix": "laux",
+      "body": "按",
+      "detail": "laux to 按"
+    },
+    {
+      "prefix": "lauxd",
+      "body": "赞",
+      "detail": "lauxd to 赞"
+    },
+    {
+      "prefix": "lauxr",
+      "body": "桂",
+      "detail": "lauxr to 桂"
+    },
+    {
+      "prefix": "lauxt",
+      "body": "响",
+      "detail": "lauxt to 响"
+    },
+    {
+      "prefix": "lav",
+      "body": "洗",
+      "detail": "lav to 洗"
+    },
+    {
+      "prefix": "lazur",
+      "body": "碧",
+      "detail": "lazur to 碧"
+    },
+    {
+      "prefix": "lecion",
+      "body": "课",
+      "detail": "lecion to 课"
+    },
+    {
+      "prefix": "led",
+      "body": "革",
+      "detail": "led to 革"
+    },
+    {
+      "prefix": "leg",
+      "body": "读",
+      "detail": "leg to 读"
+    },
+    {
+      "prefix": "legend",
+      "body": "传说",
+      "detail": "legend to 传说"
+    },
+    {
+      "prefix": "legitim",
+      "body": "正当",
+      "detail": "legitim to 正当"
+    },
+    {
+      "prefix": "legom",
+      "body": "菜",
+      "detail": "legom to 菜"
+    },
+    {
+      "prefix": "legx",
+      "body": "法",
+      "detail": "legx to 法"
+    },
+    {
+      "prefix": "lekci",
+      "body": "课ʟᴋ",
+      "detail": "lekci to 课ʟᴋ"
+    },
+    {
+      "prefix": "leksikon",
+      "body": "词典",
+      "detail": "leksikon to 词典"
+    },
+    {
+      "prefix": "lens",
+      "body": "透镜",
+      "detail": "lens to 透镜"
+    },
+    {
+      "prefix": "leon",
+      "body": "狮",
+      "detail": "leon to 狮"
+    },
+    {
+      "prefix": "lern",
+      "body": "学",
+      "detail": "lern to 学"
+    },
+    {
+      "prefix": "lert",
+      "body": "巧",
+      "detail": "lert to 巧"
+    },
+    {
+      "prefix": "leter",
+      "body": "信ʟ",
+      "detail": "leter to 信ʟ"
+    },
+    {
+      "prefix": "leuxtenant",
+      "body": "中尉",
+      "detail": "leuxtenant to 中尉"
+    },
+    {
+      "prefix": "lev",
+      "body": "举",
+      "detail": "lev to 举"
+    },
+    {
+      "prefix": "li",
+      "body": "他",
+      "detail": "li to 他"
+    },
+    {
+      "prefix": "lian",
+      "body": "藤ʟ",
+      "detail": "lian to 藤ʟ"
+    },
+    {
+      "prefix": "liber",
+      "body": "自由",
+      "detail": "liber to 自由"
+    },
+    {
+      "prefix": "liberal",
+      "body": "自由派",
+      "detail": "liberal to 自由派"
+    },
+    {
+      "prefix": "libr",
+      "body": "书",
+      "detail": "libr to 书"
+    },
+    {
+      "prefix": "lice",
+      "body": "中学",
+      "detail": "lice to 中学"
+    },
+    {
+      "prefix": "lift",
+      "body": "电梯",
+      "detail": "lift to 电梯"
+    },
+    {
+      "prefix": "lig",
+      "body": "联",
+      "detail": "lig to 联"
+    },
+    {
+      "prefix": "lign",
+      "body": "木",
+      "detail": "lign to 木"
+    },
+    {
+      "prefix": "likv",
+      "body": "液",
+      "detail": "likv to 液"
+    },
+    {
+      "prefix": "lili",
+      "body": "百合",
+      "detail": "lili to 百合"
+    },
+    {
+      "prefix": "lim",
+      "body": "界",
+      "detail": "lim to 界"
+    },
+    {
+      "prefix": "lingv",
+      "body": "语",
+      "detail": "lingv to 语"
+    },
+    {
+      "prefix": "lini",
+      "body": "线",
+      "detail": "lini to 线"
+    },
+    {
+      "prefix": "lip",
+      "body": "唇",
+      "detail": "lip to 唇"
+    },
+    {
+      "prefix": "lirik",
+      "body": "抒情",
+      "detail": "lirik to 抒情"
+    },
+    {
+      "prefix": "list",
+      "body": "单ʟ",
+      "detail": "list to 单ʟ"
+    },
+    {
+      "prefix": "lit",
+      "body": "床",
+      "detail": "lit to 床"
+    },
+    {
+      "prefix": "liter",
+      "body": "字母",
+      "detail": "liter to 字母"
+    },
+    {
+      "prefix": "literatur",
+      "body": "文学",
+      "detail": "literatur to 文学"
+    },
+    {
+      "prefix": "litr",
+      "body": "升",
+      "detail": "litr to 升"
+    },
+    {
+      "prefix": "liver",
+      "body": "交",
+      "detail": "liver to 交"
+    },
+    {
+      "prefix": "lob",
+      "body": "瓣",
+      "detail": "lob to 瓣"
+    },
+    {
+      "prefix": "log",
+      "body": "诱",
+      "detail": "log to 诱"
+    },
+    {
+      "prefix": "logik",
+      "body": "论理",
+      "detail": "logik to 论理"
+    },
+    {
+      "prefix": "logx",
+      "body": "住",
+      "detail": "logx to 住"
+    },
+    {
+      "prefix": "logxi",
+      "body": "包厢",
+      "detail": "logxi to 包厢"
+    },
+    {
+      "prefix": "lojal",
+      "body": "忠实",
+      "detail": "lojal to 忠实"
+    },
+    {
+      "prefix": "lok",
+      "body": "处ʟ",
+      "detail": "lok to 处ʟ"
+    },
+    {
+      "prefix": "lokomobil",
+      "body": "移动机",
+      "detail": "lokomobil to 移动机"
+    },
+    {
+      "prefix": "lokomotiv",
+      "body": "机车",
+      "detail": "lokomotiv to 机车"
+    },
+    {
+      "prefix": "long",
+      "body": "长",
+      "detail": "long to 长"
+    },
+    {
+      "prefix": "longitud",
+      "body": "经度",
+      "detail": "longitud to 经度"
+    },
+    {
+      "prefix": "lot",
+      "body": "签",
+      "detail": "lot to 签"
+    },
+    {
+      "prefix": "loteri",
+      "body": "彩票",
+      "detail": "loteri to 彩票"
+    },
+    {
+      "prefix": "lotus",
+      "body": "莲",
+      "detail": "lotus to 莲"
+    },
+    {
+      "prefix": "lu",
+      "body": "贷",
+      "detail": "lu to 贷"
+    },
+    {
+      "prefix": "lubrik",
+      "body": "润滑",
+      "detail": "lubrik to 润滑"
+    },
+    {
+      "prefix": "lud",
+      "body": "玩",
+      "detail": "lud to 玩"
+    },
+    {
+      "prefix": "luk",
+      "body": "口ʟ",
+      "detail": "luk to 口ʟ"
+    },
+    {
+      "prefix": "luks",
+      "body": "奢",
+      "detail": "luks to 奢"
+    },
+    {
+      "prefix": "lukt",
+      "body": "搏斗",
+      "detail": "lukt to 搏斗"
+    },
+    {
+      "prefix": "lul",
+      "body": "哄",
+      "detail": "lul to 哄"
+    },
+    {
+      "prefix": "lum",
+      "body": "光",
+      "detail": "lum to 光"
+    },
+    {
+      "prefix": "lumb",
+      "body": "腰",
+      "detail": "lumb to 腰"
+    },
+    {
+      "prefix": "lun",
+      "body": "月",
+      "detail": "lun to 月"
+    },
+    {
+      "prefix": "lund",
+      "body": "月曜",
+      "detail": "lund to 月曜"
+    },
+    {
+      "prefix": "lup",
+      "body": "狼",
+      "detail": "lup to 狼"
+    },
+    {
+      "prefix": "lustr",
+      "body": "吊灯",
+      "detail": "lustr to 吊灯"
+    },
+    {
+      "prefix": "lut",
+      "body": "焊",
+      "detail": "lut to 焊"
+    }
+  ]
+}

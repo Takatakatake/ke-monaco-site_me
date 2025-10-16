@@ -1,0 +1,749 @@
+{
+  "items": [
+    {
+      "prefix": "t.e.",
+      "body": "即ᴛᴇ",
+      "detail": "t.e. to 即ᴛᴇ"
+    },
+    {
+      "prefix": "tabak",
+      "body": "烟草",
+      "detail": "tabak to 烟草"
+    },
+    {
+      "prefix": "tabel",
+      "body": "表",
+      "detail": "tabel to 表"
+    },
+    {
+      "prefix": "tabl",
+      "body": "桌",
+      "detail": "tabl to 桌"
+    },
+    {
+      "prefix": "tabul",
+      "body": "木板",
+      "detail": "tabul to 木板"
+    },
+    {
+      "prefix": "tag",
+      "body": "日ᴛ",
+      "detail": "tag to 日ᴛ"
+    },
+    {
+      "prefix": "tajl",
+      "body": "裁",
+      "detail": "tajl to 裁"
+    },
+    {
+      "prefix": "tajlor",
+      "body": "裁缝",
+      "detail": "tajlor to 裁缝"
+    },
+    {
+      "prefix": "tajp",
+      "body": "打字",
+      "detail": "tajp to 打字"
+    },
+    {
+      "prefix": "taks",
+      "body": "评",
+      "detail": "taks to 评"
+    },
+    {
+      "prefix": "takt",
+      "body": "拍",
+      "detail": "takt to 拍"
+    },
+    {
+      "prefix": "talent",
+      "body": "才",
+      "detail": "talent to 才"
+    },
+    {
+      "prefix": "tali",
+      "body": "腰ᴛ",
+      "detail": "tali to 腰ᴛ"
+    },
+    {
+      "prefix": "tambur",
+      "body": "鼓ᴛ",
+      "detail": "tambur to 鼓ᴛ"
+    },
+    {
+      "prefix": "tamen",
+      "body": "然而",
+      "detail": "tamen to 然而"
+    },
+    {
+      "prefix": "tamtam",
+      "body": "锣",
+      "detail": "tamtam to 锣"
+    },
+    {
+      "prefix": "tapet",
+      "body": "壁纸",
+      "detail": "tapet to 壁纸"
+    },
+    {
+      "prefix": "tapisx",
+      "body": "毯",
+      "detail": "tapisx to 毯"
+    },
+    {
+      "prefix": "tarif",
+      "body": "费率",
+      "detail": "tarif to 费率"
+    },
+    {
+      "prefix": "tas",
+      "body": "杯",
+      "detail": "tas to 杯"
+    },
+    {
+      "prefix": "task",
+      "body": "任ᴛ",
+      "detail": "task to 任ᴛ"
+    },
+    {
+      "prefix": "tauxg",
+      "body": "适",
+      "detail": "tauxg to 适"
+    },
+    {
+      "prefix": "tavol",
+      "body": "层ᴛ",
+      "detail": "tavol to 层ᴛ"
+    },
+    {
+      "prefix": "te",
+      "body": "茶",
+      "detail": "te to 茶"
+    },
+    {
+      "prefix": "teatr",
+      "body": "剧场",
+      "detail": "teatr to 剧场"
+    },
+    {
+      "prefix": "ted",
+      "body": "厌",
+      "detail": "ted to 厌"
+    },
+    {
+      "prefix": "teg",
+      "body": "覆",
+      "detail": "teg to 覆"
+    },
+    {
+      "prefix": "tegment",
+      "body": "屋顶",
+      "detail": "tegment to 屋顶"
+    },
+    {
+      "prefix": "tehxnik",
+      "body": "技",
+      "detail": "tehxnik to 技"
+    },
+    {
+      "prefix": "teknik",
+      "body": "技ᴛᴋ",
+      "detail": "teknik to 技ᴛᴋ"
+    },
+    {
+      "prefix": "teks",
+      "body": "织",
+      "detail": "teks to 织"
+    },
+    {
+      "prefix": "tekst",
+      "body": "文",
+      "detail": "tekst to 文"
+    },
+    {
+      "prefix": "telefon",
+      "body": "电话",
+      "detail": "telefon to 电话"
+    },
+    {
+      "prefix": "telegraf",
+      "body": "电报",
+      "detail": "telegraf to 电报"
+    },
+    {
+      "prefix": "teler",
+      "body": "碟",
+      "detail": "teler to 碟"
+    },
+    {
+      "prefix": "teleskop",
+      "body": "远镜",
+      "detail": "teleskop to 远镜"
+    },
+    {
+      "prefix": "televid",
+      "body": "电视",
+      "detail": "televid to 电视"
+    },
+    {
+      "prefix": "tem",
+      "body": "题",
+      "detail": "tem to 题"
+    },
+    {
+      "prefix": "temp",
+      "body": "时ᴛ",
+      "detail": "temp to 时ᴛ"
+    },
+    {
+      "prefix": "temperament",
+      "body": "性ᴛ",
+      "detail": "temperament to 性ᴛ"
+    },
+    {
+      "prefix": "temperatur",
+      "body": "温度",
+      "detail": "temperatur to 温度"
+    },
+    {
+      "prefix": "tempest",
+      "body": "暴风",
+      "detail": "tempest to 暴风"
+    },
+    {
+      "prefix": "templ",
+      "body": "寺",
+      "detail": "templ to 寺"
+    },
+    {
+      "prefix": "ten",
+      "body": "持",
+      "detail": "ten to 持"
+    },
+    {
+      "prefix": "tend",
+      "body": "帐",
+      "detail": "tend to 帐"
+    },
+    {
+      "prefix": "tendenc",
+      "body": "趋",
+      "detail": "tendenc to 趋"
+    },
+    {
+      "prefix": "tener",
+      "body": "柔",
+      "detail": "tener to 柔"
+    },
+    {
+      "prefix": "tent",
+      "body": "诱惑",
+      "detail": "tent to 诱惑"
+    },
+    {
+      "prefix": "teori",
+      "body": "理论",
+      "detail": "teori to 理论"
+    },
+    {
+      "prefix": "ter",
+      "body": "地",
+      "detail": "ter to 地"
+    },
+    {
+      "prefix": "terapi",
+      "body": "疗法",
+      "detail": "terapi to 疗法"
+    },
+    {
+      "prefix": "teras",
+      "body": "露台",
+      "detail": "teras to 露台"
+    },
+    {
+      "prefix": "teren",
+      "body": "地ᴛɴ",
+      "detail": "teren to 地ᴛɴ"
+    },
+    {
+      "prefix": "teritori",
+      "body": "领土",
+      "detail": "teritori to 领土"
+    },
+    {
+      "prefix": "termometr",
+      "body": "温计",
+      "detail": "termometr to 温计"
+    },
+    {
+      "prefix": "teror",
+      "body": "恐ᴛᴏ",
+      "detail": "teror to 恐ᴛᴏ"
+    },
+    {
+      "prefix": "terur",
+      "body": "恐",
+      "detail": "terur to 恐"
+    },
+    {
+      "prefix": "testament",
+      "body": "遗嘱",
+      "detail": "testament to 遗嘱"
+    },
+    {
+      "prefix": "tez",
+      "body": "论文",
+      "detail": "tez to 论文"
+    },
+    {
+      "prefix": "tia",
+      "body": "那a",
+      "detail": "tia to 那a"
+    },
+    {
+      "prefix": "tial",
+      "body": "那因",
+      "detail": "tial to 那因"
+    },
+    {
+      "prefix": "tiam",
+      "body": "那时",
+      "detail": "tiam to 那时"
+    },
+    {
+      "prefix": "tie",
+      "body": "那e",
+      "detail": "tie to 那e"
+    },
+    {
+      "prefix": "tiel",
+      "body": "那样",
+      "detail": "tiel to 那样"
+    },
+    {
+      "prefix": "ties",
+      "body": "那之",
+      "detail": "ties to 那之"
+    },
+    {
+      "prefix": "tig",
+      "body": "茎",
+      "detail": "tig to 茎"
+    },
+    {
+      "prefix": "tigr",
+      "body": "虎",
+      "detail": "tigr to 虎"
+    },
+    {
+      "prefix": "tim",
+      "body": "怕",
+      "detail": "tim to 怕"
+    },
+    {
+      "prefix": "tio",
+      "body": "那o",
+      "detail": "tio to 那o"
+    },
+    {
+      "prefix": "tiom",
+      "body": "那量",
+      "detail": "tiom to 那量"
+    },
+    {
+      "prefix": "tip",
+      "body": "型",
+      "detail": "tip to 型"
+    },
+    {
+      "prefix": "tir",
+      "body": "拉",
+      "detail": "tir to 拉"
+    },
+    {
+      "prefix": "titol",
+      "body": "称",
+      "detail": "titol to 称"
+    },
+    {
+      "prefix": "tiu",
+      "body": "那个",
+      "detail": "tiu to 那个"
+    },
+    {
+      "prefix": "tog",
+      "body": "袍ᴛ",
+      "detail": "tog to 袍ᴛ"
+    },
+    {
+      "prefix": "tol",
+      "body": "麻布",
+      "detail": "tol to 麻布"
+    },
+    {
+      "prefix": "toler",
+      "body": "容",
+      "detail": "toler to 容"
+    },
+    {
+      "prefix": "tomat",
+      "body": "番茄",
+      "detail": "tomat to 番茄"
+    },
+    {
+      "prefix": "tomb",
+      "body": "墓",
+      "detail": "tomb to 墓"
+    },
+    {
+      "prefix": "ton",
+      "body": "调",
+      "detail": "ton to 调"
+    },
+    {
+      "prefix": "tond",
+      "body": "剪",
+      "detail": "tond to 剪"
+    },
+    {
+      "prefix": "tondr",
+      "body": "雷",
+      "detail": "tondr to 雷"
+    },
+    {
+      "prefix": "tonel",
+      "body": "桶ᴛ",
+      "detail": "tonel to 桶ᴛ"
+    },
+    {
+      "prefix": "tord",
+      "body": "扭",
+      "detail": "tord to 扭"
+    },
+    {
+      "prefix": "torent",
+      "body": "激流",
+      "detail": "torent to 激流"
+    },
+    {
+      "prefix": "tornistr",
+      "body": "包ᴛ",
+      "detail": "tornistr to 包ᴛ"
+    },
+    {
+      "prefix": "tors",
+      "body": "躯",
+      "detail": "tors to 躯"
+    },
+    {
+      "prefix": "tost",
+      "body": "祝杯",
+      "detail": "tost to 祝杯"
+    },
+    {
+      "prefix": "tra",
+      "body": "通",
+      "detail": "tra to 通"
+    },
+    {
+      "prefix": "tradici",
+      "body": "传统",
+      "detail": "tradici to 传统"
+    },
+    {
+      "prefix": "traduk",
+      "body": "译",
+      "detail": "traduk to 译"
+    },
+    {
+      "prefix": "traf",
+      "body": "中ᴛ",
+      "detail": "traf to 中ᴛ"
+    },
+    {
+      "prefix": "trafik",
+      "body": "交通",
+      "detail": "trafik to 交通"
+    },
+    {
+      "prefix": "tragedi",
+      "body": "悲剧ᴛᴅ",
+      "detail": "tragedi to 悲剧ᴛᴅ"
+    },
+    {
+      "prefix": "tragik",
+      "body": "悲剧",
+      "detail": "tragik to 悲剧"
+    },
+    {
+      "prefix": "trajn",
+      "body": "列车",
+      "detail": "trajn to 列车"
+    },
+    {
+      "prefix": "trajt",
+      "body": "特征",
+      "detail": "trajt to 特征"
+    },
+    {
+      "prefix": "trakt",
+      "body": "处理",
+      "detail": "trakt to 处理"
+    },
+    {
+      "prefix": "traktat",
+      "body": "条约",
+      "detail": "traktat to 条约"
+    },
+    {
+      "prefix": "traktor",
+      "body": "拖拉机",
+      "detail": "traktor to 拖拉机"
+    },
+    {
+      "prefix": "tram",
+      "body": "电车",
+      "detail": "tram to 电车"
+    },
+    {
+      "prefix": "trancx",
+      "body": "切",
+      "detail": "trancx to 切"
+    },
+    {
+      "prefix": "trankvil",
+      "body": "宁静",
+      "detail": "trankvil to 宁静"
+    },
+    {
+      "prefix": "trans",
+      "body": "跨",
+      "detail": "trans to 跨"
+    },
+    {
+      "prefix": "tre",
+      "body": "很",
+      "detail": "tre to 很"
+    },
+    {
+      "prefix": "tref",
+      "body": "梅花",
+      "detail": "tref to 梅花"
+    },
+    {
+      "prefix": "trejn",
+      "body": "训练",
+      "detail": "trejn to 训练"
+    },
+    {
+      "prefix": "trem",
+      "body": "颤",
+      "detail": "trem to 颤"
+    },
+    {
+      "prefix": "tremp",
+      "body": "浸ᴛ",
+      "detail": "tremp to 浸ᴛ"
+    },
+    {
+      "prefix": "tren",
+      "body": "拖",
+      "detail": "tren to 拖"
+    },
+    {
+      "prefix": "trezor",
+      "body": "宝",
+      "detail": "trezor to 宝"
+    },
+    {
+      "prefix": "tri",
+      "body": "三",
+      "detail": "tri to 三"
+    },
+    {
+      "prefix": "tribun",
+      "body": "演台",
+      "detail": "tribun to 演台"
+    },
+    {
+      "prefix": "trik",
+      "body": "编",
+      "detail": "trik to 编"
+    },
+    {
+      "prefix": "trikot",
+      "body": "针织",
+      "detail": "trikot to 针织"
+    },
+    {
+      "prefix": "trink",
+      "body": "饮ᴛ",
+      "detail": "trink to 饮ᴛ"
+    },
+    {
+      "prefix": "tritik",
+      "body": "小麦",
+      "detail": "tritik to 小麦"
+    },
+    {
+      "prefix": "triumf",
+      "body": "凯",
+      "detail": "triumf to 凯"
+    },
+    {
+      "prefix": "trivial",
+      "body": "平凡",
+      "detail": "trivial to 平凡"
+    },
+    {
+      "prefix": "tro",
+      "body": "过",
+      "detail": "tro to 过"
+    },
+    {
+      "prefix": "trog",
+      "body": "槽",
+      "detail": "trog to 槽"
+    },
+    {
+      "prefix": "tromb",
+      "body": "旋风",
+      "detail": "tromb to 旋风"
+    },
+    {
+      "prefix": "tromp",
+      "body": "骗",
+      "detail": "tromp to 骗"
+    },
+    {
+      "prefix": "trop",
+      "body": "比喻",
+      "detail": "trop to 比喻"
+    },
+    {
+      "prefix": "tropik",
+      "body": "热带",
+      "detail": "tropik to 热带"
+    },
+    {
+      "prefix": "trotuar",
+      "body": "人行道",
+      "detail": "trotuar to 人行道"
+    },
+    {
+      "prefix": "trov",
+      "body": "找",
+      "detail": "trov to 找"
+    },
+    {
+      "prefix": "tru",
+      "body": "孔",
+      "detail": "tru to 孔"
+    },
+    {
+      "prefix": "trumpet",
+      "body": "号ᴛ",
+      "detail": "trumpet to 号ᴛ"
+    },
+    {
+      "prefix": "trunk",
+      "body": "干ᴛ",
+      "detail": "trunk to 干ᴛ"
+    },
+    {
+      "prefix": "trup",
+      "body": "队",
+      "detail": "trup to 队"
+    },
+    {
+      "prefix": "trust",
+      "body": "企联",
+      "detail": "trust to 企联"
+    },
+    {
+      "prefix": "tualet",
+      "body": "梳妆",
+      "detail": "tualet to 梳妆"
+    },
+    {
+      "prefix": "tub",
+      "body": "管ᴛ",
+      "detail": "tub to 管ᴛ"
+    },
+    {
+      "prefix": "tuj",
+      "body": "即",
+      "detail": "tuj to 即"
+    },
+    {
+      "prefix": "tuk",
+      "body": "布",
+      "detail": "tuk to 布"
+    },
+    {
+      "prefix": "tumult",
+      "body": "骚动",
+      "detail": "tumult to 骚动"
+    },
+    {
+      "prefix": "tun",
+      "body": "吨",
+      "detail": "tun to 吨"
+    },
+    {
+      "prefix": "tunel",
+      "body": "隧道",
+      "detail": "tunel to 隧道"
+    },
+    {
+      "prefix": "tunik",
+      "body": "短衣",
+      "detail": "tunik to 短衣"
+    },
+    {
+      "prefix": "tur",
+      "body": "塔",
+      "detail": "tur to 塔"
+    },
+    {
+      "prefix": "turb",
+      "body": "扰",
+      "detail": "turb to 扰"
+    },
+    {
+      "prefix": "turism",
+      "body": "旅游",
+      "detail": "turism to 旅游"
+    },
+    {
+      "prefix": "turist",
+      "body": "游客",
+      "detail": "turist to 游客"
+    },
+    {
+      "prefix": "turment",
+      "body": "折磨ᴛ",
+      "detail": "turment to 折磨ᴛ"
+    },
+    {
+      "prefix": "turn",
+      "body": "转",
+      "detail": "turn to 转"
+    },
+    {
+      "prefix": "tus",
+      "body": "咳",
+      "detail": "tus to 咳"
+    },
+    {
+      "prefix": "tusx",
+      "body": "触",
+      "detail": "tusx to 触"
+    },
+    {
+      "prefix": "tut",
+      "body": "全",
+      "detail": "tut to 全"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "prefix": "zefir",
+      "body": "微风",
+      "detail": "zefir to 微风"
+    },
+    {
+      "prefix": "zingibr",
+      "body": "姜",
+      "detail": "zingibr to 姜"
+    },
+    {
+      "prefix": "zon",
+      "body": "带",
+      "detail": "zon to 带"
+    },
+    {
+      "prefix": "zorg",
+      "body": "顾",
+      "detail": "zorg to 顾"
+    }
+  ]
+}

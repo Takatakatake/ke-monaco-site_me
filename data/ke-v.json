@@ -1,0 +1,544 @@
+{
+  "items": [
+    {
+      "prefix": "vad",
+      "body": "涉ᴠ",
+      "detail": "vad to 涉ᴠ"
+    },
+    {
+      "prefix": "vag",
+      "body": "游",
+      "detail": "vag to 游"
+    },
+    {
+      "prefix": "vagon",
+      "body": "车厢",
+      "detail": "vagon to 车厢"
+    },
+    {
+      "prefix": "vak",
+      "body": "空",
+      "detail": "vak to 空"
+    },
+    {
+      "prefix": "vaks",
+      "body": "蜡",
+      "detail": "vaks to 蜡"
+    },
+    {
+      "prefix": "val",
+      "body": "谷",
+      "detail": "val to 谷"
+    },
+    {
+      "prefix": "valid",
+      "body": "有效",
+      "detail": "valid to 有效"
+    },
+    {
+      "prefix": "valiz",
+      "body": "箱",
+      "detail": "valiz to 箱"
+    },
+    {
+      "prefix": "valor",
+      "body": "价ᴠ",
+      "detail": "valor to 价ᴠ"
+    },
+    {
+      "prefix": "van",
+      "body": "虚",
+      "detail": "van to 虚"
+    },
+    {
+      "prefix": "vang",
+      "body": "颊",
+      "detail": "vang to 颊"
+    },
+    {
+      "prefix": "vanil",
+      "body": "香草",
+      "detail": "vanil to 香草"
+    },
+    {
+      "prefix": "vant",
+      "body": "虚荣",
+      "detail": "vant to 虚荣"
+    },
+    {
+      "prefix": "vapor",
+      "body": "汽",
+      "detail": "vapor to 汽"
+    },
+    {
+      "prefix": "var",
+      "body": "货",
+      "detail": "var to 货"
+    },
+    {
+      "prefix": "varb",
+      "body": "招",
+      "detail": "varb to 招"
+    },
+    {
+      "prefix": "vari",
+      "body": "变化",
+      "detail": "vari to 变化"
+    },
+    {
+      "prefix": "variant",
+      "body": "变体",
+      "detail": "variant to 变体"
+    },
+    {
+      "prefix": "varm",
+      "body": "温ᴠ",
+      "detail": "varm to 温ᴠ"
+    },
+    {
+      "prefix": "vart",
+      "body": "育ᴠ",
+      "detail": "vart to 育ᴠ"
+    },
+    {
+      "prefix": "vasal",
+      "body": "家臣",
+      "detail": "vasal to 家臣"
+    },
+    {
+      "prefix": "vast",
+      "body": "广",
+      "detail": "vast to 广"
+    },
+    {
+      "prefix": "vat",
+      "body": "棉花",
+      "detail": "vat to 棉花"
+    },
+    {
+      "prefix": "vaz",
+      "body": "花瓶",
+      "detail": "vaz to 花瓶"
+    },
+    {
+      "prefix": "ve",
+      "body": "哀",
+      "detail": "ve to 哀"
+    },
+    {
+      "prefix": "veget",
+      "body": "生ᴠ",
+      "detail": "veget to 生ᴠ"
+    },
+    {
+      "prefix": "vegetal",
+      "body": "植物",
+      "detail": "vegetal to 植物"
+    },
+    {
+      "prefix": "vegetar",
+      "body": "素食",
+      "detail": "vegetar to 素食"
+    },
+    {
+      "prefix": "vejn",
+      "body": "静脉",
+      "detail": "vejn to 静脉"
+    },
+    {
+      "prefix": "vek",
+      "body": "醒",
+      "detail": "vek to 醒"
+    },
+    {
+      "prefix": "vel",
+      "body": "帆",
+      "detail": "vel to 帆"
+    },
+    {
+      "prefix": "velk",
+      "body": "枯",
+      "detail": "velk to 枯"
+    },
+    {
+      "prefix": "velur",
+      "body": "绒",
+      "detail": "velur to 绒"
+    },
+    {
+      "prefix": "ven",
+      "body": "来",
+      "detail": "ven to 来"
+    },
+    {
+      "prefix": "vend",
+      "body": "卖",
+      "detail": "vend to 卖"
+    },
+    {
+      "prefix": "vendred",
+      "body": "金曜",
+      "detail": "vendred to 金曜"
+    },
+    {
+      "prefix": "venen",
+      "body": "毒",
+      "detail": "venen to 毒"
+    },
+    {
+      "prefix": "vengx",
+      "body": "报复",
+      "detail": "vengx to 报复"
+    },
+    {
+      "prefix": "venk",
+      "body": "胜",
+      "detail": "venk to 胜"
+    },
+    {
+      "prefix": "vent",
+      "body": "风",
+      "detail": "vent to 风"
+    },
+    {
+      "prefix": "ventol",
+      "body": "扇",
+      "detail": "ventol to 扇"
+    },
+    {
+      "prefix": "ventr",
+      "body": "腹",
+      "detail": "ventr to 腹"
+    },
+    {
+      "prefix": "ver",
+      "body": "真",
+      "detail": "ver to 真"
+    },
+    {
+      "prefix": "verand",
+      "body": "廊台",
+      "detail": "verand to 廊台"
+    },
+    {
+      "prefix": "verb",
+      "body": "动词",
+      "detail": "verb to 动词"
+    },
+    {
+      "prefix": "verd",
+      "body": "绿",
+      "detail": "verd to 绿"
+    },
+    {
+      "prefix": "verg",
+      "body": "条",
+      "detail": "verg to 条"
+    },
+    {
+      "prefix": "verk",
+      "body": "作",
+      "detail": "verk to 作"
+    },
+    {
+      "prefix": "verm",
+      "body": "虫",
+      "detail": "verm to 虫"
+    },
+    {
+      "prefix": "vers",
+      "body": "诗句",
+      "detail": "vers to 诗句"
+    },
+    {
+      "prefix": "versx",
+      "body": "倾",
+      "detail": "versx to 倾"
+    },
+    {
+      "prefix": "vert",
+      "body": "顶ᴠ",
+      "detail": "vert to 顶ᴠ"
+    },
+    {
+      "prefix": "vertic",
+      "body": "顶ᴠᴄ",
+      "detail": "vertic to 顶ᴠᴄ"
+    },
+    {
+      "prefix": "vertikal",
+      "body": "垂",
+      "detail": "vertikal to 垂"
+    },
+    {
+      "prefix": "verv",
+      "body": "劲",
+      "detail": "verv to 劲"
+    },
+    {
+      "prefix": "vesp",
+      "body": "蜂",
+      "detail": "vesp to 蜂"
+    },
+    {
+      "prefix": "vesper",
+      "body": "晚",
+      "detail": "vesper to 晚"
+    },
+    {
+      "prefix": "vest",
+      "body": "服",
+      "detail": "vest to 服"
+    },
+    {
+      "prefix": "vesxt",
+      "body": "背心",
+      "detail": "vesxt to 背心"
+    },
+    {
+      "prefix": "vet",
+      "body": "赌",
+      "detail": "vet to 赌"
+    },
+    {
+      "prefix": "veter",
+      "body": "天气",
+      "detail": "veter to 天气"
+    },
+    {
+      "prefix": "veteran",
+      "body": "老兵",
+      "detail": "veteran to 老兵"
+    },
+    {
+      "prefix": "veterinar",
+      "body": "兽医",
+      "detail": "veterinar to 兽医"
+    },
+    {
+      "prefix": "vetur",
+      "body": "乘",
+      "detail": "vetur to 乘"
+    },
+    {
+      "prefix": "vezik",
+      "body": "囊",
+      "detail": "vezik to 囊"
+    },
+    {
+      "prefix": "vi",
+      "body": "你",
+      "detail": "vi to 你"
+    },
+    {
+      "prefix": "viand",
+      "body": "肉ᴠ",
+      "detail": "viand to 肉ᴠ"
+    },
+    {
+      "prefix": "vibr",
+      "body": "振",
+      "detail": "vibr to 振"
+    },
+    {
+      "prefix": "vic",
+      "body": "列",
+      "detail": "vic to 列"
+    },
+    {
+      "prefix": "vid",
+      "body": "见",
+      "detail": "vid to 见"
+    },
+    {
+      "prefix": "vigl",
+      "body": "活跃",
+      "detail": "vigl to 活跃"
+    },
+    {
+      "prefix": "viktim",
+      "body": "牺牲",
+      "detail": "viktim to 牺牲"
+    },
+    {
+      "prefix": "vilagx",
+      "body": "村",
+      "detail": "vilagx to 村"
+    },
+    {
+      "prefix": "vin",
+      "body": "葡萄酒",
+      "detail": "vin to 葡萄酒"
+    },
+    {
+      "prefix": "vind",
+      "body": "缠",
+      "detail": "vind to 缠"
+    },
+    {
+      "prefix": "vinkt",
+      "body": "束ᴠ",
+      "detail": "vinkt to 束ᴠ"
+    },
+    {
+      "prefix": "vintr",
+      "body": "冬",
+      "detail": "vintr to 冬"
+    },
+    {
+      "prefix": "viol",
+      "body": "紫ᴠ",
+      "detail": "viol to 紫ᴠ"
+    },
+    {
+      "prefix": "violon",
+      "body": "提琴",
+      "detail": "violon to 提琴"
+    },
+    {
+      "prefix": "vir",
+      "body": "男",
+      "detail": "vir to 男"
+    },
+    {
+      "prefix": "virt",
+      "body": "德",
+      "detail": "virt to 德"
+    },
+    {
+      "prefix": "virtuoz",
+      "body": "名手",
+      "detail": "virtuoz to 名手"
+    },
+    {
+      "prefix": "visx",
+      "body": "拭",
+      "detail": "visx to 拭"
+    },
+    {
+      "prefix": "vit",
+      "body": "藤",
+      "detail": "vit to 藤"
+    },
+    {
+      "prefix": "vitr",
+      "body": "玻璃ᴠ",
+      "detail": "vitr to 玻璃ᴠ"
+    },
+    {
+      "prefix": "viv",
+      "body": "活",
+      "detail": "viv to 活"
+    },
+    {
+      "prefix": "viz",
+      "body": "签证",
+      "detail": "viz to 签证"
+    },
+    {
+      "prefix": "vizagx",
+      "body": "脸",
+      "detail": "vizagx to 脸"
+    },
+    {
+      "prefix": "vizi",
+      "body": "幻视",
+      "detail": "vizi to 幻视"
+    },
+    {
+      "prefix": "vizit",
+      "body": "访问",
+      "detail": "vizit to 访问"
+    },
+    {
+      "prefix": "vocx",
+      "body": "声",
+      "detail": "vocx to 声"
+    },
+    {
+      "prefix": "voj",
+      "body": "路",
+      "detail": "voj to 路"
+    },
+    {
+      "prefix": "vojagx",
+      "body": "旅",
+      "detail": "vojagx to 旅"
+    },
+    {
+      "prefix": "vok",
+      "body": "召",
+      "detail": "vok to 召"
+    },
+    {
+      "prefix": "vokal",
+      "body": "元音",
+      "detail": "vokal to 元音"
+    },
+    {
+      "prefix": "vol",
+      "body": "愿",
+      "detail": "vol to 愿"
+    },
+    {
+      "prefix": "volont",
+      "body": "志ᴠ",
+      "detail": "volont to 志ᴠ"
+    },
+    {
+      "prefix": "volum",
+      "body": "卷ᴠᴍ",
+      "detail": "volum to 卷ᴠᴍ"
+    },
+    {
+      "prefix": "volupt",
+      "body": "色ᴠ",
+      "detail": "volupt to 色ᴠ"
+    },
+    {
+      "prefix": "volv",
+      "body": "卷",
+      "detail": "volv to 卷"
+    },
+    {
+      "prefix": "vom",
+      "body": "呕",
+      "detail": "vom to 呕"
+    },
+    {
+      "prefix": "vort",
+      "body": "词",
+      "detail": "vort to 词"
+    },
+    {
+      "prefix": "vost",
+      "body": "尾",
+      "detail": "vost to 尾"
+    },
+    {
+      "prefix": "vual",
+      "body": "面纱",
+      "detail": "vual to 面纱"
+    },
+    {
+      "prefix": "vulgar",
+      "body": "俗ᴠ",
+      "detail": "vulgar to 俗ᴠ"
+    },
+    {
+      "prefix": "vulkan",
+      "body": "火山",
+      "detail": "vulkan to 火山"
+    },
+    {
+      "prefix": "vulp",
+      "body": "狐",
+      "detail": "vulp to 狐"
+    },
+    {
+      "prefix": "vund",
+      "body": "伤",
+      "detail": "vund to 伤"
+    }
+  ]
+}

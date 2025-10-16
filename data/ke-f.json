@@ -1,0 +1,819 @@
+{
+  "items": [
+    {
+      "prefix": "fabel",
+      "body": "寓话ꜰᴇ",
+      "detail": "fabel to 寓话ꜰᴇ"
+    },
+    {
+      "prefix": "fabl",
+      "body": "寓话",
+      "detail": "fabl to 寓话"
+    },
+    {
+      "prefix": "fabrik",
+      "body": "工厂",
+      "detail": "fabrik to 工厂"
+    },
+    {
+      "prefix": "fac",
+      "body": "面",
+      "detail": "fac to 面"
+    },
+    {
+      "prefix": "facet",
+      "body": "面ꜰᴛ",
+      "detail": "facet to 面ꜰᴛ"
+    },
+    {
+      "prefix": "facil",
+      "body": "易",
+      "detail": "facil to 易"
+    },
+    {
+      "prefix": "faden",
+      "body": "纱",
+      "detail": "faden to 纱"
+    },
+    {
+      "prefix": "fajf",
+      "body": "哨",
+      "detail": "fajf to 哨"
+    },
+    {
+      "prefix": "fajr",
+      "body": "火",
+      "detail": "fajr to 火"
+    },
+    {
+      "prefix": "fak",
+      "body": "科",
+      "detail": "fak to 科"
+    },
+    {
+      "prefix": "fakt",
+      "body": "事实",
+      "detail": "fakt to 事实"
+    },
+    {
+      "prefix": "faktor",
+      "body": "因ꜰ",
+      "detail": "faktor to 因ꜰ"
+    },
+    {
+      "prefix": "faktur",
+      "body": "发票",
+      "detail": "faktur to 发票"
+    },
+    {
+      "prefix": "fakultat",
+      "body": "系",
+      "detail": "fakultat to 系"
+    },
+    {
+      "prefix": "fal",
+      "body": "落",
+      "detail": "fal to 落"
+    },
+    {
+      "prefix": "falcx",
+      "body": "镰",
+      "detail": "falcx to 镰"
+    },
+    {
+      "prefix": "fald",
+      "body": "折",
+      "detail": "fald to 折"
+    },
+    {
+      "prefix": "fals",
+      "body": "假ꜰʟ",
+      "detail": "fals to 假ꜰʟ"
+    },
+    {
+      "prefix": "fam",
+      "body": "名声",
+      "detail": "fam to 名声"
+    },
+    {
+      "prefix": "famili",
+      "body": "家庭",
+      "detail": "famili to 家庭"
+    },
+    {
+      "prefix": "familiar",
+      "body": "熟",
+      "detail": "familiar to 熟"
+    },
+    {
+      "prefix": "fand",
+      "body": "熔",
+      "detail": "fand to 熔"
+    },
+    {
+      "prefix": "fanfaron",
+      "body": "吹ꜰ",
+      "detail": "fanfaron to 吹ꜰ"
+    },
+    {
+      "prefix": "fantazi",
+      "body": "幻想",
+      "detail": "fantazi to 幻想"
+    },
+    {
+      "prefix": "far",
+      "body": "做",
+      "detail": "far to 做"
+    },
+    {
+      "prefix": "farm",
+      "body": "租",
+      "detail": "farm to 租"
+    },
+    {
+      "prefix": "fart",
+      "body": "健ꜰ",
+      "detail": "fart to 健ꜰ"
+    },
+    {
+      "prefix": "farun",
+      "body": "粉ꜰ",
+      "detail": "farun to 粉ꜰ"
+    },
+    {
+      "prefix": "fasad",
+      "body": "面ꜰꜱ",
+      "detail": "fasad to 面ꜰꜱ"
+    },
+    {
+      "prefix": "fask",
+      "body": "束ꜰ",
+      "detail": "fask to 束ꜰ"
+    },
+    {
+      "prefix": "fason",
+      "body": "式样",
+      "detail": "fason to 式样"
+    },
+    {
+      "prefix": "fast",
+      "body": "禁食",
+      "detail": "fast to 禁食"
+    },
+    {
+      "prefix": "fatal",
+      "body": "命定",
+      "detail": "fatal to 命定"
+    },
+    {
+      "prefix": "favor",
+      "body": "惠",
+      "detail": "favor to 惠"
+    },
+    {
+      "prefix": "faz",
+      "body": "段",
+      "detail": "faz to 段"
+    },
+    {
+      "prefix": "febr",
+      "body": "发热",
+      "detail": "febr to 发热"
+    },
+    {
+      "prefix": "februar",
+      "body": "二月",
+      "detail": "februar to 二月"
+    },
+    {
+      "prefix": "feder",
+      "body": "联ꜰ",
+      "detail": "feder to 联ꜰ"
+    },
+    {
+      "prefix": "federaci",
+      "body": "联邦",
+      "detail": "federaci to 联邦"
+    },
+    {
+      "prefix": "fel",
+      "body": "毛皮",
+      "detail": "fel to 毛皮"
+    },
+    {
+      "prefix": "felicx",
+      "body": "幸",
+      "detail": "felicx to 幸"
+    },
+    {
+      "prefix": "felt",
+      "body": "毡",
+      "detail": "felt to 毡"
+    },
+    {
+      "prefix": "feminism",
+      "body": "女权主义",
+      "detail": "feminism to 女权主义"
+    },
+    {
+      "prefix": "feminist",
+      "body": "女权家",
+      "detail": "feminist to 女权家"
+    },
+    {
+      "prefix": "fend",
+      "body": "裂ꜰ",
+      "detail": "fend to 裂ꜰ"
+    },
+    {
+      "prefix": "fenestr",
+      "body": "窗",
+      "detail": "fenestr to 窗"
+    },
+    {
+      "prefix": "fenomen",
+      "body": "现象",
+      "detail": "fenomen to 现象"
+    },
+    {
+      "prefix": "fer",
+      "body": "铁",
+      "detail": "fer to 铁"
+    },
+    {
+      "prefix": "ferdek",
+      "body": "甲板",
+      "detail": "ferdek to 甲板"
+    },
+    {
+      "prefix": "feri",
+      "body": "假",
+      "detail": "feri to 假"
+    },
+    {
+      "prefix": "ferm",
+      "body": "关ꜰ",
+      "detail": "ferm to 关ꜰ"
+    },
+    {
+      "prefix": "ferment",
+      "body": "发酵",
+      "detail": "ferment to 发酵"
+    },
+    {
+      "prefix": "fervor",
+      "body": "热",
+      "detail": "fervor to 热"
+    },
+    {
+      "prefix": "fest",
+      "body": "庆",
+      "detail": "fest to 庆"
+    },
+    {
+      "prefix": "festen",
+      "body": "宴",
+      "detail": "festen to 宴"
+    },
+    {
+      "prefix": "feston",
+      "body": "宴ꜰᴏ",
+      "detail": "feston to 宴ꜰᴏ"
+    },
+    {
+      "prefix": "fi",
+      "body": "呸",
+      "detail": "fi to 呸"
+    },
+    {
+      "prefix": "fiancx",
+      "body": "婚约",
+      "detail": "fiancx to 婚约"
+    },
+    {
+      "prefix": "fiask",
+      "body": "惨败",
+      "detail": "fiask to 惨败"
+    },
+    {
+      "prefix": "fibr",
+      "body": "细丝",
+      "detail": "fibr to 细丝"
+    },
+    {
+      "prefix": "fid",
+      "body": "信任",
+      "detail": "fid to 信任"
+    },
+    {
+      "prefix": "fidel",
+      "body": "忠",
+      "detail": "fidel to 忠"
+    },
+    {
+      "prefix": "fier",
+      "body": "傲",
+      "detail": "fier to 傲"
+    },
+    {
+      "prefix": "fig",
+      "body": "无花",
+      "detail": "fig to 无花"
+    },
+    {
+      "prefix": "figur",
+      "body": "图形",
+      "detail": "figur to 图形"
+    },
+    {
+      "prefix": "fikci",
+      "body": "虚构",
+      "detail": "fikci to 虚构"
+    },
+    {
+      "prefix": "fiks",
+      "body": "定",
+      "detail": "fiks to 定"
+    },
+    {
+      "prefix": "fil",
+      "body": "儿",
+      "detail": "fil to 儿"
+    },
+    {
+      "prefix": "fili",
+      "body": "支ꜰ",
+      "detail": "fili to 支ꜰ"
+    },
+    {
+      "prefix": "filik",
+      "body": "蕨",
+      "detail": "filik to 蕨"
+    },
+    {
+      "prefix": "film",
+      "body": "片ꜰ",
+      "detail": "film to 片ꜰ"
+    },
+    {
+      "prefix": "filozof",
+      "body": "哲学家",
+      "detail": "filozof to 哲学家"
+    },
+    {
+      "prefix": "filozofi",
+      "body": "哲学",
+      "detail": "filozofi to 哲学"
+    },
+    {
+      "prefix": "filtr",
+      "body": "滤",
+      "detail": "filtr to 滤"
+    },
+    {
+      "prefix": "fin",
+      "body": "终",
+      "detail": "fin to 终"
+    },
+    {
+      "prefix": "final",
+      "body": "终曲",
+      "detail": "final to 终曲"
+    },
+    {
+      "prefix": "financ",
+      "body": "财政",
+      "detail": "financ to 财政"
+    },
+    {
+      "prefix": "fingr",
+      "body": "指",
+      "detail": "fingr to 指"
+    },
+    {
+      "prefix": "firm",
+      "body": "坚",
+      "detail": "firm to 坚"
+    },
+    {
+      "prefix": "fisk",
+      "body": "国库",
+      "detail": "fisk to 国库"
+    },
+    {
+      "prefix": "fisx",
+      "body": "鱼",
+      "detail": "fisx to 鱼"
+    },
+    {
+      "prefix": "fizik",
+      "body": "物理学",
+      "detail": "fizik to 物理学"
+    },
+    {
+      "prefix": "fizionomi",
+      "body": "相",
+      "detail": "fizionomi to 相"
+    },
+    {
+      "prefix": "flag",
+      "body": "旗",
+      "detail": "flag to 旗"
+    },
+    {
+      "prefix": "flagr",
+      "body": "焰ꜰɢ",
+      "detail": "flagr to 焰ꜰɢ"
+    },
+    {
+      "prefix": "flam",
+      "body": "焰",
+      "detail": "flam to 焰"
+    },
+    {
+      "prefix": "flank",
+      "body": "侧",
+      "detail": "flank to 侧"
+    },
+    {
+      "prefix": "flar",
+      "body": "嗅",
+      "detail": "flar to 嗅"
+    },
+    {
+      "prefix": "flav",
+      "body": "黄",
+      "detail": "flav to 黄"
+    },
+    {
+      "prefix": "fleg",
+      "body": "护ꜰ",
+      "detail": "fleg to 护ꜰ"
+    },
+    {
+      "prefix": "flegm",
+      "body": "冷静",
+      "detail": "flegm to 冷静"
+    },
+    {
+      "prefix": "fleks",
+      "body": "曲",
+      "detail": "fleks to 曲"
+    },
+    {
+      "prefix": "flik",
+      "body": "补",
+      "detail": "flik to 补"
+    },
+    {
+      "prefix": "flor",
+      "body": "花",
+      "detail": "flor to 花"
+    },
+    {
+      "prefix": "flos",
+      "body": "筏",
+      "detail": "flos to 筏"
+    },
+    {
+      "prefix": "flu",
+      "body": "流",
+      "detail": "flu to 流"
+    },
+    {
+      "prefix": "flug",
+      "body": "飞",
+      "detail": "flug to 飞"
+    },
+    {
+      "prefix": "fluid",
+      "body": "流体",
+      "detail": "fluid to 流体"
+    },
+    {
+      "prefix": "fluktu",
+      "body": "波动",
+      "detail": "fluktu to 波动"
+    },
+    {
+      "prefix": "flut",
+      "body": "笛",
+      "detail": "flut to 笛"
+    },
+    {
+      "prefix": "foir",
+      "body": "市集",
+      "detail": "foir to 市集"
+    },
+    {
+      "prefix": "foj",
+      "body": "次",
+      "detail": "foj to 次"
+    },
+    {
+      "prefix": "fokus",
+      "body": "焦",
+      "detail": "fokus to 焦"
+    },
+    {
+      "prefix": "foli",
+      "body": "叶",
+      "detail": "foli to 叶"
+    },
+    {
+      "prefix": "fon",
+      "body": "背景",
+      "detail": "fon to 背景"
+    },
+    {
+      "prefix": "fond",
+      "body": "立",
+      "detail": "fond to 立"
+    },
+    {
+      "prefix": "font",
+      "body": "源",
+      "detail": "font to 源"
+    },
+    {
+      "prefix": "fontan",
+      "body": "泉",
+      "detail": "fontan to 泉"
+    },
+    {
+      "prefix": "for",
+      "body": "远",
+      "detail": "for to 远"
+    },
+    {
+      "prefix": "forges",
+      "body": "忘",
+      "detail": "forges to 忘"
+    },
+    {
+      "prefix": "forgx",
+      "body": "锻",
+      "detail": "forgx to 锻"
+    },
+    {
+      "prefix": "fork",
+      "body": "叉",
+      "detail": "fork to 叉"
+    },
+    {
+      "prefix": "form",
+      "body": "形",
+      "detail": "form to 形"
+    },
+    {
+      "prefix": "formal",
+      "body": "正式",
+      "detail": "formal to 正式"
+    },
+    {
+      "prefix": "formik",
+      "body": "蚁",
+      "detail": "formik to 蚁"
+    },
+    {
+      "prefix": "formul",
+      "body": "公式",
+      "detail": "formul to 公式"
+    },
+    {
+      "prefix": "forn",
+      "body": "炉",
+      "detail": "forn to 炉"
+    },
+    {
+      "prefix": "fort",
+      "body": "强",
+      "detail": "fort to 强"
+    },
+    {
+      "prefix": "fortepian",
+      "body": "钢琴",
+      "detail": "fortepian to 钢琴"
+    },
+    {
+      "prefix": "fortik",
+      "body": "壮",
+      "detail": "fortik to 壮"
+    },
+    {
+      "prefix": "forum",
+      "body": "论坛",
+      "detail": "forum to 论坛"
+    },
+    {
+      "prefix": "fos",
+      "body": "挖",
+      "detail": "fos to 挖"
+    },
+    {
+      "prefix": "fost",
+      "body": "柱",
+      "detail": "fost to 柱"
+    },
+    {
+      "prefix": "fot",
+      "body": "照",
+      "detail": "fot to 照"
+    },
+    {
+      "prefix": "fotel",
+      "body": "扶椅",
+      "detail": "fotel to 扶椅"
+    },
+    {
+      "prefix": "fotograf",
+      "body": "摄影家",
+      "detail": "fotograf to 摄影家"
+    },
+    {
+      "prefix": "fotografi",
+      "body": "摄影",
+      "detail": "fotografi to 摄影"
+    },
+    {
+      "prefix": "frag",
+      "body": "草莓",
+      "detail": "frag to 草莓"
+    },
+    {
+      "prefix": "fraj",
+      "body": "卵ꜰ",
+      "detail": "fraj to 卵ꜰ"
+    },
+    {
+      "prefix": "frak",
+      "body": "礼服",
+      "detail": "frak to 礼服"
+    },
+    {
+      "prefix": "frakas",
+      "body": "碎",
+      "detail": "frakas to 碎"
+    },
+    {
+      "prefix": "frakci",
+      "body": "分数",
+      "detail": "frakci to 分数"
+    },
+    {
+      "prefix": "frand",
+      "body": "品尝",
+      "detail": "frand to 品尝"
+    },
+    {
+      "prefix": "frap",
+      "body": "击",
+      "detail": "frap to 击"
+    },
+    {
+      "prefix": "frat",
+      "body": "兄弟",
+      "detail": "frat to 兄弟"
+    },
+    {
+      "prefix": "frauxl",
+      "body": "单身",
+      "detail": "frauxl to 单身"
+    },
+    {
+      "prefix": "fraz",
+      "body": "句",
+      "detail": "fraz to 句"
+    },
+    {
+      "prefix": "fremd",
+      "body": "异",
+      "detail": "fremd to 异"
+    },
+    {
+      "prefix": "frenez",
+      "body": "狂",
+      "detail": "frenez to 狂"
+    },
+    {
+      "prefix": "fresx",
+      "body": "鲜",
+      "detail": "fresx to 鲜"
+    },
+    {
+      "prefix": "fring",
+      "body": "雀ꜰ",
+      "detail": "fring to 雀ꜰ"
+    },
+    {
+      "prefix": "fringel",
+      "body": "雀ꜰʟ",
+      "detail": "fringel to 雀ꜰʟ"
+    },
+    {
+      "prefix": "frit",
+      "body": "炸",
+      "detail": "frit to 炸"
+    },
+    {
+      "prefix": "friz",
+      "body": "卷ꜰ",
+      "detail": "friz to 卷ꜰ"
+    },
+    {
+      "prefix": "front",
+      "body": "前ꜰ",
+      "detail": "front to 前ꜰ"
+    },
+    {
+      "prefix": "frost",
+      "body": "霜",
+      "detail": "frost to 霜"
+    },
+    {
+      "prefix": "frot",
+      "body": "擦",
+      "detail": "frot to 擦"
+    },
+    {
+      "prefix": "fru",
+      "body": "早",
+      "detail": "fru to 早"
+    },
+    {
+      "prefix": "frukt",
+      "body": "果",
+      "detail": "frukt to 果"
+    },
+    {
+      "prefix": "frunt",
+      "body": "额",
+      "detail": "frunt to 额"
+    },
+    {
+      "prefix": "fugx",
+      "body": "逃",
+      "detail": "fugx to 逃"
+    },
+    {
+      "prefix": "fulg",
+      "body": "烟",
+      "detail": "fulg to 烟"
+    },
+    {
+      "prefix": "fulm",
+      "body": "闪",
+      "detail": "fulm to 闪"
+    },
+    {
+      "prefix": "fum",
+      "body": "吸烟",
+      "detail": "fum to 吸烟"
+    },
+    {
+      "prefix": "fund",
+      "body": "底",
+      "detail": "fund to 底"
+    },
+    {
+      "prefix": "fundament",
+      "body": "基础",
+      "detail": "fundament to 基础"
+    },
+    {
+      "prefix": "funebr",
+      "body": "葬",
+      "detail": "funebr to 葬"
+    },
+    {
+      "prefix": "fung",
+      "body": "菌",
+      "detail": "fung to 菌"
+    },
+    {
+      "prefix": "funkci",
+      "body": "功",
+      "detail": "funkci to 功"
+    },
+    {
+      "prefix": "furagx",
+      "body": "饲料",
+      "detail": "furagx to 饲料"
+    },
+    {
+      "prefix": "furioz",
+      "body": "狂怒",
+      "detail": "furioz to 狂怒"
+    },
+    {
+      "prefix": "furor",
+      "body": "激情",
+      "detail": "furor to 激情"
+    },
+    {
+      "prefix": "fusx",
+      "body": "坏",
+      "detail": "fusx to 坏"
+    }
+  ]
+}

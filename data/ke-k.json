@@ -1,0 +1,1819 @@
+{
+  "items": [
+    {
+      "prefix": "k.t.p.",
+      "body": "等ᴋ",
+      "detail": "k.t.p. to 等ᴋ"
+    },
+    {
+      "prefix": "kaban",
+      "body": "棚",
+      "detail": "kaban to 棚"
+    },
+    {
+      "prefix": "kabinet",
+      "body": "阁",
+      "detail": "kabinet to 阁"
+    },
+    {
+      "prefix": "kabl",
+      "body": "缆",
+      "detail": "kabl to 缆"
+    },
+    {
+      "prefix": "kacx",
+      "body": "粥",
+      "detail": "kacx to 粥"
+    },
+    {
+      "prefix": "kadet",
+      "body": "候官",
+      "detail": "kadet to 候官"
+    },
+    {
+      "prefix": "kaduk",
+      "body": "衰",
+      "detail": "kaduk to 衰"
+    },
+    {
+      "prefix": "kagx",
+      "body": "笼",
+      "detail": "kagx to 笼"
+    },
+    {
+      "prefix": "kaj",
+      "body": "和",
+      "detail": "kaj to 和"
+    },
+    {
+      "prefix": "kajer",
+      "body": "本ᴋ",
+      "detail": "kajer to 本ᴋ"
+    },
+    {
+      "prefix": "kaldron",
+      "body": "釜",
+      "detail": "kaldron to 釜"
+    },
+    {
+      "prefix": "kalendar",
+      "body": "历",
+      "detail": "kalendar to 历"
+    },
+    {
+      "prefix": "kalk",
+      "body": "石灰",
+      "detail": "kalk to 石灰"
+    },
+    {
+      "prefix": "kalkan",
+      "body": "跟",
+      "detail": "kalkan to 跟"
+    },
+    {
+      "prefix": "kalkul",
+      "body": "算",
+      "detail": "kalkul to 算"
+    },
+    {
+      "prefix": "kalson",
+      "body": "内裤",
+      "detail": "kalson to 内裤"
+    },
+    {
+      "prefix": "kalv",
+      "body": "秃",
+      "detail": "kalv to 秃"
+    },
+    {
+      "prefix": "kamarad",
+      "body": "同志",
+      "detail": "kamarad to 同志"
+    },
+    {
+      "prefix": "kamen",
+      "body": "暖炉",
+      "detail": "kamen to 暖炉"
+    },
+    {
+      "prefix": "kamer",
+      "body": "室ᴋ",
+      "detail": "kamer to 室ᴋ"
+    },
+    {
+      "prefix": "kamion",
+      "body": "货车",
+      "detail": "kamion to 货车"
+    },
+    {
+      "prefix": "kamizol",
+      "body": "汗衫",
+      "detail": "kamizol to 汗衫"
+    },
+    {
+      "prefix": "kamp",
+      "body": "田",
+      "detail": "kamp to 田"
+    },
+    {
+      "prefix": "kan",
+      "body": "芦",
+      "detail": "kan to 芦"
+    },
+    {
+      "prefix": "kanal",
+      "body": "渠",
+      "detail": "kanal to 渠"
+    },
+    {
+      "prefix": "kanap",
+      "body": "长椅",
+      "detail": "kanap to 长椅"
+    },
+    {
+      "prefix": "kancelari",
+      "body": "厅ᴋ",
+      "detail": "kancelari to 厅ᴋ"
+    },
+    {
+      "prefix": "kandel",
+      "body": "烛",
+      "detail": "kandel to 烛"
+    },
+    {
+      "prefix": "kandidat",
+      "body": "候选",
+      "detail": "kandidat to 候选"
+    },
+    {
+      "prefix": "kant",
+      "body": "歌",
+      "detail": "kant to 歌"
+    },
+    {
+      "prefix": "kanton",
+      "body": "县",
+      "detail": "kanton to 县"
+    },
+    {
+      "prefix": "kantor",
+      "body": "歌手",
+      "detail": "kantor to 歌手"
+    },
+    {
+      "prefix": "kanvas",
+      "body": "帆布",
+      "detail": "kanvas to 帆布"
+    },
+    {
+      "prefix": "kanzon",
+      "body": "歌曲",
+      "detail": "kanzon to 歌曲"
+    },
+    {
+      "prefix": "kaos",
+      "body": "混沌ᴋ",
+      "detail": "kaos to 混沌ᴋ"
+    },
+    {
+      "prefix": "kap",
+      "body": "头",
+      "detail": "kap to 头"
+    },
+    {
+      "prefix": "kapabl",
+      "body": "会",
+      "detail": "kapabl to 会"
+    },
+    {
+      "prefix": "kapel",
+      "body": "小堂",
+      "detail": "kapel to 小堂"
+    },
+    {
+      "prefix": "kapital",
+      "body": "资本",
+      "detail": "kapital to 资本"
+    },
+    {
+      "prefix": "kapitan",
+      "body": "尉",
+      "detail": "kapitan to 尉"
+    },
+    {
+      "prefix": "kaporal",
+      "body": "伍长",
+      "detail": "kaporal to 伍长"
+    },
+    {
+      "prefix": "kapot",
+      "body": "风衣",
+      "detail": "kapot to 风衣"
+    },
+    {
+      "prefix": "kapr",
+      "body": "山羊",
+      "detail": "kapr to 山羊"
+    },
+    {
+      "prefix": "kapsul",
+      "body": "胶囊",
+      "detail": "kapsul to 胶囊"
+    },
+    {
+      "prefix": "kapt",
+      "body": "捕",
+      "detail": "kapt to 捕"
+    },
+    {
+      "prefix": "kapucx",
+      "body": "兜帽",
+      "detail": "kapucx to 兜帽"
+    },
+    {
+      "prefix": "kar",
+      "body": "亲",
+      "detail": "kar to 亲"
+    },
+    {
+      "prefix": "karaf",
+      "body": "酒壶",
+      "detail": "karaf to 酒壶"
+    },
+    {
+      "prefix": "karakter",
+      "body": "格",
+      "detail": "karakter to 格"
+    },
+    {
+      "prefix": "karakteriz",
+      "body": "征ᴋʀ",
+      "detail": "karakteriz to 征ᴋʀ"
+    },
+    {
+      "prefix": "karambol",
+      "body": "撞ᴋʀ",
+      "detail": "karambol to 撞ᴋʀ"
+    },
+    {
+      "prefix": "karb",
+      "body": "碳",
+      "detail": "karb to 碳"
+    },
+    {
+      "prefix": "karbon",
+      "body": "碳ᴋɴ",
+      "detail": "karbon to 碳ᴋɴ"
+    },
+    {
+      "prefix": "kard",
+      "body": "梳ᴋʀ",
+      "detail": "kard to 梳ᴋʀ"
+    },
+    {
+      "prefix": "kares",
+      "body": "抚",
+      "detail": "kares to 抚"
+    },
+    {
+      "prefix": "karier",
+      "body": "生涯",
+      "detail": "karier to 生涯"
+    },
+    {
+      "prefix": "kariol",
+      "body": "车",
+      "detail": "kariol to 车"
+    },
+    {
+      "prefix": "karn",
+      "body": "肉",
+      "detail": "karn to 肉"
+    },
+    {
+      "prefix": "karo",
+      "body": "方块",
+      "detail": "karo to 方块"
+    },
+    {
+      "prefix": "karot",
+      "body": "胡萝",
+      "detail": "karot to 胡萝"
+    },
+    {
+      "prefix": "karp",
+      "body": "鲤鱼",
+      "detail": "karp to 鲤鱼"
+    },
+    {
+      "prefix": "kart",
+      "body": "卡",
+      "detail": "kart to 卡"
+    },
+    {
+      "prefix": "karton",
+      "body": "纸板",
+      "detail": "karton to 纸板"
+    },
+    {
+      "prefix": "kas",
+      "body": "现金",
+      "detail": "kas to 现金"
+    },
+    {
+      "prefix": "kaserol",
+      "body": "锅",
+      "detail": "kaserol to 锅"
+    },
+    {
+      "prefix": "kask",
+      "body": "盔",
+      "detail": "kask to 盔"
+    },
+    {
+      "prefix": "kasked",
+      "body": "沿帽",
+      "detail": "kasked to 沿帽"
+    },
+    {
+      "prefix": "kast",
+      "body": "种姓",
+      "detail": "kast to 种姓"
+    },
+    {
+      "prefix": "kastel",
+      "body": "城ᴋ",
+      "detail": "kastel to 城ᴋ"
+    },
+    {
+      "prefix": "kasx",
+      "body": "藏",
+      "detail": "kasx to 藏"
+    },
+    {
+      "prefix": "kasxtan",
+      "body": "栗",
+      "detail": "kasxtan to 栗"
+    },
+    {
+      "prefix": "kat",
+      "body": "猫",
+      "detail": "kat to 猫"
+    },
+    {
+      "prefix": "katalog",
+      "body": "目录",
+      "detail": "katalog to 目录"
+    },
+    {
+      "prefix": "katastrof",
+      "body": "灾",
+      "detail": "katastrof to 灾"
+    },
+    {
+      "prefix": "katedr",
+      "body": "讲台",
+      "detail": "katedr to 讲台"
+    },
+    {
+      "prefix": "kategori",
+      "body": "类别",
+      "detail": "kategori to 类别"
+    },
+    {
+      "prefix": "katen",
+      "body": "锁ᴋ",
+      "detail": "katen to 锁ᴋ"
+    },
+    {
+      "prefix": "katun",
+      "body": "棉布",
+      "detail": "katun to 棉布"
+    },
+    {
+      "prefix": "kauxci",
+      "body": "保证",
+      "detail": "kauxci to 保证"
+    },
+    {
+      "prefix": "kauxr",
+      "body": "蹲",
+      "detail": "kauxr to 蹲"
+    },
+    {
+      "prefix": "kauxteriz",
+      "body": "灼ᴋ",
+      "detail": "kauxteriz to 灼ᴋ"
+    },
+    {
+      "prefix": "kauxz",
+      "body": "原",
+      "detail": "kauxz to 原"
+    },
+    {
+      "prefix": "kav",
+      "body": "洞",
+      "detail": "kav to 洞"
+    },
+    {
+      "prefix": "kavalir",
+      "body": "骑士",
+      "detail": "kavalir to 骑士"
+    },
+    {
+      "prefix": "kavern",
+      "body": "穴",
+      "detail": "kavern to 穴"
+    },
+    {
+      "prefix": "kaz",
+      "body": "案",
+      "detail": "kaz to 案"
+    },
+    {
+      "prefix": "kaze",
+      "body": "奶酪",
+      "detail": "kaze to 奶酪"
+    },
+    {
+      "prefix": "kel",
+      "body": "地室",
+      "detail": "kel to 地室"
+    },
+    {
+      "prefix": "kelk",
+      "body": "几",
+      "detail": "kelk to 几"
+    },
+    {
+      "prefix": "kelner",
+      "body": "侍",
+      "detail": "kelner to 侍"
+    },
+    {
+      "prefix": "kemi",
+      "body": "化学ᴋ",
+      "detail": "kemi to 化学ᴋ"
+    },
+    {
+      "prefix": "kep",
+      "body": "便帽",
+      "detail": "kep to 便帽"
+    },
+    {
+      "prefix": "ker",
+      "body": "红心",
+      "detail": "ker to 红心"
+    },
+    {
+      "prefix": "kern",
+      "body": "核",
+      "detail": "kern to 核"
+    },
+    {
+      "prefix": "kest",
+      "body": "木箱",
+      "detail": "kest to 木箱"
+    },
+    {
+      "prefix": "kia",
+      "body": "何a",
+      "detail": "kia to 何a"
+    },
+    {
+      "prefix": "kial",
+      "body": "何因",
+      "detail": "kial to 何因"
+    },
+    {
+      "prefix": "kiam",
+      "body": "何时",
+      "detail": "kiam to 何时"
+    },
+    {
+      "prefix": "kie",
+      "body": "何e",
+      "detail": "kie to 何e"
+    },
+    {
+      "prefix": "kiel",
+      "body": "何样",
+      "detail": "kiel to 何样"
+    },
+    {
+      "prefix": "kies",
+      "body": "何之",
+      "detail": "kies to 何之"
+    },
+    {
+      "prefix": "kilogram",
+      "body": "公斤",
+      "detail": "kilogram to 公斤"
+    },
+    {
+      "prefix": "kilometr",
+      "body": "公里",
+      "detail": "kilometr to 公里"
+    },
+    {
+      "prefix": "kin",
+      "body": "影",
+      "detail": "kin to 影"
+    },
+    {
+      "prefix": "kio",
+      "body": "何o",
+      "detail": "kio to 何o"
+    },
+    {
+      "prefix": "kiom",
+      "body": "何量",
+      "detail": "kiom to 何量"
+    },
+    {
+      "prefix": "kirl",
+      "body": "旋",
+      "detail": "kirl to 旋"
+    },
+    {
+      "prefix": "kis",
+      "body": "吻",
+      "detail": "kis to 吻"
+    },
+    {
+      "prefix": "kitel",
+      "body": "工服",
+      "detail": "kitel to 工服"
+    },
+    {
+      "prefix": "kiu",
+      "body": "何个",
+      "detail": "kiu to 何个"
+    },
+    {
+      "prefix": "klacx",
+      "body": "闲话",
+      "detail": "klacx to 闲话"
+    },
+    {
+      "prefix": "klaft",
+      "body": "裂ᴋʟ",
+      "detail": "klaft to 裂ᴋʟ"
+    },
+    {
+      "prefix": "klap",
+      "body": "阀",
+      "detail": "klap to 阀"
+    },
+    {
+      "prefix": "klar",
+      "body": "明ᴋ",
+      "detail": "klar to 明ᴋ"
+    },
+    {
+      "prefix": "klas",
+      "body": "类",
+      "detail": "klas to 类"
+    },
+    {
+      "prefix": "klasifik",
+      "body": "分类",
+      "detail": "klasifik to 分类"
+    },
+    {
+      "prefix": "klasik",
+      "body": "典",
+      "detail": "klasik to 典"
+    },
+    {
+      "prefix": "klav",
+      "body": "键",
+      "detail": "klav to 键"
+    },
+    {
+      "prefix": "kler",
+      "body": "博",
+      "detail": "kler to 博"
+    },
+    {
+      "prefix": "klient",
+      "body": "户",
+      "detail": "klient to 户"
+    },
+    {
+      "prefix": "klimat",
+      "body": "气候",
+      "detail": "klimat to 气候"
+    },
+    {
+      "prefix": "klin",
+      "body": "倾ᴋ",
+      "detail": "klin to 倾ᴋ"
+    },
+    {
+      "prefix": "klinik",
+      "body": "诊所",
+      "detail": "klinik to 诊所"
+    },
+    {
+      "prefix": "kloak",
+      "body": "污水",
+      "detail": "kloak to 污水"
+    },
+    {
+      "prefix": "klopod",
+      "body": "费力",
+      "detail": "klopod to 费力"
+    },
+    {
+      "prefix": "klosx",
+      "body": "钟ᴋ",
+      "detail": "klosx to 钟ᴋ"
+    },
+    {
+      "prefix": "klub",
+      "body": "社",
+      "detail": "klub to 社"
+    },
+    {
+      "prefix": "knab",
+      "body": "男童",
+      "detail": "knab to 男童"
+    },
+    {
+      "prefix": "kned",
+      "body": "揉",
+      "detail": "kned to 揉"
+    },
+    {
+      "prefix": "kofr",
+      "body": "大箱",
+      "detail": "kofr to 大箱"
+    },
+    {
+      "prefix": "kok",
+      "body": "鸡",
+      "detail": "kok to 鸡"
+    },
+    {
+      "prefix": "koket",
+      "body": "媚",
+      "detail": "koket to 媚"
+    },
+    {
+      "prefix": "kokon",
+      "body": "茧",
+      "detail": "kokon to 茧"
+    },
+    {
+      "prefix": "kokos",
+      "body": "椰",
+      "detail": "kokos to 椰"
+    },
+    {
+      "prefix": "koks",
+      "body": "臀",
+      "detail": "koks to 臀"
+    },
+    {
+      "prefix": "kol",
+      "body": "颈",
+      "detail": "kol to 颈"
+    },
+    {
+      "prefix": "kolbas",
+      "body": "香肠",
+      "detail": "kolbas to 香肠"
+    },
+    {
+      "prefix": "koleg",
+      "body": "同事",
+      "detail": "koleg to 同事"
+    },
+    {
+      "prefix": "kolegi",
+      "body": "学院",
+      "detail": "kolegi to 学院"
+    },
+    {
+      "prefix": "kolekt",
+      "body": "集",
+      "detail": "kolekt to 集"
+    },
+    {
+      "prefix": "kolektiv",
+      "body": "集体",
+      "detail": "kolektiv to 集体"
+    },
+    {
+      "prefix": "koler",
+      "body": "怒",
+      "detail": "koler to 怒"
+    },
+    {
+      "prefix": "kolizi",
+      "body": "撞",
+      "detail": "kolizi to 撞"
+    },
+    {
+      "prefix": "kolomb",
+      "body": "鸽",
+      "detail": "kolomb to 鸽"
+    },
+    {
+      "prefix": "kolon",
+      "body": "柱ᴋɴ",
+      "detail": "kolon to 柱ᴋɴ"
+    },
+    {
+      "prefix": "kolonel",
+      "body": "上校",
+      "detail": "kolonel to 上校"
+    },
+    {
+      "prefix": "koloni",
+      "body": "殖民",
+      "detail": "koloni to 殖民"
+    },
+    {
+      "prefix": "kolor",
+      "body": "色",
+      "detail": "kolor to 色"
+    },
+    {
+      "prefix": "kolport",
+      "body": "行商",
+      "detail": "kolport to 行商"
+    },
+    {
+      "prefix": "kolubr",
+      "body": "蛇ᴋ",
+      "detail": "kolubr to 蛇ᴋ"
+    },
+    {
+      "prefix": "kolumn",
+      "body": "柱ᴋ",
+      "detail": "kolumn to 柱ᴋ"
+    },
+    {
+      "prefix": "kom",
+      "body": "点",
+      "detail": "kom to 点"
+    },
+    {
+      "prefix": "komand",
+      "body": "令",
+      "detail": "komand to 令"
+    },
+    {
+      "prefix": "komb",
+      "body": "梳",
+      "detail": "komb to 梳"
+    },
+    {
+      "prefix": "kombin",
+      "body": "合ᴋ",
+      "detail": "kombin to 合ᴋ"
+    },
+    {
+      "prefix": "komedi",
+      "body": "喜剧",
+      "detail": "komedi to 喜剧"
+    },
+    {
+      "prefix": "komenc",
+      "body": "始ᴋ",
+      "detail": "komenc to 始ᴋ"
+    },
+    {
+      "prefix": "koment",
+      "body": "评ᴋ",
+      "detail": "koment to 评ᴋ"
+    },
+    {
+      "prefix": "komentari",
+      "body": "评论ᴋ",
+      "detail": "komentari to 评论ᴋ"
+    },
+    {
+      "prefix": "komerc",
+      "body": "商业",
+      "detail": "komerc to 商业"
+    },
+    {
+      "prefix": "komet",
+      "body": "彗星",
+      "detail": "komet to 彗星"
+    },
+    {
+      "prefix": "komfort",
+      "body": "舒适",
+      "detail": "komfort to 舒适"
+    },
+    {
+      "prefix": "komik",
+      "body": "可笑",
+      "detail": "komik to 可笑"
+    },
+    {
+      "prefix": "komisar",
+      "body": "政委",
+      "detail": "komisar to 政委"
+    },
+    {
+      "prefix": "komisi",
+      "body": "委",
+      "detail": "komisi to 委"
+    },
+    {
+      "prefix": "komision",
+      "body": "委会",
+      "detail": "komision to 委会"
+    },
+    {
+      "prefix": "komitat",
+      "body": "委员会",
+      "detail": "komitat to 委员会"
+    },
+    {
+      "prefix": "komiz",
+      "body": "店员",
+      "detail": "komiz to 店员"
+    },
+    {
+      "prefix": "komod",
+      "body": "抽柜",
+      "detail": "komod to 抽柜"
+    },
+    {
+      "prefix": "kompani",
+      "body": "公司",
+      "detail": "kompani to 公司"
+    },
+    {
+      "prefix": "kompar",
+      "body": "比ᴋ",
+      "detail": "kompar to 比ᴋ"
+    },
+    {
+      "prefix": "kompat",
+      "body": "同情",
+      "detail": "kompat to 同情"
+    },
+    {
+      "prefix": "kompens",
+      "body": "补偿",
+      "detail": "kompens to 补偿"
+    },
+    {
+      "prefix": "kompetent",
+      "body": "胜任",
+      "detail": "kompetent to 胜任"
+    },
+    {
+      "prefix": "kompil",
+      "body": "汇",
+      "detail": "kompil to 汇"
+    },
+    {
+      "prefix": "komplement",
+      "body": "补ᴋ",
+      "detail": "komplement to 补ᴋ"
+    },
+    {
+      "prefix": "komplet",
+      "body": "全ᴋ",
+      "detail": "komplet to 全ᴋ"
+    },
+    {
+      "prefix": "komplez",
+      "body": "善",
+      "detail": "komplez to 善"
+    },
+    {
+      "prefix": "komplik",
+      "body": "繁",
+      "detail": "komplik to 繁"
+    },
+    {
+      "prefix": "kompliment",
+      "body": "恭维",
+      "detail": "kompliment to 恭维"
+    },
+    {
+      "prefix": "kompon",
+      "body": "组ᴋ",
+      "detail": "kompon to 组ᴋ"
+    },
+    {
+      "prefix": "kompren",
+      "body": "懂",
+      "detail": "kompren to 懂"
+    },
+    {
+      "prefix": "kompromis",
+      "body": "妥协",
+      "detail": "kompromis to 妥协"
+    },
+    {
+      "prefix": "komun",
+      "body": "共ᴋᴍ",
+      "detail": "komun to 共ᴋᴍ"
+    },
+    {
+      "prefix": "komunik",
+      "body": "通ᴋ",
+      "detail": "komunik to 通ᴋ"
+    },
+    {
+      "prefix": "kon",
+      "body": "识",
+      "detail": "kon to 识"
+    },
+    {
+      "prefix": "konced",
+      "body": "让ᴋ",
+      "detail": "konced to 让ᴋ"
+    },
+    {
+      "prefix": "koncentr",
+      "body": "集中",
+      "detail": "koncentr to 集中"
+    },
+    {
+      "prefix": "koncept",
+      "body": "概念",
+      "detail": "koncept to 概念"
+    },
+    {
+      "prefix": "koncern",
+      "body": "涉ᴋ",
+      "detail": "koncern to 涉ᴋ"
+    },
+    {
+      "prefix": "koncert",
+      "body": "音乐会",
+      "detail": "koncert to 音乐会"
+    },
+    {
+      "prefix": "koncesi",
+      "body": "特许",
+      "detail": "koncesi to 特许"
+    },
+    {
+      "prefix": "konciz",
+      "body": "简",
+      "detail": "konciz to 简"
+    },
+    {
+      "prefix": "kondicional",
+      "body": "条件式",
+      "detail": "kondicional to 条件式"
+    },
+    {
+      "prefix": "kondicx",
+      "body": "条件",
+      "detail": "kondicx to 条件"
+    },
+    {
+      "prefix": "kondolenc",
+      "body": "悼",
+      "detail": "kondolenc to 悼"
+    },
+    {
+      "prefix": "konduk",
+      "body": "导",
+      "detail": "konduk to 导"
+    },
+    {
+      "prefix": "konduktor",
+      "body": "导ᴋᴛ",
+      "detail": "konduktor to 导ᴋᴛ"
+    },
+    {
+      "prefix": "kondut",
+      "body": "行为",
+      "detail": "kondut to 行为"
+    },
+    {
+      "prefix": "konfederaci",
+      "body": "联盟",
+      "detail": "konfederaci to 联盟"
+    },
+    {
+      "prefix": "konfekci",
+      "body": "成衣",
+      "detail": "konfekci to 成衣"
+    },
+    {
+      "prefix": "konferenc",
+      "body": "会议",
+      "detail": "konferenc to 会议"
+    },
+    {
+      "prefix": "konfes",
+      "body": "供ᴋ",
+      "detail": "konfes to 供ᴋ"
+    },
+    {
+      "prefix": "konfid",
+      "body": "信赖",
+      "detail": "konfid to 信赖"
+    },
+    {
+      "prefix": "konfidenc",
+      "body": "机密",
+      "detail": "konfidenc to 机密"
+    },
+    {
+      "prefix": "konfirm",
+      "body": "确认",
+      "detail": "konfirm to 确认"
+    },
+    {
+      "prefix": "konflikt",
+      "body": "冲突",
+      "detail": "konflikt to 冲突"
+    },
+    {
+      "prefix": "konform",
+      "body": "符合",
+      "detail": "konform to 符合"
+    },
+    {
+      "prefix": "konfuz",
+      "body": "乱",
+      "detail": "konfuz to 乱"
+    },
+    {
+      "prefix": "kongres",
+      "body": "大会",
+      "detail": "kongres to 大会"
+    },
+    {
+      "prefix": "konjunkci",
+      "body": "连ᴋ",
+      "detail": "konjunkci to 连ᴋ"
+    },
+    {
+      "prefix": "konkav",
+      "body": "凹",
+      "detail": "konkav to 凹"
+    },
+    {
+      "prefix": "konker",
+      "body": "征",
+      "detail": "konker to 征"
+    },
+    {
+      "prefix": "konklud",
+      "body": "结ᴋ",
+      "detail": "konklud to 结ᴋ"
+    },
+    {
+      "prefix": "konkord",
+      "body": "和睦",
+      "detail": "konkord to 和睦"
+    },
+    {
+      "prefix": "konkret",
+      "body": "具体",
+      "detail": "konkret to 具体"
+    },
+    {
+      "prefix": "konkur",
+      "body": "竞",
+      "detail": "konkur to 竞"
+    },
+    {
+      "prefix": "konkurenc",
+      "body": "竞争",
+      "detail": "konkurenc to 竞争"
+    },
+    {
+      "prefix": "konkurs",
+      "body": "竞技",
+      "detail": "konkurs to 竞技"
+    },
+    {
+      "prefix": "konsci",
+      "body": "觉",
+      "detail": "konsci to 觉"
+    },
+    {
+      "prefix": "konscienc",
+      "body": "良心",
+      "detail": "konscienc to 良心"
+    },
+    {
+      "prefix": "konsekvenc",
+      "body": "后果",
+      "detail": "konsekvenc to 后果"
+    },
+    {
+      "prefix": "konsent",
+      "body": "同意",
+      "detail": "konsent to 同意"
+    },
+    {
+      "prefix": "konserv",
+      "body": "保",
+      "detail": "konserv to 保"
+    },
+    {
+      "prefix": "konservativ",
+      "body": "保守派",
+      "detail": "konservativ to 保守派"
+    },
+    {
+      "prefix": "konsider",
+      "body": "虑",
+      "detail": "konsider to 虑"
+    },
+    {
+      "prefix": "konsil",
+      "body": "劝ᴋ",
+      "detail": "konsil to 劝ᴋ"
+    },
+    {
+      "prefix": "konsist",
+      "body": "成ᴋ",
+      "detail": "konsist to 成ᴋ"
+    },
+    {
+      "prefix": "konsol",
+      "body": "安慰",
+      "detail": "konsol to 安慰"
+    },
+    {
+      "prefix": "konsonant",
+      "body": "辅音",
+      "detail": "konsonant to 辅音"
+    },
+    {
+      "prefix": "konstant",
+      "body": "恒定",
+      "detail": "konstant to 恒定"
+    },
+    {
+      "prefix": "konstat",
+      "body": "确",
+      "detail": "konstat to 确"
+    },
+    {
+      "prefix": "konstern",
+      "body": "惊ᴋ",
+      "detail": "konstern to 惊ᴋ"
+    },
+    {
+      "prefix": "konstru",
+      "body": "建ᴋ",
+      "detail": "konstru to 建ᴋ"
+    },
+    {
+      "prefix": "konsul",
+      "body": "领事",
+      "detail": "konsul to 领事"
+    },
+    {
+      "prefix": "konsult",
+      "body": "咨询",
+      "detail": "konsult to 咨询"
+    },
+    {
+      "prefix": "konsum",
+      "body": "耗",
+      "detail": "konsum to 耗"
+    },
+    {
+      "prefix": "kont",
+      "body": "账",
+      "detail": "kont to 账"
+    },
+    {
+      "prefix": "kontakt",
+      "body": "接触",
+      "detail": "kontakt to 接触"
+    },
+    {
+      "prefix": "kontant",
+      "body": "现金ᴋɴ",
+      "detail": "kontant to 现金ᴋɴ"
+    },
+    {
+      "prefix": "kontent",
+      "body": "满足",
+      "detail": "kontent to 满足"
+    },
+    {
+      "prefix": "kontest",
+      "body": "争议",
+      "detail": "kontest to 争议"
+    },
+    {
+      "prefix": "kontinent",
+      "body": "洲",
+      "detail": "kontinent to 洲"
+    },
+    {
+      "prefix": "kontinu",
+      "body": "继ᴋ",
+      "detail": "kontinu to 继ᴋ"
+    },
+    {
+      "prefix": "kontor",
+      "body": "办",
+      "detail": "kontor to 办"
+    },
+    {
+      "prefix": "kontrakt",
+      "body": "合同",
+      "detail": "kontrakt to 合同"
+    },
+    {
+      "prefix": "kontrast",
+      "body": "对比",
+      "detail": "kontrast to 对比"
+    },
+    {
+      "prefix": "kontraux",
+      "body": "对ᴋ",
+      "detail": "kontraux to 对ᴋ"
+    },
+    {
+      "prefix": "kontribu",
+      "body": "贡献",
+      "detail": "kontribu to 贡献"
+    },
+    {
+      "prefix": "kontribuci",
+      "body": "贡献ᴋᴄ",
+      "detail": "kontribuci to 贡献ᴋᴄ"
+    },
+    {
+      "prefix": "kontrol",
+      "body": "检查",
+      "detail": "kontrol to 检查"
+    },
+    {
+      "prefix": "kontuz",
+      "body": "挫伤",
+      "detail": "kontuz to 挫伤"
+    },
+    {
+      "prefix": "konven",
+      "body": "宜ᴋ",
+      "detail": "konven to 宜ᴋ"
+    },
+    {
+      "prefix": "konvenci",
+      "body": "公约",
+      "detail": "konvenci to 公约"
+    },
+    {
+      "prefix": "konversaci",
+      "body": "谈话",
+      "detail": "konversaci to 谈话"
+    },
+    {
+      "prefix": "konvert",
+      "body": "转化",
+      "detail": "konvert to 转化"
+    },
+    {
+      "prefix": "konvink",
+      "body": "说服",
+      "detail": "konvink to 说服"
+    },
+    {
+      "prefix": "kopi",
+      "body": "副本",
+      "detail": "kopi to 副本"
+    },
+    {
+      "prefix": "kor",
+      "body": "心",
+      "detail": "kor to 心"
+    },
+    {
+      "prefix": "korb",
+      "body": "篮",
+      "detail": "korb to 篮"
+    },
+    {
+      "prefix": "kord",
+      "body": "绳",
+      "detail": "kord to 绳"
+    },
+    {
+      "prefix": "korekt",
+      "body": "正",
+      "detail": "korekt to 正"
+    },
+    {
+      "prefix": "korelativ",
+      "body": "相关",
+      "detail": "korelativ to 相关"
+    },
+    {
+      "prefix": "korespond",
+      "body": "通信",
+      "detail": "korespond to 通信"
+    },
+    {
+      "prefix": "koridor",
+      "body": "廊ᴋ",
+      "detail": "koridor to 廊ᴋ"
+    },
+    {
+      "prefix": "korn",
+      "body": "角ᴋ",
+      "detail": "korn to 角ᴋ"
+    },
+    {
+      "prefix": "korp",
+      "body": "体",
+      "detail": "korp to 体"
+    },
+    {
+      "prefix": "korporaci",
+      "body": "企业",
+      "detail": "korporaci to 企业"
+    },
+    {
+      "prefix": "kort",
+      "body": "院",
+      "detail": "kort to 院"
+    },
+    {
+      "prefix": "korupt",
+      "body": "腐ᴋ",
+      "detail": "korupt to 腐ᴋ"
+    },
+    {
+      "prefix": "korus",
+      "body": "合唱ᴋ",
+      "detail": "korus to 合唱ᴋ"
+    },
+    {
+      "prefix": "korv",
+      "body": "鸦",
+      "detail": "korv to 鸦"
+    },
+    {
+      "prefix": "kosm",
+      "body": "宇宙",
+      "detail": "kosm to 宇宙"
+    },
+    {
+      "prefix": "kosmetik",
+      "body": "化妆",
+      "detail": "kosmetik to 化妆"
+    },
+    {
+      "prefix": "kost",
+      "body": "费",
+      "detail": "kost to 费"
+    },
+    {
+      "prefix": "kostum",
+      "body": "装ᴋ",
+      "detail": "kostum to 装ᴋ"
+    },
+    {
+      "prefix": "kot",
+      "body": "泥",
+      "detail": "kot to 泥"
+    },
+    {
+      "prefix": "kotiz",
+      "body": "费ᴋᴛ",
+      "detail": "kotiz to 费ᴋᴛ"
+    },
+    {
+      "prefix": "kotlet",
+      "body": "排",
+      "detail": "kotlet to 排"
+    },
+    {
+      "prefix": "koton",
+      "body": "棉",
+      "detail": "koton to 棉"
+    },
+    {
+      "prefix": "kovert",
+      "body": "信封",
+      "detail": "kovert to 信封"
+    },
+    {
+      "prefix": "kovr",
+      "body": "盖",
+      "detail": "kovr to 盖"
+    },
+    {
+      "prefix": "krab",
+      "body": "蟹",
+      "detail": "krab to 蟹"
+    },
+    {
+      "prefix": "krad",
+      "body": "格ᴋᴅ",
+      "detail": "krad to 格ᴋᴅ"
+    },
+    {
+      "prefix": "krajon",
+      "body": "铅笔",
+      "detail": "krajon to 铅笔"
+    },
+    {
+      "prefix": "krater",
+      "body": "火口",
+      "detail": "krater to 火口"
+    },
+    {
+      "prefix": "kravat",
+      "body": "领带",
+      "detail": "kravat to 领带"
+    },
+    {
+      "prefix": "kre",
+      "body": "创",
+      "detail": "kre to 创"
+    },
+    {
+      "prefix": "kred",
+      "body": "信",
+      "detail": "kred to 信"
+    },
+    {
+      "prefix": "kredit",
+      "body": "信贷",
+      "detail": "kredit to 信贷"
+    },
+    {
+      "prefix": "kreditor",
+      "body": "债主",
+      "detail": "kreditor to 债主"
+    },
+    {
+      "prefix": "krepusk",
+      "body": "暮",
+      "detail": "krepusk to 暮"
+    },
+    {
+      "prefix": "kresk",
+      "body": "生ᴋꜱ",
+      "detail": "kresk to 生ᴋꜱ"
+    },
+    {
+      "prefix": "kret",
+      "body": "粉笔",
+      "detail": "kret to 粉笔"
+    },
+    {
+      "prefix": "krev",
+      "body": "裂",
+      "detail": "krev to 裂"
+    },
+    {
+      "prefix": "kri",
+      "body": "喊",
+      "detail": "kri to 喊"
+    },
+    {
+      "prefix": "kribr",
+      "body": "筛",
+      "detail": "kribr to 筛"
+    },
+    {
+      "prefix": "krim",
+      "body": "犯",
+      "detail": "krim to 犯"
+    },
+    {
+      "prefix": "kriminal",
+      "body": "罪犯",
+      "detail": "kriminal to 罪犯"
+    },
+    {
+      "prefix": "krisp",
+      "body": "褶",
+      "detail": "krisp to 褶"
+    },
+    {
+      "prefix": "kristal",
+      "body": "晶",
+      "detail": "kristal to 晶"
+    },
+    {
+      "prefix": "kriteri",
+      "body": "标准",
+      "detail": "kriteri to 标准"
+    },
+    {
+      "prefix": "kritik",
+      "body": "批评",
+      "detail": "kritik to 批评"
+    },
+    {
+      "prefix": "kriz",
+      "body": "危机",
+      "detail": "kriz to 危机"
+    },
+    {
+      "prefix": "krizantem",
+      "body": "菊",
+      "detail": "krizantem to 菊"
+    },
+    {
+      "prefix": "krocx",
+      "body": "钩ᴋ",
+      "detail": "krocx to 钩ᴋ"
+    },
+    {
+      "prefix": "krokodil",
+      "body": "鳄ᴋ",
+      "detail": "krokodil to 鳄ᴋ"
+    },
+    {
+      "prefix": "krom",
+      "body": "除",
+      "detail": "krom to 除"
+    },
+    {
+      "prefix": "kroz",
+      "body": "巡航",
+      "detail": "kroz to 巡航"
+    },
+    {
+      "prefix": "kruc",
+      "body": "十字",
+      "detail": "kruc to 十字"
+    },
+    {
+      "prefix": "krucx",
+      "body": "水壶",
+      "detail": "krucx to 水壶"
+    },
+    {
+      "prefix": "krud",
+      "body": "生ᴋ",
+      "detail": "krud to 生ᴋ"
+    },
+    {
+      "prefix": "kruel",
+      "body": "残",
+      "detail": "kruel to 残"
+    },
+    {
+      "prefix": "krur",
+      "body": "腿",
+      "detail": "krur to 腿"
+    },
+    {
+      "prefix": "krust",
+      "body": "壳ᴋ",
+      "detail": "krust to 壳ᴋ"
+    },
+    {
+      "prefix": "krut",
+      "body": "陡",
+      "detail": "krut to 陡"
+    },
+    {
+      "prefix": "kub",
+      "body": "立方体",
+      "detail": "kub to 立方体"
+    },
+    {
+      "prefix": "kubut",
+      "body": "肘",
+      "detail": "kubut to 肘"
+    },
+    {
+      "prefix": "kudr",
+      "body": "缝",
+      "detail": "kudr to 缝"
+    },
+    {
+      "prefix": "kuir",
+      "body": "烹",
+      "detail": "kuir to 烹"
+    },
+    {
+      "prefix": "kuk",
+      "body": "糕",
+      "detail": "kuk to 糕"
+    },
+    {
+      "prefix": "kukum",
+      "body": "黄瓜",
+      "detail": "kukum to 黄瓜"
+    },
+    {
+      "prefix": "kukurb",
+      "body": "南瓜",
+      "detail": "kukurb to 南瓜"
+    },
+    {
+      "prefix": "kul",
+      "body": "小蚊",
+      "detail": "kul to 小蚊"
+    },
+    {
+      "prefix": "kuler",
+      "body": "匙",
+      "detail": "kuler to 匙"
+    },
+    {
+      "prefix": "kulis",
+      "body": "侧幕",
+      "detail": "kulis to 侧幕"
+    },
+    {
+      "prefix": "kulp",
+      "body": "过ᴋ",
+      "detail": "kulp to 过ᴋ"
+    },
+    {
+      "prefix": "kultur",
+      "body": "文化",
+      "detail": "kultur to 文化"
+    },
+    {
+      "prefix": "kun",
+      "body": "共",
+      "detail": "kun to 共"
+    },
+    {
+      "prefix": "kup",
+      "body": "杯ᴋ",
+      "detail": "kup to 杯ᴋ"
+    },
+    {
+      "prefix": "kupe",
+      "body": "厢",
+      "detail": "kupe to 厢"
+    },
+    {
+      "prefix": "kupol",
+      "body": "圆顶",
+      "detail": "kupol to 圆顶"
+    },
+    {
+      "prefix": "kupon",
+      "body": "券",
+      "detail": "kupon to 券"
+    },
+    {
+      "prefix": "kupr",
+      "body": "铜",
+      "detail": "kupr to 铜"
+    },
+    {
+      "prefix": "kur",
+      "body": "跑",
+      "detail": "kur to 跑"
+    },
+    {
+      "prefix": "kurac",
+      "body": "疗",
+      "detail": "kurac to 疗"
+    },
+    {
+      "prefix": "kuragx",
+      "body": "勇",
+      "detail": "kuragx to 勇"
+    },
+    {
+      "prefix": "kurator",
+      "body": "管理",
+      "detail": "kurator to 管理"
+    },
+    {
+      "prefix": "kurb",
+      "body": "弯",
+      "detail": "kurb to 弯"
+    },
+    {
+      "prefix": "kurent",
+      "body": "流ᴋ",
+      "detail": "kurent to 流ᴋ"
+    },
+    {
+      "prefix": "kurioz",
+      "body": "好奇",
+      "detail": "kurioz to 好奇"
+    },
+    {
+      "prefix": "kurs",
+      "body": "课程",
+      "detail": "kurs to 课程"
+    },
+    {
+      "prefix": "kurten",
+      "body": "帘",
+      "detail": "kurten to 帘"
+    },
+    {
+      "prefix": "kusen",
+      "body": "垫",
+      "detail": "kusen to 垫"
+    },
+    {
+      "prefix": "kusx",
+      "body": "躺",
+      "detail": "kusx to 躺"
+    },
+    {
+      "prefix": "kutim",
+      "body": "习ᴋ",
+      "detail": "kutim to 习ᴋ"
+    },
+    {
+      "prefix": "kuv",
+      "body": "盆",
+      "detail": "kuv to 盆"
+    },
+    {
+      "prefix": "kuz",
+      "body": "表亲",
+      "detail": "kuz to 表亲"
+    },
+    {
+      "prefix": "kvadrat",
+      "body": "正方形",
+      "detail": "kvadrat to 正方形"
+    },
+    {
+      "prefix": "kvalit",
+      "body": "质",
+      "detail": "kvalit to 质"
+    },
+    {
+      "prefix": "kvankam",
+      "body": "虽然",
+      "detail": "kvankam to 虽然"
+    },
+    {
+      "prefix": "kvant",
+      "body": "量ᴋ",
+      "detail": "kvant to 量ᴋ"
+    },
+    {
+      "prefix": "kvar",
+      "body": "四",
+      "detail": "kvar to 四"
+    },
+    {
+      "prefix": "kvart",
+      "body": "四分",
+      "detail": "kvart to 四分"
+    },
+    {
+      "prefix": "kvartal",
+      "body": "区",
+      "detail": "kvartal to 区"
+    },
+    {
+      "prefix": "kvazaux",
+      "body": "仿佛",
+      "detail": "kvazaux to 仿佛"
+    },
+    {
+      "prefix": "kverel",
+      "body": "争吵",
+      "detail": "kverel to 争吵"
+    },
+    {
+      "prefix": "kverk",
+      "body": "橡",
+      "detail": "kverk to 橡"
+    },
+    {
+      "prefix": "kvestor",
+      "body": "财官",
+      "detail": "kvestor to 财官"
+    },
+    {
+      "prefix": "kviet",
+      "body": "静",
+      "detail": "kviet to 静"
+    },
+    {
+      "prefix": "kvin",
+      "body": "五",
+      "detail": "kvin to 五"
+    },
+    {
+      "prefix": "kvit",
+      "body": "清账",
+      "detail": "kvit to 清账"
+    },
+    {
+      "prefix": "kvitanc",
+      "body": "收据",
+      "detail": "kvitanc to 收据"
+    }
+  ]
+}

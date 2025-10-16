@@ -1,0 +1,284 @@
+{
+  "items": [
+    {
+      "prefix": "ha",
+      "body": "啊",
+      "detail": "ha to 啊"
+    },
+    {
+      "prefix": "hajl",
+      "body": "雹",
+      "detail": "hajl to 雹"
+    },
+    {
+      "prefix": "hak",
+      "body": "砍",
+      "detail": "hak to 砍"
+    },
+    {
+      "prefix": "hal",
+      "body": "堂",
+      "detail": "hal to 堂"
+    },
+    {
+      "prefix": "halt",
+      "body": "停",
+      "detail": "halt to 停"
+    },
+    {
+      "prefix": "hangar",
+      "body": "库",
+      "detail": "hangar to 库"
+    },
+    {
+      "prefix": "har",
+      "body": "发",
+      "detail": "har to 发"
+    },
+    {
+      "prefix": "harmoni",
+      "body": "和谐",
+      "detail": "harmoni to 和谐"
+    },
+    {
+      "prefix": "hauxt",
+      "body": "皮",
+      "detail": "hauxt to 皮"
+    },
+    {
+      "prefix": "hav",
+      "body": "有",
+      "detail": "hav to 有"
+    },
+    {
+      "prefix": "haven",
+      "body": "港",
+      "detail": "haven to 港"
+    },
+    {
+      "prefix": "hazard",
+      "body": "偶然",
+      "detail": "hazard to 偶然"
+    },
+    {
+      "prefix": "he",
+      "body": "嘿",
+      "detail": "he to 嘿"
+    },
+    {
+      "prefix": "hegx",
+      "body": "篱",
+      "detail": "hegx to 篱"
+    },
+    {
+      "prefix": "hejm",
+      "body": "家ʜ",
+      "detail": "hejm to 家ʜ"
+    },
+    {
+      "prefix": "hejt",
+      "body": "暖",
+      "detail": "hejt to 暖"
+    },
+    {
+      "prefix": "hel",
+      "body": "明",
+      "detail": "hel to 明"
+    },
+    {
+      "prefix": "helik",
+      "body": "螺旋",
+      "detail": "helik to 螺旋"
+    },
+    {
+      "prefix": "help",
+      "body": "助",
+      "detail": "help to 助"
+    },
+    {
+      "prefix": "hepat",
+      "body": "肝",
+      "detail": "hepat to 肝"
+    },
+    {
+      "prefix": "herb",
+      "body": "草",
+      "detail": "herb to 草"
+    },
+    {
+      "prefix": "hered",
+      "body": "继",
+      "detail": "hered to 继"
+    },
+    {
+      "prefix": "hero",
+      "body": "英雄",
+      "detail": "hero to 英雄"
+    },
+    {
+      "prefix": "hetman",
+      "body": "统帅",
+      "detail": "hetman to 统帅"
+    },
+    {
+      "prefix": "hezit",
+      "body": "犹豫",
+      "detail": "hezit to 犹豫"
+    },
+    {
+      "prefix": "hidr",
+      "body": "水ʜ",
+      "detail": "hidr to 水ʜ"
+    },
+    {
+      "prefix": "hidrogen",
+      "body": "氢",
+      "detail": "hidrogen to 氢"
+    },
+    {
+      "prefix": "hierarki",
+      "body": "等级",
+      "detail": "hierarki to 等级"
+    },
+    {
+      "prefix": "hieraux",
+      "body": "昨日",
+      "detail": "hieraux to 昨日"
+    },
+    {
+      "prefix": "higien",
+      "body": "卫生",
+      "detail": "higien to 卫生"
+    },
+    {
+      "prefix": "hipnot",
+      "body": "催眠",
+      "detail": "hipnot to 催眠"
+    },
+    {
+      "prefix": "hipotek",
+      "body": "抵押",
+      "detail": "hipotek to 抵押"
+    },
+    {
+      "prefix": "hirund",
+      "body": "燕",
+      "detail": "hirund to 燕"
+    },
+    {
+      "prefix": "histori",
+      "body": "史",
+      "detail": "histori to 史"
+    },
+    {
+      "prefix": "ho",
+      "body": "哦",
+      "detail": "ho to 哦"
+    },
+    {
+      "prefix": "hodiaux",
+      "body": "今日",
+      "detail": "hodiaux to 今日"
+    },
+    {
+      "prefix": "hok",
+      "body": "钩",
+      "detail": "hok to 钩"
+    },
+    {
+      "prefix": "hom",
+      "body": "人ʜ",
+      "detail": "hom to 人ʜ"
+    },
+    {
+      "prefix": "honest",
+      "body": "正ʜ",
+      "detail": "honest to 正ʜ"
+    },
+    {
+      "prefix": "hont",
+      "body": "羞",
+      "detail": "hont to 羞"
+    },
+    {
+      "prefix": "hor",
+      "body": "钟点",
+      "detail": "hor to 钟点"
+    },
+    {
+      "prefix": "horde",
+      "body": "大麦",
+      "detail": "horde to 大麦"
+    },
+    {
+      "prefix": "horizont",
+      "body": "地平",
+      "detail": "horizont to 地平"
+    },
+    {
+      "prefix": "horizontal",
+      "body": "平ʜ",
+      "detail": "horizontal to 平ʜ"
+    },
+    {
+      "prefix": "horlogx",
+      "body": "钟",
+      "detail": "horlogx to 钟"
+    },
+    {
+      "prefix": "hospital",
+      "body": "医院",
+      "detail": "hospital to 医院"
+    },
+    {
+      "prefix": "hotel",
+      "body": "旅馆",
+      "detail": "hotel to 旅馆"
+    },
+    {
+      "prefix": "human",
+      "body": "人ʜɴ",
+      "detail": "human to 人ʜɴ"
+    },
+    {
+      "prefix": "humid",
+      "body": "湿",
+      "detail": "humid to 湿"
+    },
+    {
+      "prefix": "humil",
+      "body": "谦",
+      "detail": "humil to 谦"
+    },
+    {
+      "prefix": "humor",
+      "body": "趣",
+      "detail": "humor to 趣"
+    },
+    {
+      "prefix": "hund",
+      "body": "狗ʜ",
+      "detail": "hund to 狗ʜ"
+    },
+    {
+      "prefix": "hura",
+      "body": "欢呼",
+      "detail": "hura to 欢呼"
+    },
+    {
+      "prefix": "hxaos",
+      "body": "混沌",
+      "detail": "hxaos to 混沌"
+    },
+    {
+      "prefix": "hxemi",
+      "body": "化学",
+      "detail": "hxemi to 化学"
+    },
+    {
+      "prefix": "hxor",
+      "body": "合唱",
+      "detail": "hxor to 合唱"
+    }
+  ]
+}

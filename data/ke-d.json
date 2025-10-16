@@ -1,0 +1,639 @@
+{
+  "items": [
+    {
+      "prefix": "da",
+      "body": "份",
+      "detail": "da to 份"
+    },
+    {
+      "prefix": "daktil",
+      "body": "枣",
+      "detail": "daktil to 枣"
+    },
+    {
+      "prefix": "dam",
+      "body": "贵妇",
+      "detail": "dam to 贵妇"
+    },
+    {
+      "prefix": "danc",
+      "body": "舞",
+      "detail": "danc to 舞"
+    },
+    {
+      "prefix": "dangxer",
+      "body": "危",
+      "detail": "dangxer to 危"
+    },
+    {
+      "prefix": "dank",
+      "body": "谢",
+      "detail": "dank to 谢"
+    },
+    {
+      "prefix": "dat",
+      "body": "日期",
+      "detail": "dat to 日期"
+    },
+    {
+      "prefix": "dauxr",
+      "body": "久",
+      "detail": "dauxr to 久"
+    },
+    {
+      "prefix": "de",
+      "body": "从",
+      "detail": "de to 从"
+    },
+    {
+      "prefix": "debat",
+      "body": "辩论",
+      "detail": "debat to 辩论"
+    },
+    {
+      "prefix": "debet",
+      "body": "借方",
+      "detail": "debet to 借方"
+    },
+    {
+      "prefix": "dec",
+      "body": "宜",
+      "detail": "dec to 宜"
+    },
+    {
+      "prefix": "decembr",
+      "body": "十二月",
+      "detail": "decembr to 十二月"
+    },
+    {
+      "prefix": "decid",
+      "body": "决",
+      "detail": "decid to 决"
+    },
+    {
+      "prefix": "dedicx",
+      "body": "奉献",
+      "detail": "dedicx to 奉献"
+    },
+    {
+      "prefix": "dedukt",
+      "body": "推ᴅ",
+      "detail": "dedukt to 推ᴅ"
+    },
+    {
+      "prefix": "defend",
+      "body": "卫",
+      "detail": "defend to 卫"
+    },
+    {
+      "prefix": "deficit",
+      "body": "亏",
+      "detail": "deficit to 亏"
+    },
+    {
+      "prefix": "definitiv",
+      "body": "定ᴅ",
+      "detail": "definitiv to 定ᴅ"
+    },
+    {
+      "prefix": "degel",
+      "body": "融",
+      "detail": "degel to 融"
+    },
+    {
+      "prefix": "degener",
+      "body": "退化",
+      "detail": "degener to 退化"
+    },
+    {
+      "prefix": "dejxor",
+      "body": "值ᴅ",
+      "detail": "dejxor to 值ᴅ"
+    },
+    {
+      "prefix": "dek",
+      "body": "十",
+      "detail": "dek to 十"
+    },
+    {
+      "prefix": "dekan",
+      "body": "院长",
+      "detail": "dekan to 院长"
+    },
+    {
+      "prefix": "deklam",
+      "body": "朗诵",
+      "detail": "deklam to 朗诵"
+    },
+    {
+      "prefix": "deklar",
+      "body": "宣",
+      "detail": "deklar to 宣"
+    },
+    {
+      "prefix": "deklaraci",
+      "body": "声明",
+      "detail": "deklaraci to 声明"
+    },
+    {
+      "prefix": "dekliv",
+      "body": "坡",
+      "detail": "dekliv to 坡"
+    },
+    {
+      "prefix": "dekolt",
+      "body": "领口",
+      "detail": "dekolt to 领口"
+    },
+    {
+      "prefix": "dekoraci",
+      "body": "装饰",
+      "detail": "dekoraci to 装饰"
+    },
+    {
+      "prefix": "dekstr",
+      "body": "右",
+      "detail": "dekstr to 右"
+    },
+    {
+      "prefix": "deleg",
+      "body": "派遣",
+      "detail": "deleg to 派遣"
+    },
+    {
+      "prefix": "delegaci",
+      "body": "代团",
+      "detail": "delegaci to 代团"
+    },
+    {
+      "prefix": "delikat",
+      "body": "细",
+      "detail": "delikat to 细"
+    },
+    {
+      "prefix": "demand",
+      "body": "问",
+      "detail": "demand to 问"
+    },
+    {
+      "prefix": "demokrat",
+      "body": "民主家",
+      "detail": "demokrat to 民主家"
+    },
+    {
+      "prefix": "demokrati",
+      "body": "民主",
+      "detail": "demokrati to 民主"
+    },
+    {
+      "prefix": "demonstraci",
+      "body": "证ᴅ",
+      "detail": "demonstraci to 证ᴅ"
+    },
+    {
+      "prefix": "dens",
+      "body": "稠",
+      "detail": "dens to 稠"
+    },
+    {
+      "prefix": "dent",
+      "body": "齿",
+      "detail": "dent to 齿"
+    },
+    {
+      "prefix": "denunc",
+      "body": "举报",
+      "detail": "denunc to 举报"
+    },
+    {
+      "prefix": "departement",
+      "body": "部ᴅ",
+      "detail": "departement to 部ᴅ"
+    },
+    {
+      "prefix": "depon",
+      "body": "存",
+      "detail": "depon to 存"
+    },
+    {
+      "prefix": "deput",
+      "body": "议员",
+      "detail": "deput to 议员"
+    },
+    {
+      "prefix": "des",
+      "body": "越ᴅ",
+      "detail": "des to 越ᴅ"
+    },
+    {
+      "prefix": "desegn",
+      "body": "绘",
+      "detail": "desegn to 绘"
+    },
+    {
+      "prefix": "desert",
+      "body": "甜点",
+      "detail": "desert to 甜点"
+    },
+    {
+      "prefix": "destin",
+      "body": "命ᴅ",
+      "detail": "destin to 命ᴅ"
+    },
+    {
+      "prefix": "detal",
+      "body": "细节",
+      "detail": "detal to 细节"
+    },
+    {
+      "prefix": "determin",
+      "body": "决定",
+      "detail": "determin to 决定"
+    },
+    {
+      "prefix": "detru",
+      "body": "毁",
+      "detail": "detru to 毁"
+    },
+    {
+      "prefix": "dev",
+      "body": "务",
+      "detail": "dev to 务"
+    },
+    {
+      "prefix": "dezert",
+      "body": "荒地",
+      "detail": "dezert to 荒地"
+    },
+    {
+      "prefix": "dezir",
+      "body": "欲",
+      "detail": "dezir to 欲"
+    },
+    {
+      "prefix": "di",
+      "body": "神",
+      "detail": "di to 神"
+    },
+    {
+      "prefix": "diafan",
+      "body": "透",
+      "detail": "diafan to 透"
+    },
+    {
+      "prefix": "dialog",
+      "body": "对话",
+      "detail": "dialog to 对话"
+    },
+    {
+      "prefix": "diamant",
+      "body": "钻石",
+      "detail": "diamant to 钻石"
+    },
+    {
+      "prefix": "diametr",
+      "body": "直径",
+      "detail": "diametr to 直径"
+    },
+    {
+      "prefix": "diet",
+      "body": "食",
+      "detail": "diet to 食"
+    },
+    {
+      "prefix": "diferenc",
+      "body": "差",
+      "detail": "diferenc to 差"
+    },
+    {
+      "prefix": "difin",
+      "body": "定义",
+      "detail": "difin to 定义"
+    },
+    {
+      "prefix": "dig",
+      "body": "堤",
+      "detail": "dig to 堤"
+    },
+    {
+      "prefix": "digest",
+      "body": "消化",
+      "detail": "digest to 消化"
+    },
+    {
+      "prefix": "dign",
+      "body": "威",
+      "detail": "dign to 威"
+    },
+    {
+      "prefix": "dik",
+      "body": "厚",
+      "detail": "dik to 厚"
+    },
+    {
+      "prefix": "dikt",
+      "body": "口述",
+      "detail": "dikt to 口述"
+    },
+    {
+      "prefix": "diktator",
+      "body": "独裁者",
+      "detail": "diktator to 独裁者"
+    },
+    {
+      "prefix": "diligent",
+      "body": "勤",
+      "detail": "diligent to 勤"
+    },
+    {
+      "prefix": "diluv",
+      "body": "洪水",
+      "detail": "diluv to 洪水"
+    },
+    {
+      "prefix": "dimancx",
+      "body": "日曜",
+      "detail": "dimancx to 日曜"
+    },
+    {
+      "prefix": "dimensi",
+      "body": "尺寸",
+      "detail": "dimensi to 尺寸"
+    },
+    {
+      "prefix": "dinasti",
+      "body": "朝",
+      "detail": "dinasti to 朝"
+    },
+    {
+      "prefix": "diplom",
+      "body": "文凭",
+      "detail": "diplom to 文凭"
+    },
+    {
+      "prefix": "diplomat",
+      "body": "外交家",
+      "detail": "diplomat to 外交家"
+    },
+    {
+      "prefix": "diplomati",
+      "body": "外交",
+      "detail": "diplomati to 外交"
+    },
+    {
+      "prefix": "dir",
+      "body": "说",
+      "detail": "dir to 说"
+    },
+    {
+      "prefix": "direkt",
+      "body": "向ᴅ",
+      "detail": "direkt to 向ᴅ"
+    },
+    {
+      "prefix": "direktor",
+      "body": "长ᴅ",
+      "detail": "direktor to 长ᴅ"
+    },
+    {
+      "prefix": "dis",
+      "body": "散",
+      "detail": "dis to 散"
+    },
+    {
+      "prefix": "disciplin",
+      "body": "纪律",
+      "detail": "disciplin to 纪律"
+    },
+    {
+      "prefix": "discxipl",
+      "body": "弟子",
+      "detail": "discxipl to 弟子"
+    },
+    {
+      "prefix": "disk",
+      "body": "盘ᴅ",
+      "detail": "disk to 盘ᴅ"
+    },
+    {
+      "prefix": "diskret",
+      "body": "慎ᴅ",
+      "detail": "diskret to 慎ᴅ"
+    },
+    {
+      "prefix": "diskut",
+      "body": "讨论",
+      "detail": "diskut to 讨论"
+    },
+    {
+      "prefix": "dispon",
+      "body": "配",
+      "detail": "dispon to 配"
+    },
+    {
+      "prefix": "disput",
+      "body": "争论",
+      "detail": "disput to 争论"
+    },
+    {
+      "prefix": "distanc",
+      "body": "距",
+      "detail": "distanc to 距"
+    },
+    {
+      "prefix": "distil",
+      "body": "蒸馏",
+      "detail": "distil to 蒸馏"
+    },
+    {
+      "prefix": "disting",
+      "body": "辨",
+      "detail": "disting to 辨"
+    },
+    {
+      "prefix": "distr",
+      "body": "分心",
+      "detail": "distr to 分心"
+    },
+    {
+      "prefix": "distribu",
+      "body": "分配",
+      "detail": "distribu to 分配"
+    },
+    {
+      "prefix": "distrikt",
+      "body": "区ᴅ",
+      "detail": "distrikt to 区ᴅ"
+    },
+    {
+      "prefix": "divan",
+      "body": "卧椅",
+      "detail": "divan to 卧椅"
+    },
+    {
+      "prefix": "diven",
+      "body": "猜",
+      "detail": "diven to 猜"
+    },
+    {
+      "prefix": "divers",
+      "body": "多样",
+      "detail": "divers to 多样"
+    },
+    {
+      "prefix": "divid",
+      "body": "分ᴅ",
+      "detail": "divid to 分ᴅ"
+    },
+    {
+      "prefix": "do",
+      "body": "故",
+      "detail": "do to 故"
+    },
+    {
+      "prefix": "dog",
+      "body": "狗",
+      "detail": "dog to 狗"
+    },
+    {
+      "prefix": "dogan",
+      "body": "海关",
+      "detail": "dogan to 海关"
+    },
+    {
+      "prefix": "doktor",
+      "body": "博士",
+      "detail": "doktor to 博士"
+    },
+    {
+      "prefix": "dokument",
+      "body": "文件",
+      "detail": "dokument to 文件"
+    },
+    {
+      "prefix": "dolar",
+      "body": "元",
+      "detail": "dolar to 元"
+    },
+    {
+      "prefix": "dolcx",
+      "body": "甜",
+      "detail": "dolcx to 甜"
+    },
+    {
+      "prefix": "dolor",
+      "body": "痛",
+      "detail": "dolor to 痛"
+    },
+    {
+      "prefix": "dom",
+      "body": "房",
+      "detail": "dom to 房"
+    },
+    {
+      "prefix": "domagx",
+      "body": "惜",
+      "detail": "domagx to 惜"
+    },
+    {
+      "prefix": "don",
+      "body": "给",
+      "detail": "don to 给"
+    },
+    {
+      "prefix": "donac",
+      "body": "捐",
+      "detail": "donac to 捐"
+    },
+    {
+      "prefix": "dorlot",
+      "body": "宠",
+      "detail": "dorlot to 宠"
+    },
+    {
+      "prefix": "dorm",
+      "body": "睡",
+      "detail": "dorm to 睡"
+    },
+    {
+      "prefix": "dorn",
+      "body": "刺ᴅ",
+      "detail": "dorn to 刺ᴅ"
+    },
+    {
+      "prefix": "dors",
+      "body": "背",
+      "detail": "dors to 背"
+    },
+    {
+      "prefix": "drak",
+      "body": "龙",
+      "detail": "drak to 龙"
+    },
+    {
+      "prefix": "dram",
+      "body": "戏剧",
+      "detail": "dram to 戏剧"
+    },
+    {
+      "prefix": "drap",
+      "body": "布料",
+      "detail": "drap to 布料"
+    },
+    {
+      "prefix": "drat",
+      "body": "丝ᴅ",
+      "detail": "drat to 丝ᴅ"
+    },
+    {
+      "prefix": "dres",
+      "body": "训",
+      "detail": "dres to 训"
+    },
+    {
+      "prefix": "drink",
+      "body": "饮",
+      "detail": "drink to 饮"
+    },
+    {
+      "prefix": "drog",
+      "body": "药",
+      "detail": "drog to 药"
+    },
+    {
+      "prefix": "dron",
+      "body": "溺",
+      "detail": "dron to 溺"
+    },
+    {
+      "prefix": "du",
+      "body": "二",
+      "detail": "du to 二"
+    },
+    {
+      "prefix": "dual",
+      "body": "双ᴅ",
+      "detail": "dual to 双ᴅ"
+    },
+    {
+      "prefix": "dub",
+      "body": "疑",
+      "detail": "dub to 疑"
+    },
+    {
+      "prefix": "dum",
+      "body": "间",
+      "detail": "dum to 间"
+    },
+    {
+      "prefix": "dung",
+      "body": "雇",
+      "detail": "dung to 雇"
+    },
+    {
+      "prefix": "dusx",
+      "body": "淋浴",
+      "detail": "dusx to 淋浴"
+    }
+  ]
+}

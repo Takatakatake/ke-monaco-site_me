@@ -1,0 +1,369 @@
+{
+  "items": [
+    {
+      "prefix": "car",
+      "body": "皇",
+      "detail": "car to 皇"
+    },
+    {
+      "prefix": "ced",
+      "body": "让",
+      "detail": "ced to 让"
+    },
+    {
+      "prefix": "cel",
+      "body": "目",
+      "detail": "cel to 目"
+    },
+    {
+      "prefix": "cend",
+      "body": "分",
+      "detail": "cend to 分"
+    },
+    {
+      "prefix": "cent",
+      "body": "百",
+      "detail": "cent to 百"
+    },
+    {
+      "prefix": "centim",
+      "body": "分币",
+      "detail": "centim to 分币"
+    },
+    {
+      "prefix": "centimetr",
+      "body": "厘米",
+      "detail": "centimetr to 厘米"
+    },
+    {
+      "prefix": "centr",
+      "body": "央",
+      "detail": "centr to 央"
+    },
+    {
+      "prefix": "central",
+      "body": "中央",
+      "detail": "central to 中央"
+    },
+    {
+      "prefix": "centraliz",
+      "body": "聚",
+      "detail": "centraliz to 聚"
+    },
+    {
+      "prefix": "cep",
+      "body": "葱",
+      "detail": "cep to 葱"
+    },
+    {
+      "prefix": "cerb",
+      "body": "脑",
+      "detail": "cerb to 脑"
+    },
+    {
+      "prefix": "ceremoni",
+      "body": "仪式",
+      "detail": "ceremoni to 仪式"
+    },
+    {
+      "prefix": "cert",
+      "body": "确定",
+      "detail": "cert to 确定"
+    },
+    {
+      "prefix": "cerv",
+      "body": "鹿",
+      "detail": "cerv to 鹿"
+    },
+    {
+      "prefix": "ceter",
+      "body": "余ᴄ",
+      "detail": "ceter to 余ᴄ"
+    },
+    {
+      "prefix": "ci",
+      "body": "汝",
+      "detail": "ci to 汝"
+    },
+    {
+      "prefix": "cifer",
+      "body": "数字",
+      "detail": "cifer to 数字"
+    },
+    {
+      "prefix": "cikad",
+      "body": "蝉",
+      "detail": "cikad to 蝉"
+    },
+    {
+      "prefix": "cikl",
+      "body": "周期",
+      "detail": "cikl to 周期"
+    },
+    {
+      "prefix": "ciklon",
+      "body": "气旋",
+      "detail": "ciklon to 气旋"
+    },
+    {
+      "prefix": "cilindr",
+      "body": "圆柱",
+      "detail": "cilindr to 圆柱"
+    },
+    {
+      "prefix": "cindr",
+      "body": "灰ᴄ",
+      "detail": "cindr to 灰ᴄ"
+    },
+    {
+      "prefix": "cipres",
+      "body": "柏",
+      "detail": "cipres to 柏"
+    },
+    {
+      "prefix": "cirkel",
+      "body": "圆规",
+      "detail": "cirkel to 圆规"
+    },
+    {
+      "prefix": "cirkl",
+      "body": "圆ᴄ",
+      "detail": "cirkl to 圆ᴄ"
+    },
+    {
+      "prefix": "cirkonstanc",
+      "body": "况",
+      "detail": "cirkonstanc to 况"
+    },
+    {
+      "prefix": "cirkul",
+      "body": "循环",
+      "detail": "cirkul to 循环"
+    },
+    {
+      "prefix": "cirkuler",
+      "body": "通告",
+      "detail": "cirkuler to 通告"
+    },
+    {
+      "prefix": "cirkvit",
+      "body": "电路",
+      "detail": "cirkvit to 电路"
+    },
+    {
+      "prefix": "cit",
+      "body": "引",
+      "detail": "cit to 引"
+    },
+    {
+      "prefix": "civil",
+      "body": "民ᴄ",
+      "detail": "civil to 民ᴄ"
+    },
+    {
+      "prefix": "civilizaci",
+      "body": "文明",
+      "detail": "civilizaci to 文明"
+    },
+    {
+      "prefix": "civit",
+      "body": "城",
+      "detail": "civit to 城"
+    },
+    {
+      "prefix": "col",
+      "body": "寸",
+      "detail": "col to 寸"
+    },
+    {
+      "prefix": "cxagren",
+      "body": "懊",
+      "detail": "cxagren to 懊"
+    },
+    {
+      "prefix": "cxambr",
+      "body": "室",
+      "detail": "cxambr to 室"
+    },
+    {
+      "prefix": "cxap",
+      "body": "帽",
+      "detail": "cxap to 帽"
+    },
+    {
+      "prefix": "cxapel",
+      "body": "帽ᴄ̂ʟ",
+      "detail": "cxapel to 帽ᴄ̂ʟ"
+    },
+    {
+      "prefix": "cxapitr",
+      "body": "章",
+      "detail": "cxapitr to 章"
+    },
+    {
+      "prefix": "cxar",
+      "body": "因",
+      "detail": "cxar to 因"
+    },
+    {
+      "prefix": "cxarlatan",
+      "body": "骗商",
+      "detail": "cxarlatan to 骗商"
+    },
+    {
+      "prefix": "cxarm",
+      "body": "魅",
+      "detail": "cxarm to 魅"
+    },
+    {
+      "prefix": "cxarpent",
+      "body": "木工",
+      "detail": "cxarpent to 木工"
+    },
+    {
+      "prefix": "cxas",
+      "body": "猎",
+      "detail": "cxas to 猎"
+    },
+    {
+      "prefix": "cxast",
+      "body": "贞",
+      "detail": "cxast to 贞"
+    },
+    {
+      "prefix": "cxe",
+      "body": "在",
+      "detail": "cxe to 在"
+    },
+    {
+      "prefix": "cxef",
+      "body": "首",
+      "detail": "cxef to 首"
+    },
+    {
+      "prefix": "cxek",
+      "body": "支票",
+      "detail": "cxek to 支票"
+    },
+    {
+      "prefix": "cxel",
+      "body": "室ᴄ̂ʟ",
+      "detail": "cxel to 室ᴄ̂ʟ"
+    },
+    {
+      "prefix": "cxemiz",
+      "body": "衬衫",
+      "detail": "cxemiz to 衬衫"
+    },
+    {
+      "prefix": "cxen",
+      "body": "链",
+      "detail": "cxen to 链"
+    },
+    {
+      "prefix": "cxeriz",
+      "body": "樱",
+      "detail": "cxeriz to 樱"
+    },
+    {
+      "prefix": "cxerk",
+      "body": "棺",
+      "detail": "cxerk to 棺"
+    },
+    {
+      "prefix": "cxerp",
+      "body": "汲",
+      "detail": "cxerp to 汲"
+    },
+    {
+      "prefix": "cxes",
+      "body": "止",
+      "detail": "cxes to 止"
+    },
+    {
+      "prefix": "cxeval",
+      "body": "马",
+      "detail": "cxeval to 马"
+    },
+    {
+      "prefix": "cxia",
+      "body": "全a",
+      "detail": "cxia to 全a"
+    },
+    {
+      "prefix": "cxial",
+      "body": "全因",
+      "detail": "cxial to 全因"
+    },
+    {
+      "prefix": "cxiam",
+      "body": "全时",
+      "detail": "cxiam to 全时"
+    },
+    {
+      "prefix": "cxie",
+      "body": "全e",
+      "detail": "cxie to 全e"
+    },
+    {
+      "prefix": "cxiel",
+      "body": "天",
+      "detail": "cxiel to 天"
+    },
+    {
+      "prefix": "cxies",
+      "body": "全之",
+      "detail": "cxies to 全之"
+    },
+    {
+      "prefix": "cxif",
+      "body": "皱",
+      "detail": "cxif to 皱"
+    },
+    {
+      "prefix": "cxifr",
+      "body": "密码",
+      "detail": "cxifr to 密码"
+    },
+    {
+      "prefix": "cxikan",
+      "body": "欺",
+      "detail": "cxikan to 欺"
+    },
+    {
+      "prefix": "cxio",
+      "body": "全o",
+      "detail": "cxio to 全o"
+    },
+    {
+      "prefix": "cxiom",
+      "body": "全量",
+      "detail": "cxiom to 全量"
+    },
+    {
+      "prefix": "cxirkaux",
+      "body": "围",
+      "detail": "cxirkaux to 围"
+    },
+    {
+      "prefix": "cxiu",
+      "body": "全个",
+      "detail": "cxiu to 全个"
+    },
+    {
+      "prefix": "cxiz",
+      "body": "凿",
+      "detail": "cxiz to 凿"
+    },
+    {
+      "prefix": "cxokolad",
+      "body": "可可糖",
+      "detail": "cxokolad to 可可糖"
+    },
+    {
+      "prefix": "cxu",
+      "body": "吗",
+      "detail": "cxu to 吗"
+    }
+  ]
+}

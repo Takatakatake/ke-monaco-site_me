@@ -1,0 +1,364 @@
+{
+  "items": [
+    {
+      "prefix": "naci",
+      "body": "民族ɴ",
+      "detail": "naci to 民族ɴ"
+    },
+    {
+      "prefix": "nadl",
+      "body": "针",
+      "detail": "nadl to 针"
+    },
+    {
+      "prefix": "naft",
+      "body": "石油",
+      "detail": "naft to 石油"
+    },
+    {
+      "prefix": "nagx",
+      "body": "泳",
+      "detail": "nagx to 泳"
+    },
+    {
+      "prefix": "naiv",
+      "body": "天真",
+      "detail": "naiv to 天真"
+    },
+    {
+      "prefix": "najbar",
+      "body": "邻",
+      "detail": "najbar to 邻"
+    },
+    {
+      "prefix": "najl",
+      "body": "钉",
+      "detail": "najl to 钉"
+    },
+    {
+      "prefix": "nap",
+      "body": "萝卜ɴ",
+      "detail": "nap to 萝卜ɴ"
+    },
+    {
+      "prefix": "nask",
+      "body": "生",
+      "detail": "nask to 生"
+    },
+    {
+      "prefix": "natur",
+      "body": "自然",
+      "detail": "natur to 自然"
+    },
+    {
+      "prefix": "naux",
+      "body": "九",
+      "detail": "naux to 九"
+    },
+    {
+      "prefix": "nauxz",
+      "body": "恶心",
+      "detail": "nauxz to 恶心"
+    },
+    {
+      "prefix": "nav",
+      "body": "船ɴ",
+      "detail": "nav to 船ɴ"
+    },
+    {
+      "prefix": "navig",
+      "body": "航",
+      "detail": "navig to 航"
+    },
+    {
+      "prefix": "navigaci",
+      "body": "航行",
+      "detail": "navigaci to 航行"
+    },
+    {
+      "prefix": "naz",
+      "body": "鼻",
+      "detail": "naz to 鼻"
+    },
+    {
+      "prefix": "ne",
+      "body": "不",
+      "detail": "ne to 不"
+    },
+    {
+      "prefix": "nebul",
+      "body": "雾",
+      "detail": "nebul to 雾"
+    },
+    {
+      "prefix": "neces",
+      "body": "必ɴᴄ",
+      "detail": "neces to 必ɴᴄ"
+    },
+    {
+      "prefix": "negativ",
+      "body": "负",
+      "detail": "negativ to 负"
+    },
+    {
+      "prefix": "neglekt",
+      "body": "忽略",
+      "detail": "neglekt to 忽略"
+    },
+    {
+      "prefix": "negligx",
+      "body": "睡衣",
+      "detail": "negligx to 睡衣"
+    },
+    {
+      "prefix": "negoc",
+      "body": "买卖",
+      "detail": "negoc to 买卖"
+    },
+    {
+      "prefix": "negx",
+      "body": "雪",
+      "detail": "negx to 雪"
+    },
+    {
+      "prefix": "nek",
+      "body": "也不",
+      "detail": "nek to 也不"
+    },
+    {
+      "prefix": "nektar",
+      "body": "花蜜",
+      "detail": "nektar to 花蜜"
+    },
+    {
+      "prefix": "nenia",
+      "body": "无a",
+      "detail": "nenia to 无a"
+    },
+    {
+      "prefix": "nenial",
+      "body": "无因",
+      "detail": "nenial to 无因"
+    },
+    {
+      "prefix": "neniam",
+      "body": "无时",
+      "detail": "neniam to 无时"
+    },
+    {
+      "prefix": "neniel",
+      "body": "无样",
+      "detail": "neniel to 无样"
+    },
+    {
+      "prefix": "nenies",
+      "body": "无之",
+      "detail": "nenies to 无之"
+    },
+    {
+      "prefix": "nenio",
+      "body": "无o",
+      "detail": "nenio to 无o"
+    },
+    {
+      "prefix": "neniom",
+      "body": "无量",
+      "detail": "neniom to 无量"
+    },
+    {
+      "prefix": "neniu",
+      "body": "无个",
+      "detail": "neniu to 无个"
+    },
+    {
+      "prefix": "nep",
+      "body": "孙",
+      "detail": "nep to 孙"
+    },
+    {
+      "prefix": "nepr",
+      "body": "必",
+      "detail": "nepr to 必"
+    },
+    {
+      "prefix": "nerv",
+      "body": "神经",
+      "detail": "nerv to 神经"
+    },
+    {
+      "prefix": "nervoz",
+      "body": "紧张",
+      "detail": "nervoz to 紧张"
+    },
+    {
+      "prefix": "nest",
+      "body": "巢",
+      "detail": "nest to 巢"
+    },
+    {
+      "prefix": "net",
+      "body": "网ɴ",
+      "detail": "net to 网ɴ"
+    },
+    {
+      "prefix": "neuxtr",
+      "body": "中性",
+      "detail": "neuxtr to 中性"
+    },
+    {
+      "prefix": "neuxtral",
+      "body": "中立",
+      "detail": "neuxtral to 中立"
+    },
+    {
+      "prefix": "nev",
+      "body": "侄",
+      "detail": "nev to 侄"
+    },
+    {
+      "prefix": "ni",
+      "body": "我们",
+      "detail": "ni to 我们"
+    },
+    {
+      "prefix": "nigr",
+      "body": "黑",
+      "detail": "nigr to 黑"
+    },
+    {
+      "prefix": "nivel",
+      "body": "级ɴ",
+      "detail": "nivel to 级ɴ"
+    },
+    {
+      "prefix": "nobl",
+      "body": "贵",
+      "detail": "nobl to 贵"
+    },
+    {
+      "prefix": "nod",
+      "body": "结",
+      "detail": "nod to 结"
+    },
+    {
+      "prefix": "nokt",
+      "body": "夜",
+      "detail": "nokt to 夜"
+    },
+    {
+      "prefix": "nom",
+      "body": "名",
+      "detail": "nom to 名"
+    },
+    {
+      "prefix": "nombr",
+      "body": "数",
+      "detail": "nombr to 数"
+    },
+    {
+      "prefix": "nominal",
+      "body": "名义",
+      "detail": "nominal to 名义"
+    },
+    {
+      "prefix": "nominativ",
+      "body": "主格",
+      "detail": "nominativ to 主格"
+    },
+    {
+      "prefix": "nord",
+      "body": "北",
+      "detail": "nord to 北"
+    },
+    {
+      "prefix": "norm",
+      "body": "规范",
+      "detail": "norm to 规范"
+    },
+    {
+      "prefix": "normal",
+      "body": "正常",
+      "detail": "normal to 正常"
+    },
+    {
+      "prefix": "not",
+      "body": "注ɴ",
+      "detail": "not to 注ɴ"
+    },
+    {
+      "prefix": "notari",
+      "body": "公证",
+      "detail": "notari to 公证"
+    },
+    {
+      "prefix": "nov",
+      "body": "新",
+      "detail": "nov to 新"
+    },
+    {
+      "prefix": "novel",
+      "body": "短篇",
+      "detail": "novel to 短篇"
+    },
+    {
+      "prefix": "novembr",
+      "body": "十一月",
+      "detail": "novembr to 十一月"
+    },
+    {
+      "prefix": "nu",
+      "body": "呢",
+      "detail": "nu to 呢"
+    },
+    {
+      "prefix": "nuanc",
+      "body": "细差",
+      "detail": "nuanc to 细差"
+    },
+    {
+      "prefix": "nub",
+      "body": "云",
+      "detail": "nub to 云"
+    },
+    {
+      "prefix": "nud",
+      "body": "裸",
+      "detail": "nud to 裸"
+    },
+    {
+      "prefix": "nuk",
+      "body": "项",
+      "detail": "nuk to 项"
+    },
+    {
+      "prefix": "nuks",
+      "body": "坚果",
+      "detail": "nuks to 坚果"
+    },
+    {
+      "prefix": "nul",
+      "body": "零",
+      "detail": "nul to 零"
+    },
+    {
+      "prefix": "numer",
+      "body": "号",
+      "detail": "numer to 号"
+    },
+    {
+      "prefix": "nun",
+      "body": "今",
+      "detail": "nun to 今"
+    },
+    {
+      "prefix": "nur",
+      "body": "仅",
+      "detail": "nur to 仅"
+    },
+    {
+      "prefix": "nutr",
+      "body": "育ɴ",
+      "detail": "nutr to 育ɴ"
+    }
+  ]
+}

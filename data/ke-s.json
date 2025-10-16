@@ -1,0 +1,1449 @@
+{
+  "items": [
+    {
+      "prefix": "sabat",
+      "body": "安息",
+      "detail": "sabat to 安息"
+    },
+    {
+      "prefix": "sabl",
+      "body": "砂",
+      "detail": "sabl to 砂"
+    },
+    {
+      "prefix": "sagac",
+      "body": "敏",
+      "detail": "sagac to 敏"
+    },
+    {
+      "prefix": "sagx",
+      "body": "贤",
+      "detail": "sagx to 贤"
+    },
+    {
+      "prefix": "sak",
+      "body": "袋",
+      "detail": "sak to 袋"
+    },
+    {
+      "prefix": "sakr",
+      "body": "圣",
+      "detail": "sakr to 圣"
+    },
+    {
+      "prefix": "sal",
+      "body": "盐",
+      "detail": "sal to 盐"
+    },
+    {
+      "prefix": "salajr",
+      "body": "薪",
+      "detail": "salajr to 薪"
+    },
+    {
+      "prefix": "salat",
+      "body": "拌菜",
+      "detail": "salat to 拌菜"
+    },
+    {
+      "prefix": "sald",
+      "body": "余",
+      "detail": "sald to 余"
+    },
+    {
+      "prefix": "salik",
+      "body": "柳",
+      "detail": "salik to 柳"
+    },
+    {
+      "prefix": "saliv",
+      "body": "唾",
+      "detail": "saliv to 唾"
+    },
+    {
+      "prefix": "salon",
+      "body": "厅",
+      "detail": "salon to 厅"
+    },
+    {
+      "prefix": "salt",
+      "body": "跳",
+      "detail": "salt to 跳"
+    },
+    {
+      "prefix": "salut",
+      "body": "问候",
+      "detail": "salut to 问候"
+    },
+    {
+      "prefix": "sam",
+      "body": "同",
+      "detail": "sam to 同"
+    },
+    {
+      "prefix": "san",
+      "body": "健",
+      "detail": "san to 健"
+    },
+    {
+      "prefix": "sandal",
+      "body": "凉鞋",
+      "detail": "sandal to 凉鞋"
+    },
+    {
+      "prefix": "sandvicx",
+      "body": "夹饼",
+      "detail": "sandvicx to 夹饼"
+    },
+    {
+      "prefix": "sang",
+      "body": "血",
+      "detail": "sang to 血"
+    },
+    {
+      "prefix": "sankci",
+      "body": "批准",
+      "detail": "sankci to 批准"
+    },
+    {
+      "prefix": "sankt",
+      "body": "圣ꜱɴ",
+      "detail": "sankt to 圣ꜱɴ"
+    },
+    {
+      "prefix": "sap",
+      "body": "皂",
+      "detail": "sap to 皂"
+    },
+    {
+      "prefix": "sark",
+      "body": "锄",
+      "detail": "sark to 锄"
+    },
+    {
+      "prefix": "sarkasm",
+      "body": "讽",
+      "detail": "sarkasm to 讽"
+    },
+    {
+      "prefix": "sat",
+      "body": "饱",
+      "detail": "sat to 饱"
+    },
+    {
+      "prefix": "satan",
+      "body": "魔王",
+      "detail": "satan to 魔王"
+    },
+    {
+      "prefix": "saten",
+      "body": "缎",
+      "detail": "saten to 缎"
+    },
+    {
+      "prefix": "satir",
+      "body": "讽刺ꜱ",
+      "detail": "satir to 讽刺ꜱ"
+    },
+    {
+      "prefix": "satur",
+      "body": "饱和",
+      "detail": "satur to 饱和"
+    },
+    {
+      "prefix": "sauxc",
+      "body": "酱",
+      "detail": "sauxc to 酱"
+    },
+    {
+      "prefix": "sav",
+      "body": "救",
+      "detail": "sav to 救"
+    },
+    {
+      "prefix": "scen",
+      "body": "场",
+      "detail": "scen to 场"
+    },
+    {
+      "prefix": "sci",
+      "body": "知",
+      "detail": "sci to 知"
+    },
+    {
+      "prefix": "scienc",
+      "body": "科学",
+      "detail": "scienc to 科学"
+    },
+    {
+      "prefix": "se",
+      "body": "如",
+      "detail": "se to 如"
+    },
+    {
+      "prefix": "seb",
+      "body": "脂ꜱ",
+      "detail": "seb to 脂ꜱ"
+    },
+    {
+      "prefix": "sed",
+      "body": "但",
+      "detail": "sed to 但"
+    },
+    {
+      "prefix": "seg",
+      "body": "锯",
+      "detail": "seg to 锯"
+    },
+    {
+      "prefix": "segx",
+      "body": "椅",
+      "detail": "segx to 椅"
+    },
+    {
+      "prefix": "sek",
+      "body": "干",
+      "detail": "sek to 干"
+    },
+    {
+      "prefix": "sekc",
+      "body": "段ꜱ",
+      "detail": "sekc to 段ꜱ"
+    },
+    {
+      "prefix": "sekci",
+      "body": "段ꜱɪ",
+      "detail": "sekci to 段ꜱɪ"
+    },
+    {
+      "prefix": "sekret",
+      "body": "秘",
+      "detail": "sekret to 秘"
+    },
+    {
+      "prefix": "sekretari",
+      "body": "秘书",
+      "detail": "sekretari to 秘书"
+    },
+    {
+      "prefix": "seks",
+      "body": "性ꜱ",
+      "detail": "seks to 性ꜱ"
+    },
+    {
+      "prefix": "sektor",
+      "body": "部ꜱ",
+      "detail": "sektor to 部ꜱ"
+    },
+    {
+      "prefix": "sekund",
+      "body": "秒",
+      "detail": "sekund to 秒"
+    },
+    {
+      "prefix": "sekundant",
+      "body": "副",
+      "detail": "sekundant to 副"
+    },
+    {
+      "prefix": "sekur",
+      "body": "安",
+      "detail": "sekur to 安"
+    },
+    {
+      "prefix": "sekv",
+      "body": "随",
+      "detail": "sekv to 随"
+    },
+    {
+      "prefix": "sem",
+      "body": "种",
+      "detail": "sem to 种"
+    },
+    {
+      "prefix": "semafor",
+      "body": "信号ꜱᴍ",
+      "detail": "semafor to 信号ꜱᴍ"
+    },
+    {
+      "prefix": "semajn",
+      "body": "周",
+      "detail": "semajn to 周"
+    },
+    {
+      "prefix": "seminari",
+      "body": "研讨会",
+      "detail": "seminari to 研讨会"
+    },
+    {
+      "prefix": "sen",
+      "body": "无",
+      "detail": "sen to 无"
+    },
+    {
+      "prefix": "senat",
+      "body": "参院",
+      "detail": "senat to 参院"
+    },
+    {
+      "prefix": "senc",
+      "body": "意",
+      "detail": "senc to 意"
+    },
+    {
+      "prefix": "send",
+      "body": "送",
+      "detail": "send to 送"
+    },
+    {
+      "prefix": "sens",
+      "body": "感觉",
+      "detail": "sens to 感觉"
+    },
+    {
+      "prefix": "sent",
+      "body": "感",
+      "detail": "sent to 感"
+    },
+    {
+      "prefix": "sentenc",
+      "body": "句ꜱ",
+      "detail": "sentenc to 句ꜱ"
+    },
+    {
+      "prefix": "sep",
+      "body": "七",
+      "detail": "sep to 七"
+    },
+    {
+      "prefix": "septembr",
+      "body": "九月",
+      "detail": "septembr to 九月"
+    },
+    {
+      "prefix": "sercx",
+      "body": "寻",
+      "detail": "sercx to 寻"
+    },
+    {
+      "prefix": "seren",
+      "body": "晴朗",
+      "detail": "seren to 晴朗"
+    },
+    {
+      "prefix": "sergxent",
+      "body": "军曹",
+      "detail": "sergxent to 军曹"
+    },
+    {
+      "prefix": "seri",
+      "body": "系列",
+      "detail": "seri to 系列"
+    },
+    {
+      "prefix": "serioz",
+      "body": "严",
+      "detail": "serioz to 严"
+    },
+    {
+      "prefix": "serpent",
+      "body": "蛇",
+      "detail": "serpent to 蛇"
+    },
+    {
+      "prefix": "serv",
+      "body": "仕",
+      "detail": "serv to 仕"
+    },
+    {
+      "prefix": "servic",
+      "body": "餐具",
+      "detail": "servic to 餐具"
+    },
+    {
+      "prefix": "servut",
+      "body": "役",
+      "detail": "servut to 役"
+    },
+    {
+      "prefix": "ses",
+      "body": "六",
+      "detail": "ses to 六"
+    },
+    {
+      "prefix": "sever",
+      "body": "苛",
+      "detail": "sever to 苛"
+    },
+    {
+      "prefix": "sezon",
+      "body": "季",
+      "detail": "sezon to 季"
+    },
+    {
+      "prefix": "sfer",
+      "body": "球ꜱ",
+      "detail": "sfer to 球ꜱ"
+    },
+    {
+      "prefix": "si",
+      "body": "自己",
+      "detail": "si to 自己"
+    },
+    {
+      "prefix": "sid",
+      "body": "坐",
+      "detail": "sid to 坐"
+    },
+    {
+      "prefix": "sigel",
+      "body": "印ꜱ",
+      "detail": "sigel to 印ꜱ"
+    },
+    {
+      "prefix": "sign",
+      "body": "符",
+      "detail": "sign to 符"
+    },
+    {
+      "prefix": "signal",
+      "body": "信号",
+      "detail": "signal to 信号"
+    },
+    {
+      "prefix": "signif",
+      "body": "意味",
+      "detail": "signif to 意味"
+    },
+    {
+      "prefix": "silab",
+      "body": "音节",
+      "detail": "silab to 音节"
+    },
+    {
+      "prefix": "silent",
+      "body": "静ꜱ",
+      "detail": "silent to 静ꜱ"
+    },
+    {
+      "prefix": "silk",
+      "body": "丝",
+      "detail": "silk to 丝"
+    },
+    {
+      "prefix": "simbol",
+      "body": "象征",
+      "detail": "simbol to 象征"
+    },
+    {
+      "prefix": "simi",
+      "body": "猴",
+      "detail": "simi to 猴"
+    },
+    {
+      "prefix": "simil",
+      "body": "似ꜱ",
+      "detail": "simil to 似ꜱ"
+    },
+    {
+      "prefix": "simpati",
+      "body": "同情ꜱ",
+      "detail": "simpati to 同情ꜱ"
+    },
+    {
+      "prefix": "simpl",
+      "body": "单",
+      "detail": "simpl to 单"
+    },
+    {
+      "prefix": "simptom",
+      "body": "症",
+      "detail": "simptom to 症"
+    },
+    {
+      "prefix": "sin",
+      "body": "自",
+      "detail": "sin to 自"
+    },
+    {
+      "prefix": "sincer",
+      "body": "诚",
+      "detail": "sincer to 诚"
+    },
+    {
+      "prefix": "sindikat",
+      "body": "工会",
+      "detail": "sindikat to 工会"
+    },
+    {
+      "prefix": "singular",
+      "body": "单数",
+      "detail": "singular to 单数"
+    },
+    {
+      "prefix": "sinjor",
+      "body": "先生",
+      "detail": "sinjor to 先生"
+    },
+    {
+      "prefix": "sintez",
+      "body": "综",
+      "detail": "sintez to 综"
+    },
+    {
+      "prefix": "sirop",
+      "body": "糖浆",
+      "detail": "sirop to 糖浆"
+    },
+    {
+      "prefix": "sistem",
+      "body": "系统",
+      "detail": "sistem to 系统"
+    },
+    {
+      "prefix": "sitel",
+      "body": "水桶",
+      "detail": "sitel to 水桶"
+    },
+    {
+      "prefix": "situ",
+      "body": "位",
+      "detail": "situ to 位"
+    },
+    {
+      "prefix": "situaci",
+      "body": "境ꜱ",
+      "detail": "situaci to 境ꜱ"
+    },
+    {
+      "prefix": "skal",
+      "body": "刻度",
+      "detail": "skal to 刻度"
+    },
+    {
+      "prefix": "skarlat",
+      "body": "绯",
+      "detail": "skarlat to 绯"
+    },
+    {
+      "prefix": "skarp",
+      "body": "围巾",
+      "detail": "skarp to 围巾"
+    },
+    {
+      "prefix": "skatol",
+      "body": "盒",
+      "detail": "skatol to 盒"
+    },
+    {
+      "prefix": "skelet",
+      "body": "骨架",
+      "detail": "skelet to 骨架"
+    },
+    {
+      "prefix": "skem",
+      "body": "图式",
+      "detail": "skem to 图式"
+    },
+    {
+      "prefix": "skeptik",
+      "body": "怀疑ꜱᴋ",
+      "detail": "skeptik to 怀疑ꜱᴋ"
+    },
+    {
+      "prefix": "skism",
+      "body": "分裂",
+      "detail": "skism to 分裂"
+    },
+    {
+      "prefix": "skiz",
+      "body": "草图",
+      "detail": "skiz to 草图"
+    },
+    {
+      "prefix": "sklav",
+      "body": "奴隶",
+      "detail": "sklav to 奴隶"
+    },
+    {
+      "prefix": "skol",
+      "body": "校",
+      "detail": "skol to 校"
+    },
+    {
+      "prefix": "skrap",
+      "body": "刮",
+      "detail": "skrap to 刮"
+    },
+    {
+      "prefix": "skrib",
+      "body": "写",
+      "detail": "skrib to 写"
+    },
+    {
+      "prefix": "skrupul",
+      "body": "谨慎",
+      "detail": "skrupul to 谨慎"
+    },
+    {
+      "prefix": "sku",
+      "body": "摇",
+      "detail": "sku to 摇"
+    },
+    {
+      "prefix": "skulpt",
+      "body": "雕",
+      "detail": "skulpt to 雕"
+    },
+    {
+      "prefix": "sobr",
+      "body": "醒ꜱ",
+      "detail": "sobr to 醒ꜱ"
+    },
+    {
+      "prefix": "soci",
+      "body": "社会",
+      "detail": "soci to 社会"
+    },
+    {
+      "prefix": "social",
+      "body": "社会ꜱʟ",
+      "detail": "social to 社会ꜱʟ"
+    },
+    {
+      "prefix": "societ",
+      "body": "会社",
+      "detail": "societ to 会社"
+    },
+    {
+      "prefix": "sof",
+      "body": "沙发",
+      "detail": "sof to 沙发"
+    },
+    {
+      "prefix": "soif",
+      "body": "渴",
+      "detail": "soif to 渴"
+    },
+    {
+      "prefix": "sokl",
+      "body": "基座",
+      "detail": "sokl to 基座"
+    },
+    {
+      "prefix": "sol",
+      "body": "独",
+      "detail": "sol to 独"
+    },
+    {
+      "prefix": "sold",
+      "body": "饷",
+      "detail": "sold to 饷"
+    },
+    {
+      "prefix": "soldat",
+      "body": "兵",
+      "detail": "soldat to 兵"
+    },
+    {
+      "prefix": "solen",
+      "body": "庄重",
+      "detail": "solen to 庄重"
+    },
+    {
+      "prefix": "solid",
+      "body": "固",
+      "detail": "solid to 固"
+    },
+    {
+      "prefix": "solidar",
+      "body": "团结",
+      "detail": "solidar to 团结"
+    },
+    {
+      "prefix": "solv",
+      "body": "解",
+      "detail": "solv to 解"
+    },
+    {
+      "prefix": "solvent",
+      "body": "付能",
+      "detail": "solvent to 付能"
+    },
+    {
+      "prefix": "somer",
+      "body": "夏",
+      "detail": "somer to 夏"
+    },
+    {
+      "prefix": "son",
+      "body": "音",
+      "detail": "son to 音"
+    },
+    {
+      "prefix": "sond",
+      "body": "探",
+      "detail": "sond to 探"
+    },
+    {
+      "prefix": "songx",
+      "body": "梦",
+      "detail": "songx to 梦"
+    },
+    {
+      "prefix": "sonor",
+      "body": "响亮",
+      "detail": "sonor to 响亮"
+    },
+    {
+      "prefix": "sopir",
+      "body": "慕",
+      "detail": "sopir to 慕"
+    },
+    {
+      "prefix": "sopran",
+      "body": "高音",
+      "detail": "sopran to 高音"
+    },
+    {
+      "prefix": "sorb",
+      "body": "摄",
+      "detail": "sorb to 摄"
+    },
+    {
+      "prefix": "sorcx",
+      "body": "巫",
+      "detail": "sorcx to 巫"
+    },
+    {
+      "prefix": "sort",
+      "body": "命",
+      "detail": "sort to 命"
+    },
+    {
+      "prefix": "sortiment",
+      "body": "品种",
+      "detail": "sortiment to 品种"
+    },
+    {
+      "prefix": "sovagx",
+      "body": "野",
+      "detail": "sovagx to 野"
+    },
+    {
+      "prefix": "spac",
+      "body": "空间",
+      "detail": "spac to 空间"
+    },
+    {
+      "prefix": "spec",
+      "body": "种ꜱᴘ",
+      "detail": "spec to 种ꜱᴘ"
+    },
+    {
+      "prefix": "special",
+      "body": "特",
+      "detail": "special to 特"
+    },
+    {
+      "prefix": "specimen",
+      "body": "样本",
+      "detail": "specimen to 样本"
+    },
+    {
+      "prefix": "spegul",
+      "body": "镜",
+      "detail": "spegul to 镜"
+    },
+    {
+      "prefix": "spektakl",
+      "body": "演出",
+      "detail": "spektakl to 演出"
+    },
+    {
+      "prefix": "spert",
+      "body": "熟练",
+      "detail": "spert to 熟练"
+    },
+    {
+      "prefix": "spez",
+      "body": "花ꜱ",
+      "detail": "spez to 花ꜱ"
+    },
+    {
+      "prefix": "spic",
+      "body": "辛",
+      "detail": "spic to 辛"
+    },
+    {
+      "prefix": "spin",
+      "body": "脊",
+      "detail": "spin to 脊"
+    },
+    {
+      "prefix": "spinac",
+      "body": "菠菜",
+      "detail": "spinac to 菠菜"
+    },
+    {
+      "prefix": "spir",
+      "body": "呼",
+      "detail": "spir to 呼"
+    },
+    {
+      "prefix": "spirit",
+      "body": "精神",
+      "detail": "spirit to 精神"
+    },
+    {
+      "prefix": "spit",
+      "body": "虽",
+      "detail": "spit to 虽"
+    },
+    {
+      "prefix": "split",
+      "body": "劈",
+      "detail": "split to 劈"
+    },
+    {
+      "prefix": "spontane",
+      "body": "自发",
+      "detail": "spontane to 自发"
+    },
+    {
+      "prefix": "sport",
+      "body": "体育",
+      "detail": "sport to 体育"
+    },
+    {
+      "prefix": "sprit",
+      "body": "慧",
+      "detail": "sprit to 慧"
+    },
+    {
+      "prefix": "spur",
+      "body": "迹",
+      "detail": "spur to 迹"
+    },
+    {
+      "prefix": "sput",
+      "body": "吐",
+      "detail": "sput to 吐"
+    },
+    {
+      "prefix": "stab",
+      "body": "参谋",
+      "detail": "stab to 参谋"
+    },
+    {
+      "prefix": "stabl",
+      "body": "架",
+      "detail": "stabl to 架"
+    },
+    {
+      "prefix": "staci",
+      "body": "站ꜱᴄ",
+      "detail": "staci to 站ꜱᴄ"
+    },
+    {
+      "prefix": "stadi",
+      "body": "段ꜱᴛ",
+      "detail": "stadi to 段ꜱᴛ"
+    },
+    {
+      "prefix": "stadion",
+      "body": "场ꜱᴛ",
+      "detail": "stadion to 场ꜱᴛ"
+    },
+    {
+      "prefix": "stamp",
+      "body": "戳",
+      "detail": "stamp to 戳"
+    },
+    {
+      "prefix": "stan",
+      "body": "锡",
+      "detail": "stan to 锡"
+    },
+    {
+      "prefix": "star",
+      "body": "站",
+      "detail": "star to 站"
+    },
+    {
+      "prefix": "start",
+      "body": "开始",
+      "detail": "start to 开始"
+    },
+    {
+      "prefix": "stat",
+      "body": "态",
+      "detail": "stat to 态"
+    },
+    {
+      "prefix": "statistik",
+      "body": "统计",
+      "detail": "statistik to 统计"
+    },
+    {
+      "prefix": "statur",
+      "body": "身高",
+      "detail": "statur to 身高"
+    },
+    {
+      "prefix": "stel",
+      "body": "星",
+      "detail": "stel to 星"
+    },
+    {
+      "prefix": "step",
+      "body": "草原",
+      "detail": "step to 草原"
+    },
+    {
+      "prefix": "sterk",
+      "body": "肥",
+      "detail": "sterk to 肥"
+    },
+    {
+      "prefix": "stern",
+      "body": "铺",
+      "detail": "stern to 铺"
+    },
+    {
+      "prefix": "stil",
+      "body": "文体",
+      "detail": "stil to 文体"
+    },
+    {
+      "prefix": "stimul",
+      "body": "刺激",
+      "detail": "stimul to 刺激"
+    },
+    {
+      "prefix": "stip",
+      "body": "薪ꜱᴛ",
+      "detail": "stip to 薪ꜱᴛ"
+    },
+    {
+      "prefix": "stomak",
+      "body": "胃",
+      "detail": "stomak to 胃"
+    },
+    {
+      "prefix": "strang",
+      "body": "怪",
+      "detail": "strang to 怪"
+    },
+    {
+      "prefix": "strat",
+      "body": "街",
+      "detail": "strat to 街"
+    },
+    {
+      "prefix": "strategi",
+      "body": "战略",
+      "detail": "strategi to 战略"
+    },
+    {
+      "prefix": "streb",
+      "body": "勉",
+      "detail": "streb to 勉"
+    },
+    {
+      "prefix": "strecx",
+      "body": "伸",
+      "detail": "strecx to 伸"
+    },
+    {
+      "prefix": "strek",
+      "body": "划ꜱ",
+      "detail": "strek to 划ꜱ"
+    },
+    {
+      "prefix": "strigl",
+      "body": "刷ꜱ",
+      "detail": "strigl to 刷ꜱ"
+    },
+    {
+      "prefix": "strik",
+      "body": "罢工",
+      "detail": "strik to 罢工"
+    },
+    {
+      "prefix": "struktur",
+      "body": "构",
+      "detail": "struktur to 构"
+    },
+    {
+      "prefix": "stud",
+      "body": "习",
+      "detail": "stud to 习"
+    },
+    {
+      "prefix": "student",
+      "body": "生ꜱ",
+      "detail": "student to 生ꜱ"
+    },
+    {
+      "prefix": "stult",
+      "body": "愚",
+      "detail": "stult to 愚"
+    },
+    {
+      "prefix": "sub",
+      "body": "下",
+      "detail": "sub to 下"
+    },
+    {
+      "prefix": "subit",
+      "body": "突然",
+      "detail": "subit to 突然"
+    },
+    {
+      "prefix": "subjekt",
+      "body": "题ꜱ",
+      "detail": "subjekt to 题ꜱ"
+    },
+    {
+      "prefix": "subjektiv",
+      "body": "主观",
+      "detail": "subjektiv to 主观"
+    },
+    {
+      "prefix": "substanc",
+      "body": "质ꜱ",
+      "detail": "substanc to 质ꜱ"
+    },
+    {
+      "prefix": "substantiv",
+      "body": "名词",
+      "detail": "substantiv to 名词"
+    },
+    {
+      "prefix": "subtil",
+      "body": "微",
+      "detail": "subtil to 微"
+    },
+    {
+      "prefix": "subtrah",
+      "body": "减ꜱ",
+      "detail": "subtrah to 减ꜱ"
+    },
+    {
+      "prefix": "subvenci",
+      "body": "补助",
+      "detail": "subvenci to 补助"
+    },
+    {
+      "prefix": "sucx",
+      "body": "吸",
+      "detail": "sucx to 吸"
+    },
+    {
+      "prefix": "sud",
+      "body": "南",
+      "detail": "sud to 南"
+    },
+    {
+      "prefix": "sufer",
+      "body": "苦ꜱ",
+      "detail": "sufer to 苦ꜱ"
+    },
+    {
+      "prefix": "suficx",
+      "body": "足",
+      "detail": "suficx to 足"
+    },
+    {
+      "prefix": "suflor",
+      "body": "提词",
+      "detail": "suflor to 提词"
+    },
+    {
+      "prefix": "sufok",
+      "body": "窒",
+      "detail": "sufok to 窒"
+    },
+    {
+      "prefix": "sugesti",
+      "body": "启",
+      "detail": "sugesti to 启"
+    },
+    {
+      "prefix": "suk",
+      "body": "汁",
+      "detail": "suk to 汁"
+    },
+    {
+      "prefix": "sukces",
+      "body": "成功",
+      "detail": "sukces to 成功"
+    },
+    {
+      "prefix": "suker",
+      "body": "糖",
+      "detail": "suker to 糖"
+    },
+    {
+      "prefix": "sulfur",
+      "body": "硫",
+      "detail": "sulfur to 硫"
+    },
+    {
+      "prefix": "sulk",
+      "body": "沟",
+      "detail": "sulk to 沟"
+    },
+    {
+      "prefix": "sultan",
+      "body": "君王",
+      "detail": "sultan to 君王"
+    },
+    {
+      "prefix": "sum",
+      "body": "总",
+      "detail": "sum to 总"
+    },
+    {
+      "prefix": "sun",
+      "body": "日",
+      "detail": "sun to 日"
+    },
+    {
+      "prefix": "sup",
+      "body": "汤",
+      "detail": "sup to 汤"
+    },
+    {
+      "prefix": "super",
+      "body": "上ꜱᴘ",
+      "detail": "super to 上ꜱᴘ"
+    },
+    {
+      "prefix": "supersticx",
+      "body": "迷信",
+      "detail": "supersticx to 迷信"
+    },
+    {
+      "prefix": "suplement",
+      "body": "补ꜱ",
+      "detail": "suplement to 补ꜱ"
+    },
+    {
+      "prefix": "supoz",
+      "body": "假定",
+      "detail": "supoz to 假定"
+    },
+    {
+      "prefix": "supr",
+      "body": "顶",
+      "detail": "supr to 顶"
+    },
+    {
+      "prefix": "sur",
+      "body": "上",
+      "detail": "sur to 上"
+    },
+    {
+      "prefix": "surd",
+      "body": "聋",
+      "detail": "surd to 聋"
+    },
+    {
+      "prefix": "surfac",
+      "body": "面ꜱ",
+      "detail": "surfac to 面ꜱ"
+    },
+    {
+      "prefix": "surpriz",
+      "body": "惊奇",
+      "detail": "surpriz to 惊奇"
+    },
+    {
+      "prefix": "surtut",
+      "body": "外衣",
+      "detail": "surtut to 外衣"
+    },
+    {
+      "prefix": "suspekt",
+      "body": "怀疑",
+      "detail": "suspekt to 怀疑"
+    },
+    {
+      "prefix": "susur",
+      "body": "私语",
+      "detail": "susur to 私语"
+    },
+    {
+      "prefix": "svarm",
+      "body": "群ꜱ",
+      "detail": "svarm to 群ꜱ"
+    },
+    {
+      "prefix": "svat",
+      "body": "求婚",
+      "detail": "svat to 求婚"
+    },
+    {
+      "prefix": "sving",
+      "body": "荡",
+      "detail": "sving to 荡"
+    },
+    {
+      "prefix": "sxaf",
+      "body": "羊",
+      "detail": "sxaf to 羊"
+    },
+    {
+      "prefix": "sxajn",
+      "body": "似",
+      "detail": "sxajn to 似"
+    },
+    {
+      "prefix": "sxak",
+      "body": "棋",
+      "detail": "sxak to 棋"
+    },
+    {
+      "prefix": "sxal",
+      "body": "披肩",
+      "detail": "sxal to 披肩"
+    },
+    {
+      "prefix": "sxam",
+      "body": "泡ꜱ̂ᴍ",
+      "detail": "sxam to 泡ꜱ̂ᴍ"
+    },
+    {
+      "prefix": "sxanc",
+      "body": "机会",
+      "detail": "sxanc to 机会"
+    },
+    {
+      "prefix": "sxancel",
+      "body": "摇晃",
+      "detail": "sxancel to 摇晃"
+    },
+    {
+      "prefix": "sxangx",
+      "body": "变",
+      "detail": "sxangx to 变"
+    },
+    {
+      "prefix": "sxarg",
+      "body": "载",
+      "detail": "sxarg to 载"
+    },
+    {
+      "prefix": "sxargx",
+      "body": "载ꜱ̂ɢ̑",
+      "detail": "sxargx to 载ꜱ̂ɢ̑"
+    },
+    {
+      "prefix": "sxat",
+      "body": "喜ꜱ̂",
+      "detail": "sxat to 喜ꜱ̂"
+    },
+    {
+      "prefix": "sxauxm",
+      "body": "泡",
+      "detail": "sxauxm to 泡"
+    },
+    {
+      "prefix": "sxel",
+      "body": "壳",
+      "detail": "sxel to 壳"
+    },
+    {
+      "prefix": "sxelk",
+      "body": "吊带",
+      "detail": "sxelk to 吊带"
+    },
+    {
+      "prefix": "sxerc",
+      "body": "笑话",
+      "detail": "sxerc to 笑话"
+    },
+    {
+      "prefix": "sxi",
+      "body": "她",
+      "detail": "sxi to 她"
+    },
+    {
+      "prefix": "sxim",
+      "body": "霉",
+      "detail": "sxim to 霉"
+    },
+    {
+      "prefix": "sxind",
+      "body": "木瓦",
+      "detail": "sxind to 木瓦"
+    },
+    {
+      "prefix": "sxink",
+      "body": "火腿",
+      "detail": "sxink to 火腿"
+    },
+    {
+      "prefix": "sxip",
+      "body": "船",
+      "detail": "sxip to 船"
+    },
+    {
+      "prefix": "sxir",
+      "body": "撕",
+      "detail": "sxir to 撕"
+    },
+    {
+      "prefix": "sxirm",
+      "body": "护",
+      "detail": "sxirm to 护"
+    },
+    {
+      "prefix": "sxlos",
+      "body": "锁",
+      "detail": "sxlos to 锁"
+    },
+    {
+      "prefix": "sxmir",
+      "body": "涂",
+      "detail": "sxmir to 涂"
+    },
+    {
+      "prefix": "sxnur",
+      "body": "索",
+      "detail": "sxnur to 索"
+    },
+    {
+      "prefix": "sxofor",
+      "body": "司机",
+      "detail": "sxofor to 司机"
+    },
+    {
+      "prefix": "sxose",
+      "body": "公路",
+      "detail": "sxose to 公路"
+    },
+    {
+      "prefix": "sxov",
+      "body": "挤",
+      "detail": "sxov to 挤"
+    },
+    {
+      "prefix": "sxovel",
+      "body": "铲ꜱ̂ᴠ",
+      "detail": "sxovel to 铲ꜱ̂ᴠ"
+    },
+    {
+      "prefix": "sxpar",
+      "body": "省",
+      "detail": "sxpar to 省"
+    },
+    {
+      "prefix": "sxpat",
+      "body": "铲",
+      "detail": "sxpat to 铲"
+    },
+    {
+      "prefix": "sxpin",
+      "body": "纺",
+      "detail": "sxpin to 纺"
+    },
+    {
+      "prefix": "sxpruc",
+      "body": "喷",
+      "detail": "sxpruc to 喷"
+    },
+    {
+      "prefix": "sxrank",
+      "body": "柜",
+      "detail": "sxrank to 柜"
+    },
+    {
+      "prefix": "sxrump",
+      "body": "缩",
+      "detail": "sxrump to 缩"
+    },
+    {
+      "prefix": "sxtal",
+      "body": "钢",
+      "detail": "sxtal to 钢"
+    },
+    {
+      "prefix": "sxtat",
+      "body": "邦",
+      "detail": "sxtat to 邦"
+    },
+    {
+      "prefix": "sxtel",
+      "body": "偷",
+      "detail": "sxtel to 偷"
+    },
+    {
+      "prefix": "sxtip",
+      "body": "木块",
+      "detail": "sxtip to 木块"
+    },
+    {
+      "prefix": "sxtof",
+      "body": "料",
+      "detail": "sxtof to 料"
+    },
+    {
+      "prefix": "sxton",
+      "body": "石",
+      "detail": "sxton to 石"
+    },
+    {
+      "prefix": "sxtop",
+      "body": "塞",
+      "detail": "sxtop to 塞"
+    },
+    {
+      "prefix": "sxtrump",
+      "body": "袜",
+      "detail": "sxtrump to 袜"
+    },
+    {
+      "prefix": "sxtup",
+      "body": "阶",
+      "detail": "sxtup to 阶"
+    },
+    {
+      "prefix": "sxu",
+      "body": "鞋",
+      "detail": "sxu to 鞋"
+    },
+    {
+      "prefix": "sxuld",
+      "body": "债",
+      "detail": "sxuld to 债"
+    },
+    {
+      "prefix": "sxultr",
+      "body": "肩",
+      "detail": "sxultr to 肩"
+    },
+    {
+      "prefix": "sxut",
+      "body": "倒",
+      "detail": "sxut to 倒"
+    },
+    {
+      "prefix": "sxveb",
+      "body": "浮",
+      "detail": "sxveb to 浮"
+    },
+    {
+      "prefix": "sxvel",
+      "body": "肿",
+      "detail": "sxvel to 肿"
+    },
+    {
+      "prefix": "sxvit",
+      "body": "汗",
+      "detail": "sxvit to 汗"
+    }
+  ]
+}

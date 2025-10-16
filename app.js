@@ -59,6 +59,7 @@ require(['vs/editor/editor.main'], function () {
           label: (s.label || (s.prefix + ' → ' + s.body)),
           kind: monaco.languages.CompletionItemKind.Snippet,
           insertText: s.body,
+          insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
           range: new monaco.Range(position.lineNumber, leftIdx + 2, position.lineNumber, col0 + 1),
           detail: s.detail || '',
           documentation: s.documentation || undefined,
@@ -95,4 +96,3 @@ require(['vs/editor/editor.main'], function () {
     }
   });
 });
-

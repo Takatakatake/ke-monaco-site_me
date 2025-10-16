@@ -1,0 +1,379 @@
+{
+  "items": [
+    {
+      "prefix": "gaj",
+      "body": "快",
+      "detail": "gaj to 快"
+    },
+    {
+      "prefix": "gajn",
+      "body": "赢",
+      "detail": "gajn to 赢"
+    },
+    {
+      "prefix": "galeri",
+      "body": "廊",
+      "detail": "galeri to 廊"
+    },
+    {
+      "prefix": "gam",
+      "body": "音阶",
+      "detail": "gam to 音阶"
+    },
+    {
+      "prefix": "gant",
+      "body": "手套",
+      "detail": "gant to 手套"
+    },
+    {
+      "prefix": "garagx",
+      "body": "车库",
+      "detail": "garagx to 车库"
+    },
+    {
+      "prefix": "garanti",
+      "body": "担保",
+      "detail": "garanti to 担保"
+    },
+    {
+      "prefix": "gard",
+      "body": "守",
+      "detail": "gard to 守"
+    },
+    {
+      "prefix": "gargar",
+      "body": "漱",
+      "detail": "gargar to 漱"
+    },
+    {
+      "prefix": "garn",
+      "body": "饰",
+      "detail": "garn to 饰"
+    },
+    {
+      "prefix": "gas",
+      "body": "气体",
+      "detail": "gas to 气体"
+    },
+    {
+      "prefix": "gast",
+      "body": "客",
+      "detail": "gast to 客"
+    },
+    {
+      "prefix": "gaz",
+      "body": "气ɢ",
+      "detail": "gaz to 气ɢ"
+    },
+    {
+      "prefix": "gazet",
+      "body": "报",
+      "detail": "gazet to 报"
+    },
+    {
+      "prefix": "ge",
+      "body": "双",
+      "detail": "ge to 双"
+    },
+    {
+      "prefix": "gelaten",
+      "body": "胶ɢᴛ",
+      "detail": "gelaten to 胶ɢᴛ"
+    },
+    {
+      "prefix": "gem",
+      "body": "玉",
+      "detail": "gem to 玉"
+    },
+    {
+      "prefix": "generaci",
+      "body": "代ɢ",
+      "detail": "generaci to 代ɢ"
+    },
+    {
+      "prefix": "general",
+      "body": "将",
+      "detail": "general to 将"
+    },
+    {
+      "prefix": "geni",
+      "body": "天才",
+      "detail": "geni to 天才"
+    },
+    {
+      "prefix": "gent",
+      "body": "民族",
+      "detail": "gent to 民族"
+    },
+    {
+      "prefix": "genu",
+      "body": "膝",
+      "detail": "genu to 膝"
+    },
+    {
+      "prefix": "geografi",
+      "body": "地理学",
+      "detail": "geografi to 地理学"
+    },
+    {
+      "prefix": "geologi",
+      "body": "地质学",
+      "detail": "geologi to 地质学"
+    },
+    {
+      "prefix": "geometri",
+      "body": "几何学",
+      "detail": "geometri to 几何学"
+    },
+    {
+      "prefix": "gest",
+      "body": "手势",
+      "detail": "gest to 手势"
+    },
+    {
+      "prefix": "gigant",
+      "body": "巨人",
+      "detail": "gigant to 巨人"
+    },
+    {
+      "prefix": "gimnazi",
+      "body": "高中",
+      "detail": "gimnazi to 高中"
+    },
+    {
+      "prefix": "gitar",
+      "body": "弦琴",
+      "detail": "gitar to 弦琴"
+    },
+    {
+      "prefix": "glaci",
+      "body": "冰",
+      "detail": "glaci to 冰"
+    },
+    {
+      "prefix": "glas",
+      "body": "玻璃",
+      "detail": "glas to 玻璃"
+    },
+    {
+      "prefix": "glat",
+      "body": "滑",
+      "detail": "glat to 滑"
+    },
+    {
+      "prefix": "glit",
+      "body": "滑ɢɪ",
+      "detail": "glit to 滑ɢɪ"
+    },
+    {
+      "prefix": "glob",
+      "body": "球体",
+      "detail": "glob to 球体"
+    },
+    {
+      "prefix": "glu",
+      "body": "胶",
+      "detail": "glu to 胶"
+    },
+    {
+      "prefix": "glut",
+      "body": "吞",
+      "detail": "glut to 吞"
+    },
+    {
+      "prefix": "golf",
+      "body": "湾",
+      "detail": "golf to 湾"
+    },
+    {
+      "prefix": "gorgx",
+      "body": "嗓",
+      "detail": "gorgx to 嗓"
+    },
+    {
+      "prefix": "graci",
+      "body": "雅",
+      "detail": "graci to 雅"
+    },
+    {
+      "prefix": "grad",
+      "body": "度",
+      "detail": "grad to 度"
+    },
+    {
+      "prefix": "grajn",
+      "body": "粒ɢ",
+      "detail": "grajn to 粒ɢ"
+    },
+    {
+      "prefix": "gram",
+      "body": "克",
+      "detail": "gram to 克"
+    },
+    {
+      "prefix": "gramatik",
+      "body": "文法",
+      "detail": "gramatik to 文法"
+    },
+    {
+      "prefix": "granat",
+      "body": "石榴",
+      "detail": "granat to 石榴"
+    },
+    {
+      "prefix": "grand",
+      "body": "大",
+      "detail": "grand to 大"
+    },
+    {
+      "prefix": "grandioz",
+      "body": "宏",
+      "detail": "grandioz to 宏"
+    },
+    {
+      "prefix": "gras",
+      "body": "脂",
+      "detail": "gras to 脂"
+    },
+    {
+      "prefix": "grat",
+      "body": "抓",
+      "detail": "grat to 抓"
+    },
+    {
+      "prefix": "gratul",
+      "body": "贺",
+      "detail": "gratul to 贺"
+    },
+    {
+      "prefix": "grav",
+      "body": "重ɢ",
+      "detail": "grav to 重ɢ"
+    },
+    {
+      "prefix": "graved",
+      "body": "孕",
+      "detail": "graved to 孕"
+    },
+    {
+      "prefix": "gravur",
+      "body": "刻",
+      "detail": "gravur to 刻"
+    },
+    {
+      "prefix": "gren",
+      "body": "谷ɢ",
+      "detail": "gren to 谷ɢ"
+    },
+    {
+      "prefix": "grimp",
+      "body": "攀",
+      "detail": "grimp to 攀"
+    },
+    {
+      "prefix": "griz",
+      "body": "灰",
+      "detail": "griz to 灰"
+    },
+    {
+      "prefix": "grot",
+      "body": "洞ɢ",
+      "detail": "grot to 洞ɢ"
+    },
+    {
+      "prefix": "gru",
+      "body": "鹤",
+      "detail": "gru to 鹤"
+    },
+    {
+      "prefix": "grund",
+      "body": "地ɢ",
+      "detail": "grund to 地ɢ"
+    },
+    {
+      "prefix": "grup",
+      "body": "组",
+      "detail": "grup to 组"
+    },
+    {
+      "prefix": "guberni",
+      "body": "省ɢ",
+      "detail": "guberni to 省ɢ"
+    },
+    {
+      "prefix": "gust",
+      "body": "味",
+      "detail": "gust to 味"
+    },
+    {
+      "prefix": "gut",
+      "body": "滴",
+      "detail": "gut to 滴"
+    },
+    {
+      "prefix": "guvern",
+      "body": "治理",
+      "detail": "guvern to 治理"
+    },
+    {
+      "prefix": "gvid",
+      "body": "引ɢ",
+      "detail": "gvid to 引ɢ"
+    },
+    {
+      "prefix": "gxarden",
+      "body": "园ɢ̑",
+      "detail": "gxarden to 园ɢ̑"
+    },
+    {
+      "prefix": "gxemel",
+      "body": "双ɢ̑",
+      "detail": "gxemel to 双ɢ̑"
+    },
+    {
+      "prefix": "gxen",
+      "body": "碍",
+      "detail": "gxen to 碍"
+    },
+    {
+      "prefix": "gxeneral",
+      "body": "一般",
+      "detail": "gxeneral to 一般"
+    },
+    {
+      "prefix": "gxentil",
+      "body": "礼",
+      "detail": "gxentil to 礼"
+    },
+    {
+      "prefix": "gxerm",
+      "body": "芽",
+      "detail": "gxerm to 芽"
+    },
+    {
+      "prefix": "gxi",
+      "body": "它",
+      "detail": "gxi to 它"
+    },
+    {
+      "prefix": "gxis",
+      "body": "至",
+      "detail": "gxis to 至"
+    },
+    {
+      "prefix": "gxoj",
+      "body": "喜",
+      "detail": "gxoj to 喜"
+    },
+    {
+      "prefix": "gxu",
+      "body": "享",
+      "detail": "gxu to 享"
+    },
+    {
+      "prefix": "gxust",
+      "body": "正ɢ̑",
+      "detail": "gxust to 正ɢ̑"
+    }
+  ]
+}

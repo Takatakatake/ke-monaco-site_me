@@ -1,6 +1,624 @@
 {
   "items": [
-    { "prefix": "bon", "body": "好", "detail": "bon → 好" }
+    {
+      "prefix": "babil",
+      "body": "聊",
+      "detail": "babil to 聊"
+    },
+    {
+      "prefix": "bagatel",
+      "body": "小事",
+      "detail": "bagatel to 小事"
+    },
+    {
+      "prefix": "bak",
+      "body": "烤",
+      "detail": "bak to 烤"
+    },
+    {
+      "prefix": "bal",
+      "body": "舞会",
+      "detail": "bal to 舞会"
+    },
+    {
+      "prefix": "bala",
+      "body": "扫",
+      "detail": "bala to 扫"
+    },
+    {
+      "prefix": "balanc",
+      "body": "平衡",
+      "detail": "balanc to 平衡"
+    },
+    {
+      "prefix": "baldaux",
+      "body": "即将",
+      "detail": "baldaux to 即将"
+    },
+    {
+      "prefix": "balet",
+      "body": "舞剧",
+      "detail": "balet to 舞剧"
+    },
+    {
+      "prefix": "balkon",
+      "body": "阳台",
+      "detail": "balkon to 阳台"
+    },
+    {
+      "prefix": "balon",
+      "body": "气球",
+      "detail": "balon to 气球"
+    },
+    {
+      "prefix": "balot",
+      "body": "投票",
+      "detail": "balot to 投票"
+    },
+    {
+      "prefix": "bambu",
+      "body": "竹",
+      "detail": "bambu to 竹"
+    },
+    {
+      "prefix": "ban",
+      "body": "浴",
+      "detail": "ban to 浴"
+    },
+    {
+      "prefix": "banal",
+      "body": "平庸",
+      "detail": "banal to 平庸"
+    },
+    {
+      "prefix": "banan",
+      "body": "香蕉",
+      "detail": "banan to 香蕉"
+    },
+    {
+      "prefix": "bandit",
+      "body": "匪",
+      "detail": "bandit to 匪"
+    },
+    {
+      "prefix": "bank",
+      "body": "银行",
+      "detail": "bank to 银行"
+    },
+    {
+      "prefix": "bankier",
+      "body": "银行家",
+      "detail": "bankier to 银行家"
+    },
+    {
+      "prefix": "bant",
+      "body": "带ʙᴛ",
+      "detail": "bant to 带ʙᴛ"
+    },
+    {
+      "prefix": "bar",
+      "body": "栏",
+      "detail": "bar to 栏"
+    },
+    {
+      "prefix": "barakt",
+      "body": "挣",
+      "detail": "barakt to 挣"
+    },
+    {
+      "prefix": "barb",
+      "body": "须ʙ",
+      "detail": "barb to 须ʙ"
+    },
+    {
+      "prefix": "barbar",
+      "body": "蛮",
+      "detail": "barbar to 蛮"
+    },
+    {
+      "prefix": "barbir",
+      "body": "理发师",
+      "detail": "barbir to 理发师"
+    },
+    {
+      "prefix": "barel",
+      "body": "桶",
+      "detail": "barel to 桶"
+    },
+    {
+      "prefix": "barier",
+      "body": "栏ʙʀ",
+      "detail": "barier to 栏ʙʀ"
+    },
+    {
+      "prefix": "bark",
+      "body": "舟",
+      "detail": "bark to 舟"
+    },
+    {
+      "prefix": "bas",
+      "body": "低音",
+      "detail": "bas to 低音"
+    },
+    {
+      "prefix": "basen",
+      "body": "池",
+      "detail": "basen to 池"
+    },
+    {
+      "prefix": "baston",
+      "body": "棒",
+      "detail": "baston to 棒"
+    },
+    {
+      "prefix": "bat",
+      "body": "打",
+      "detail": "bat to 打"
+    },
+    {
+      "prefix": "batal",
+      "body": "战斗",
+      "detail": "batal to 战斗"
+    },
+    {
+      "prefix": "bateri",
+      "body": "电池",
+      "detail": "bateri to 电池"
+    },
+    {
+      "prefix": "baz",
+      "body": "基",
+      "detail": "baz to 基"
+    },
+    {
+      "prefix": "bazar",
+      "body": "市场",
+      "detail": "bazar to 市场"
+    },
+    {
+      "prefix": "beb",
+      "body": "婴",
+      "detail": "beb to 婴"
+    },
+    {
+      "prefix": "bedauxr",
+      "body": "憾",
+      "detail": "bedauxr to 憾"
+    },
+    {
+      "prefix": "bek",
+      "body": "喙",
+      "detail": "bek to 喙"
+    },
+    {
+      "prefix": "bel",
+      "body": "美",
+      "detail": "bel to 美"
+    },
+    {
+      "prefix": "ben",
+      "body": "祝",
+      "detail": "ben to 祝"
+    },
+    {
+      "prefix": "bend",
+      "body": "带ʙ",
+      "detail": "bend to 带ʙ"
+    },
+    {
+      "prefix": "benk",
+      "body": "长凳",
+      "detail": "benk to 长凳"
+    },
+    {
+      "prefix": "benzin",
+      "body": "汽油",
+      "detail": "benzin to 汽油"
+    },
+    {
+      "prefix": "ber",
+      "body": "莓",
+      "detail": "ber to 莓"
+    },
+    {
+      "prefix": "best",
+      "body": "兽",
+      "detail": "best to 兽"
+    },
+    {
+      "prefix": "bezon",
+      "body": "需",
+      "detail": "bezon to 需"
+    },
+    {
+      "prefix": "bibliotek",
+      "body": "书馆",
+      "detail": "bibliotek to 书馆"
+    },
+    {
+      "prefix": "bicikl",
+      "body": "自行车",
+      "detail": "bicikl to 自行车"
+    },
+    {
+      "prefix": "bier",
+      "body": "麦酒",
+      "detail": "bier to 麦酒"
+    },
+    {
+      "prefix": "bifstek",
+      "body": "牛排",
+      "detail": "bifstek to 牛排"
+    },
+    {
+      "prefix": "bilanc",
+      "body": "衡",
+      "detail": "bilanc to 衡"
+    },
+    {
+      "prefix": "bild",
+      "body": "画",
+      "detail": "bild to 画"
+    },
+    {
+      "prefix": "bilet",
+      "body": "票",
+      "detail": "bilet to 票"
+    },
+    {
+      "prefix": "bind",
+      "body": "束",
+      "detail": "bind to 束"
+    },
+    {
+      "prefix": "binokl",
+      "body": "双镜",
+      "detail": "binokl to 双镜"
+    },
+    {
+      "prefix": "biografi",
+      "body": "传记",
+      "detail": "biografi to 传记"
+    },
+    {
+      "prefix": "biolog",
+      "body": "生物学家",
+      "detail": "biolog to 生物学家"
+    },
+    {
+      "prefix": "biologi",
+      "body": "生物学",
+      "detail": "biologi to 生物学"
+    },
+    {
+      "prefix": "bird",
+      "body": "鸟",
+      "detail": "bird to 鸟"
+    },
+    {
+      "prefix": "biret",
+      "body": "圆帽",
+      "detail": "biret to 圆帽"
+    },
+    {
+      "prefix": "bis",
+      "body": "再ʙ",
+      "detail": "bis to 再ʙ"
+    },
+    {
+      "prefix": "biskvit",
+      "body": "饼干",
+      "detail": "biskvit to 饼干"
+    },
+    {
+      "prefix": "bivak",
+      "body": "营",
+      "detail": "bivak to 营"
+    },
+    {
+      "prefix": "blank",
+      "body": "白",
+      "detail": "blank to 白"
+    },
+    {
+      "prefix": "blek",
+      "body": "叫",
+      "detail": "blek to 叫"
+    },
+    {
+      "prefix": "blind",
+      "body": "盲",
+      "detail": "blind to 盲"
+    },
+    {
+      "prefix": "blok",
+      "body": "块",
+      "detail": "blok to 块"
+    },
+    {
+      "prefix": "blond",
+      "body": "金发",
+      "detail": "blond to 金发"
+    },
+    {
+      "prefix": "blov",
+      "body": "吹",
+      "detail": "blov to 吹"
+    },
+    {
+      "prefix": "blu",
+      "body": "蓝",
+      "detail": "blu to 蓝"
+    },
+    {
+      "prefix": "bluz",
+      "body": "衬衣",
+      "detail": "bluz to 衬衣"
+    },
+    {
+      "prefix": "bo",
+      "body": "姻",
+      "detail": "bo to 姻"
+    },
+    {
+      "prefix": "boat",
+      "body": "艇",
+      "detail": "boat to 艇"
+    },
+    {
+      "prefix": "boj",
+      "body": "吠",
+      "detail": "boj to 吠"
+    },
+    {
+      "prefix": "bojkot",
+      "body": "抵制",
+      "detail": "bojkot to 抵制"
+    },
+    {
+      "prefix": "boks",
+      "body": "拳击",
+      "detail": "boks to 拳击"
+    },
+    {
+      "prefix": "bol",
+      "body": "沸",
+      "detail": "bol to 沸"
+    },
+    {
+      "prefix": "bomb",
+      "body": "炸弹",
+      "detail": "bomb to 炸弹"
+    },
+    {
+      "prefix": "bombard",
+      "body": "轰",
+      "detail": "bombard to 轰"
+    },
+    {
+      "prefix": "bombon",
+      "body": "糖果",
+      "detail": "bombon to 糖果"
+    },
+    {
+      "prefix": "bon",
+      "body": "好",
+      "detail": "bon to 好"
+    },
+    {
+      "prefix": "bor",
+      "body": "钻",
+      "detail": "bor to 钻"
+    },
+    {
+      "prefix": "bord",
+      "body": "岸",
+      "detail": "bord to 岸"
+    },
+    {
+      "prefix": "border",
+      "body": "边",
+      "detail": "border to 边"
+    },
+    {
+      "prefix": "bors",
+      "body": "股市",
+      "detail": "bors to 股市"
+    },
+    {
+      "prefix": "bosk",
+      "body": "林",
+      "detail": "bosk to 林"
+    },
+    {
+      "prefix": "bot",
+      "body": "靴",
+      "detail": "bot to 靴"
+    },
+    {
+      "prefix": "botanik",
+      "body": "植物学",
+      "detail": "botanik to 植物学"
+    },
+    {
+      "prefix": "botel",
+      "body": "瓶",
+      "detail": "botel to 瓶"
+    },
+    {
+      "prefix": "bov",
+      "body": "牛",
+      "detail": "bov to 牛"
+    },
+    {
+      "prefix": "bovl",
+      "body": "碗",
+      "detail": "bovl to 碗"
+    },
+    {
+      "prefix": "brak",
+      "body": "臂",
+      "detail": "brak to 臂"
+    },
+    {
+      "prefix": "brancx",
+      "body": "枝",
+      "detail": "brancx to 枝"
+    },
+    {
+      "prefix": "brasik",
+      "body": "甘蓝",
+      "detail": "brasik to 甘蓝"
+    },
+    {
+      "prefix": "brav",
+      "body": "勇敢",
+      "detail": "brav to 勇敢"
+    },
+    {
+      "prefix": "bred",
+      "body": "养",
+      "detail": "bred to 养"
+    },
+    {
+      "prefix": "brems",
+      "body": "刹车",
+      "detail": "brems to 刹车"
+    },
+    {
+      "prefix": "bret",
+      "body": "架ʙ",
+      "detail": "bret to 架ʙ"
+    },
+    {
+      "prefix": "bril",
+      "body": "辉",
+      "detail": "bril to 辉"
+    },
+    {
+      "prefix": "briliant",
+      "body": "钻ʙʟ",
+      "detail": "briliant to 钻ʙʟ"
+    },
+    {
+      "prefix": "brod",
+      "body": "绣",
+      "detail": "brod to 绣"
+    },
+    {
+      "prefix": "brog",
+      "body": "烫",
+      "detail": "brog to 烫"
+    },
+    {
+      "prefix": "brokant",
+      "body": "古商",
+      "detail": "brokant to 古商"
+    },
+    {
+      "prefix": "bronz",
+      "body": "青铜",
+      "detail": "bronz to 青铜"
+    },
+    {
+      "prefix": "bros",
+      "body": "刷",
+      "detail": "bros to 刷"
+    },
+    {
+      "prefix": "brov",
+      "body": "眉",
+      "detail": "brov to 眉"
+    },
+    {
+      "prefix": "bru",
+      "body": "噪",
+      "detail": "bru to 噪"
+    },
+    {
+      "prefix": "brul",
+      "body": "烧",
+      "detail": "brul to 烧"
+    },
+    {
+      "prefix": "brun",
+      "body": "褐",
+      "detail": "brun to 褐"
+    },
+    {
+      "prefix": "brust",
+      "body": "胸",
+      "detail": "brust to 胸"
+    },
+    {
+      "prefix": "brut",
+      "body": "畜",
+      "detail": "brut to 畜"
+    },
+    {
+      "prefix": "bub",
+      "body": "童ʙ",
+      "detail": "bub to 童ʙ"
+    },
+    {
+      "prefix": "bucx",
+      "body": "屠",
+      "detail": "bucx to 屠"
+    },
+    {
+      "prefix": "budgxet",
+      "body": "预算ʙᴅ",
+      "detail": "budgxet to 预算ʙᴅ"
+    },
+    {
+      "prefix": "bugxet",
+      "body": "预算",
+      "detail": "bugxet to 预算"
+    },
+    {
+      "prefix": "buked",
+      "body": "花束",
+      "detail": "buked to 花束"
+    },
+    {
+      "prefix": "bul",
+      "body": "泡ʙ",
+      "detail": "bul to 泡ʙ"
+    },
+    {
+      "prefix": "bulvard",
+      "body": "林荫道",
+      "detail": "bulvard to 林荫道"
+    },
+    {
+      "prefix": "burgx",
+      "body": "市民",
+      "detail": "burgx to 市民"
+    },
+    {
+      "prefix": "burgxon",
+      "body": "芽ʙ",
+      "detail": "burgxon to 芽ʙ"
+    },
+    {
+      "prefix": "busx",
+      "body": "口",
+      "detail": "busx to 口"
+    },
+    {
+      "prefix": "buter",
+      "body": "黄油",
+      "detail": "buter to 黄油"
+    },
+    {
+      "prefix": "butik",
+      "body": "店",
+      "detail": "butik to 店"
+    },
+    {
+      "prefix": "buton",
+      "body": "扣",
+      "detail": "buton to 扣"
+    }
   ]
 }
-

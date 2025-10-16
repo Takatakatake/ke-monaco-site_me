@@ -1,0 +1,899 @@
+{
+  "items": [
+    {
+      "prefix": "macx",
+      "body": "嚼",
+      "detail": "macx to 嚼"
+    },
+    {
+      "prefix": "magazen",
+      "body": "仓库",
+      "detail": "magazen to 仓库"
+    },
+    {
+      "prefix": "magi",
+      "body": "魔法",
+      "detail": "magi to 魔法"
+    },
+    {
+      "prefix": "magnet",
+      "body": "磁",
+      "detail": "magnet to 磁"
+    },
+    {
+      "prefix": "maiz",
+      "body": "玉米",
+      "detail": "maiz to 玉米"
+    },
+    {
+      "prefix": "maj",
+      "body": "五月",
+      "detail": "maj to 五月"
+    },
+    {
+      "prefix": "majest",
+      "body": "威严",
+      "detail": "majest to 威严"
+    },
+    {
+      "prefix": "major",
+      "body": "少校",
+      "detail": "major to 少校"
+    },
+    {
+      "prefix": "majstr",
+      "body": "师",
+      "detail": "majstr to 师"
+    },
+    {
+      "prefix": "makler",
+      "body": "经纪",
+      "detail": "makler to 经纪"
+    },
+    {
+      "prefix": "maksimum",
+      "body": "最大",
+      "detail": "maksimum to 最大"
+    },
+    {
+      "prefix": "mal",
+      "body": "反",
+      "detail": "mal to 反"
+    },
+    {
+      "prefix": "malgraux",
+      "body": "尽管",
+      "detail": "malgraux to 尽管"
+    },
+    {
+      "prefix": "malic",
+      "body": "恶意",
+      "detail": "malic to 恶意"
+    },
+    {
+      "prefix": "malt",
+      "body": "麦芽",
+      "detail": "malt to 麦芽"
+    },
+    {
+      "prefix": "mam",
+      "body": "乳ᴍ",
+      "detail": "mam to 乳ᴍ"
+    },
+    {
+      "prefix": "man",
+      "body": "手",
+      "detail": "man to 手"
+    },
+    {
+      "prefix": "mandaren",
+      "body": "官ᴍ",
+      "detail": "mandaren to 官ᴍ"
+    },
+    {
+      "prefix": "mandat",
+      "body": "委ᴍ",
+      "detail": "mandat to 委ᴍ"
+    },
+    {
+      "prefix": "mangx",
+      "body": "吃",
+      "detail": "mangx to 吃"
+    },
+    {
+      "prefix": "mani",
+      "body": "癖",
+      "detail": "mani to 癖"
+    },
+    {
+      "prefix": "manier",
+      "body": "式",
+      "detail": "manier to 式"
+    },
+    {
+      "prefix": "manifest",
+      "body": "表明",
+      "detail": "manifest to 表明"
+    },
+    {
+      "prefix": "manifestaci",
+      "body": "示威",
+      "detail": "manifestaci to 示威"
+    },
+    {
+      "prefix": "manik",
+      "body": "袖",
+      "detail": "manik to 袖"
+    },
+    {
+      "prefix": "manipul",
+      "body": "操作",
+      "detail": "manipul to 操作"
+    },
+    {
+      "prefix": "mank",
+      "body": "缺",
+      "detail": "mank to 缺"
+    },
+    {
+      "prefix": "manovr",
+      "body": "演习",
+      "detail": "manovr to 演习"
+    },
+    {
+      "prefix": "mansard",
+      "body": "阁楼",
+      "detail": "mansard to 阁楼"
+    },
+    {
+      "prefix": "mantel",
+      "body": "大衣",
+      "detail": "mantel to 大衣"
+    },
+    {
+      "prefix": "manufaktur",
+      "body": "手工厂",
+      "detail": "manufaktur to 手工厂"
+    },
+    {
+      "prefix": "map",
+      "body": "图",
+      "detail": "map to 图"
+    },
+    {
+      "prefix": "mar",
+      "body": "海",
+      "detail": "mar to 海"
+    },
+    {
+      "prefix": "marcx",
+      "body": "沼",
+      "detail": "marcx to 沼"
+    },
+    {
+      "prefix": "marcxand",
+      "body": "商",
+      "detail": "marcxand to 商"
+    },
+    {
+      "prefix": "mard",
+      "body": "火曜",
+      "detail": "mard to 火曜"
+    },
+    {
+      "prefix": "margxen",
+      "body": "边白",
+      "detail": "margxen to 边白"
+    },
+    {
+      "prefix": "mari",
+      "body": "海ᴍɪ",
+      "detail": "mari to 海ᴍɪ"
+    },
+    {
+      "prefix": "marin",
+      "body": "海ᴍɴ",
+      "detail": "marin to 海ᴍɴ"
+    },
+    {
+      "prefix": "mark",
+      "body": "标",
+      "detail": "mark to 标"
+    },
+    {
+      "prefix": "marsx",
+      "body": "行军",
+      "detail": "marsx to 行军"
+    },
+    {
+      "prefix": "marsxal",
+      "body": "元帅",
+      "detail": "marsxal to 元帅"
+    },
+    {
+      "prefix": "mart",
+      "body": "三月",
+      "detail": "mart to 三月"
+    },
+    {
+      "prefix": "martel",
+      "body": "锤",
+      "detail": "martel to 锤"
+    },
+    {
+      "prefix": "mas",
+      "body": "团",
+      "detail": "mas to 团"
+    },
+    {
+      "prefix": "masagx",
+      "body": "按摩",
+      "detail": "masagx to 按摩"
+    },
+    {
+      "prefix": "masiv",
+      "body": "巨ᴍ",
+      "detail": "masiv to 巨ᴍ"
+    },
+    {
+      "prefix": "mask",
+      "body": "面具",
+      "detail": "mask to 面具"
+    },
+    {
+      "prefix": "mastr",
+      "body": "主",
+      "detail": "mastr to 主"
+    },
+    {
+      "prefix": "masxin",
+      "body": "机器",
+      "detail": "masxin to 机器"
+    },
+    {
+      "prefix": "mat",
+      "body": "席",
+      "detail": "mat to 席"
+    },
+    {
+      "prefix": "matematik",
+      "body": "数学",
+      "detail": "matematik to 数学"
+    },
+    {
+      "prefix": "maten",
+      "body": "晨",
+      "detail": "maten to 晨"
+    },
+    {
+      "prefix": "materi",
+      "body": "质ᴍ",
+      "detail": "materi to 质ᴍ"
+    },
+    {
+      "prefix": "material",
+      "body": "材",
+      "detail": "material to 材"
+    },
+    {
+      "prefix": "matrac",
+      "body": "床垫",
+      "detail": "matrac to 床垫"
+    },
+    {
+      "prefix": "matur",
+      "body": "成ᴍ",
+      "detail": "matur to 成ᴍ"
+    },
+    {
+      "prefix": "mebl",
+      "body": "家具",
+      "detail": "mebl to 家具"
+    },
+    {
+      "prefix": "mecx",
+      "body": "芯",
+      "detail": "mecx to 芯"
+    },
+    {
+      "prefix": "medal",
+      "body": "勋章",
+      "detail": "medal to 勋章"
+    },
+    {
+      "prefix": "medalion",
+      "body": "圆章",
+      "detail": "medalion to 圆章"
+    },
+    {
+      "prefix": "medi",
+      "body": "境",
+      "detail": "medi to 境"
+    },
+    {
+      "prefix": "medicin",
+      "body": "医学",
+      "detail": "medicin to 医学"
+    },
+    {
+      "prefix": "medikament",
+      "body": "药ᴍ",
+      "detail": "medikament to 药ᴍ"
+    },
+    {
+      "prefix": "mediterane",
+      "body": "中海",
+      "detail": "mediterane to 中海"
+    },
+    {
+      "prefix": "mejl",
+      "body": "英里",
+      "detail": "mejl to 英里"
+    },
+    {
+      "prefix": "mel",
+      "body": "蜜",
+      "detail": "mel to 蜜"
+    },
+    {
+      "prefix": "melk",
+      "body": "乳ᴍʟ",
+      "detail": "melk to 乳ᴍʟ"
+    },
+    {
+      "prefix": "melodi",
+      "body": "旋律",
+      "detail": "melodi to 旋律"
+    },
+    {
+      "prefix": "melodram",
+      "body": "情剧",
+      "detail": "melodram to 情剧"
+    },
+    {
+      "prefix": "melon",
+      "body": "瓜",
+      "detail": "melon to 瓜"
+    },
+    {
+      "prefix": "mem",
+      "body": "自ᴍ",
+      "detail": "mem to 自ᴍ"
+    },
+    {
+      "prefix": "membr",
+      "body": "员ᴍ",
+      "detail": "membr to 员ᴍ"
+    },
+    {
+      "prefix": "membran",
+      "body": "膜",
+      "detail": "membran to 膜"
+    },
+    {
+      "prefix": "memor",
+      "body": "记",
+      "detail": "memor to 记"
+    },
+    {
+      "prefix": "menci",
+      "body": "提",
+      "detail": "menci to 提"
+    },
+    {
+      "prefix": "mend",
+      "body": "订",
+      "detail": "mend to 订"
+    },
+    {
+      "prefix": "mens",
+      "body": "心ᴍ",
+      "detail": "mens to 心ᴍ"
+    },
+    {
+      "prefix": "mensog",
+      "body": "谎",
+      "detail": "mensog to 谎"
+    },
+    {
+      "prefix": "menton",
+      "body": "下巴",
+      "detail": "menton to 下巴"
+    },
+    {
+      "prefix": "mentor",
+      "body": "导师",
+      "detail": "mentor to 导师"
+    },
+    {
+      "prefix": "menu",
+      "body": "菜单",
+      "detail": "menu to 菜单"
+    },
+    {
+      "prefix": "meridian",
+      "body": "子午线",
+      "detail": "meridian to 子午线"
+    },
+    {
+      "prefix": "merit",
+      "body": "绩",
+      "detail": "merit to 绩"
+    },
+    {
+      "prefix": "meriz",
+      "body": "樱ᴍ",
+      "detail": "meriz to 樱ᴍ"
+    },
+    {
+      "prefix": "merkat",
+      "body": "市ᴍ",
+      "detail": "merkat to 市ᴍ"
+    },
+    {
+      "prefix": "merkred",
+      "body": "水曜",
+      "detail": "merkred to 水曜"
+    },
+    {
+      "prefix": "met",
+      "body": "置",
+      "detail": "met to 置"
+    },
+    {
+      "prefix": "metal",
+      "body": "金属",
+      "detail": "metal to 金属"
+    },
+    {
+      "prefix": "metamorfoz",
+      "body": "变形",
+      "detail": "metamorfoz to 变形"
+    },
+    {
+      "prefix": "meteor",
+      "body": "流星",
+      "detail": "meteor to 流星"
+    },
+    {
+      "prefix": "meteorologi",
+      "body": "气象学",
+      "detail": "meteorologi to 气象学"
+    },
+    {
+      "prefix": "meti",
+      "body": "业",
+      "detail": "meti to 业"
+    },
+    {
+      "prefix": "metod",
+      "body": "法ᴍ",
+      "detail": "metod to 法ᴍ"
+    },
+    {
+      "prefix": "metr",
+      "body": "米ᴍ",
+      "detail": "metr to 米ᴍ"
+    },
+    {
+      "prefix": "metropol",
+      "body": "都",
+      "detail": "metropol to 都"
+    },
+    {
+      "prefix": "mez",
+      "body": "中ᴍ",
+      "detail": "mez to 中ᴍ"
+    },
+    {
+      "prefix": "mezur",
+      "body": "测",
+      "detail": "mezur to 测"
+    },
+    {
+      "prefix": "mi",
+      "body": "我",
+      "detail": "mi to 我"
+    },
+    {
+      "prefix": "miel",
+      "body": "蜜ᴍɪ",
+      "detail": "miel to 蜜ᴍɪ"
+    },
+    {
+      "prefix": "mien",
+      "body": "表情",
+      "detail": "mien to 表情"
+    },
+    {
+      "prefix": "migr",
+      "body": "迁",
+      "detail": "migr to 迁"
+    },
+    {
+      "prefix": "mikrob",
+      "body": "微生物",
+      "detail": "mikrob to 微生物"
+    },
+    {
+      "prefix": "mikrofon",
+      "body": "话筒",
+      "detail": "mikrofon to 话筒"
+    },
+    {
+      "prefix": "mikroskop",
+      "body": "微镜",
+      "detail": "mikroskop to 微镜"
+    },
+    {
+      "prefix": "miks",
+      "body": "混",
+      "detail": "miks to 混"
+    },
+    {
+      "prefix": "mil",
+      "body": "千",
+      "detail": "mil to 千"
+    },
+    {
+      "prefix": "mild",
+      "body": "温",
+      "detail": "mild to 温"
+    },
+    {
+      "prefix": "mili",
+      "body": "黍",
+      "detail": "mili to 黍"
+    },
+    {
+      "prefix": "miliard",
+      "body": "十亿",
+      "detail": "miliard to 十亿"
+    },
+    {
+      "prefix": "milimetr",
+      "body": "毫米",
+      "detail": "milimetr to 毫米"
+    },
+    {
+      "prefix": "milion",
+      "body": "百万",
+      "detail": "milion to 百万"
+    },
+    {
+      "prefix": "milit",
+      "body": "战",
+      "detail": "milit to 战"
+    },
+    {
+      "prefix": "mim",
+      "body": "模仿",
+      "detail": "mim to 模仿"
+    },
+    {
+      "prefix": "min",
+      "body": "矿",
+      "detail": "min to 矿"
+    },
+    {
+      "prefix": "minac",
+      "body": "威胁",
+      "detail": "minac to 威胁"
+    },
+    {
+      "prefix": "mineral",
+      "body": "矿物",
+      "detail": "mineral to 矿物"
+    },
+    {
+      "prefix": "minimum",
+      "body": "最小",
+      "detail": "minimum to 最小"
+    },
+    {
+      "prefix": "ministeri",
+      "body": "部ᴍ",
+      "detail": "ministeri to 部ᴍ"
+    },
+    {
+      "prefix": "ministr",
+      "body": "部长",
+      "detail": "ministr to 部长"
+    },
+    {
+      "prefix": "minus",
+      "body": "减",
+      "detail": "minus to 减"
+    },
+    {
+      "prefix": "minut",
+      "body": "分钟",
+      "detail": "minut to 分钟"
+    },
+    {
+      "prefix": "miop",
+      "body": "近视",
+      "detail": "miop to 近视"
+    },
+    {
+      "prefix": "mir",
+      "body": "惊",
+      "detail": "mir to 惊"
+    },
+    {
+      "prefix": "mirakl",
+      "body": "奇迹",
+      "detail": "mirakl to 奇迹"
+    },
+    {
+      "prefix": "miriad",
+      "body": "万",
+      "detail": "miriad to 万"
+    },
+    {
+      "prefix": "mis",
+      "body": "误",
+      "detail": "mis to 误"
+    },
+    {
+      "prefix": "misi",
+      "body": "使命",
+      "detail": "misi to 使命"
+    },
+    {
+      "prefix": "mister",
+      "body": "奥",
+      "detail": "mister to 奥"
+    },
+    {
+      "prefix": "mistik",
+      "body": "神秘",
+      "detail": "mistik to 神秘"
+    },
+    {
+      "prefix": "mit",
+      "body": "神话",
+      "detail": "mit to 神话"
+    },
+    {
+      "prefix": "mizer",
+      "body": "惨",
+      "detail": "mizer to 惨"
+    },
+    {
+      "prefix": "mod",
+      "body": "时尚",
+      "detail": "mod to 时尚"
+    },
+    {
+      "prefix": "model",
+      "body": "模型",
+      "detail": "model to 模型"
+    },
+    {
+      "prefix": "moder",
+      "body": "适度",
+      "detail": "moder to 适度"
+    },
+    {
+      "prefix": "modern",
+      "body": "现代",
+      "detail": "modern to 现代"
+    },
+    {
+      "prefix": "modest",
+      "body": "谦逊",
+      "detail": "modest to 谦逊"
+    },
+    {
+      "prefix": "modif",
+      "body": "改",
+      "detail": "modif to 改"
+    },
+    {
+      "prefix": "modul",
+      "body": "模",
+      "detail": "modul to 模"
+    },
+    {
+      "prefix": "mok",
+      "body": "嘲",
+      "detail": "mok to 嘲"
+    },
+    {
+      "prefix": "mol",
+      "body": "软",
+      "detail": "mol to 软"
+    },
+    {
+      "prefix": "molekul",
+      "body": "分子",
+      "detail": "molekul to 分子"
+    },
+    {
+      "prefix": "moment",
+      "body": "瞬间",
+      "detail": "moment to 瞬间"
+    },
+    {
+      "prefix": "mon",
+      "body": "钱",
+      "detail": "mon to 钱"
+    },
+    {
+      "prefix": "monarhx",
+      "body": "君",
+      "detail": "monarhx to 君"
+    },
+    {
+      "prefix": "monark",
+      "body": "君ᴍᴋ",
+      "detail": "monark to 君ᴍᴋ"
+    },
+    {
+      "prefix": "monat",
+      "body": "月ᴍ",
+      "detail": "monat to 月ᴍ"
+    },
+    {
+      "prefix": "mond",
+      "body": "世",
+      "detail": "mond to 世"
+    },
+    {
+      "prefix": "monolog",
+      "body": "独白",
+      "detail": "monolog to 独白"
+    },
+    {
+      "prefix": "monopol",
+      "body": "垄断",
+      "detail": "monopol to 垄断"
+    },
+    {
+      "prefix": "monoton",
+      "body": "单调",
+      "detail": "monoton to 单调"
+    },
+    {
+      "prefix": "mont",
+      "body": "山",
+      "detail": "mont to 山"
+    },
+    {
+      "prefix": "montr",
+      "body": "示",
+      "detail": "montr to 示"
+    },
+    {
+      "prefix": "monument",
+      "body": "碑",
+      "detail": "monument to 碑"
+    },
+    {
+      "prefix": "mor",
+      "body": "俗",
+      "detail": "mor to 俗"
+    },
+    {
+      "prefix": "moral",
+      "body": "道德",
+      "detail": "moral to 道德"
+    },
+    {
+      "prefix": "mord",
+      "body": "咬",
+      "detail": "mord to 咬"
+    },
+    {
+      "prefix": "morgaux",
+      "body": "明日",
+      "detail": "morgaux to 明日"
+    },
+    {
+      "prefix": "mort",
+      "body": "死",
+      "detail": "mort to 死"
+    },
+    {
+      "prefix": "morus",
+      "body": "桑",
+      "detail": "morus to 桑"
+    },
+    {
+      "prefix": "moskit",
+      "body": "蚊",
+      "detail": "moskit to 蚊"
+    },
+    {
+      "prefix": "motiv",
+      "body": "动机ᴍᴠ",
+      "detail": "motiv to 动机ᴍᴠ"
+    },
+    {
+      "prefix": "motor",
+      "body": "动机",
+      "detail": "motor to 动机"
+    },
+    {
+      "prefix": "mov",
+      "body": "动",
+      "detail": "mov to 动"
+    },
+    {
+      "prefix": "muel",
+      "body": "磨",
+      "detail": "muel to 磨"
+    },
+    {
+      "prefix": "mugx",
+      "body": "吼",
+      "detail": "mugx to 吼"
+    },
+    {
+      "prefix": "mult",
+      "body": "多",
+      "detail": "mult to 多"
+    },
+    {
+      "prefix": "multiplik",
+      "body": "乘ᴍ",
+      "detail": "multiplik to 乘ᴍ"
+    },
+    {
+      "prefix": "munt",
+      "body": "装",
+      "detail": "munt to 装"
+    },
+    {
+      "prefix": "mur",
+      "body": "墙",
+      "detail": "mur to 墙"
+    },
+    {
+      "prefix": "murd",
+      "body": "杀",
+      "detail": "murd to 杀"
+    },
+    {
+      "prefix": "murmur",
+      "body": "低语",
+      "detail": "murmur to 低语"
+    },
+    {
+      "prefix": "mus",
+      "body": "鼠",
+      "detail": "mus to 鼠"
+    },
+    {
+      "prefix": "musk",
+      "body": "苔",
+      "detail": "musk to 苔"
+    },
+    {
+      "prefix": "muskol",
+      "body": "肌",
+      "detail": "muskol to 肌"
+    },
+    {
+      "prefix": "musx",
+      "body": "蝇",
+      "detail": "musx to 蝇"
+    },
+    {
+      "prefix": "mut",
+      "body": "哑",
+      "detail": "mut to 哑"
+    },
+    {
+      "prefix": "muze",
+      "body": "博物馆",
+      "detail": "muze to 博物馆"
+    },
+    {
+      "prefix": "muzik",
+      "body": "音乐",
+      "detail": "muzik to 音乐"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "items": [
+    {
+      "prefix": "oaz",
+      "body": "绿洲",
+      "detail": "oaz to 绿洲"
+    },
+    {
+      "prefix": "obe",
+      "body": "从ᴏ",
+      "detail": "obe to 从ᴏ"
+    },
+    {
+      "prefix": "objekt",
+      "body": "对象",
+      "detail": "objekt to 对象"
+    },
+    {
+      "prefix": "objektiv",
+      "body": "客观",
+      "detail": "objektiv to 客观"
+    },
+    {
+      "prefix": "obl",
+      "body": "倍",
+      "detail": "obl to 倍"
+    },
+    {
+      "prefix": "obligaci",
+      "body": "债券",
+      "detail": "obligaci to 债券"
+    },
+    {
+      "prefix": "oblikv",
+      "body": "斜",
+      "detail": "oblikv to 斜"
+    },
+    {
+      "prefix": "observ",
+      "body": "察",
+      "detail": "observ to 察"
+    },
+    {
+      "prefix": "observatori",
+      "body": "观测站",
+      "detail": "observatori to 观测站"
+    },
+    {
+      "prefix": "obstin",
+      "body": "顽",
+      "detail": "obstin to 顽"
+    },
+    {
+      "prefix": "obtuz",
+      "body": "钝",
+      "detail": "obtuz to 钝"
+    },
+    {
+      "prefix": "ocean",
+      "body": "洋",
+      "detail": "ocean to 洋"
+    },
+    {
+      "prefix": "od",
+      "body": "或",
+      "detail": "od to 或"
+    },
+    {
+      "prefix": "odor",
+      "body": "味ᴏ",
+      "detail": "odor to 味ᴏ"
+    },
+    {
+      "prefix": "ofend",
+      "body": "冒犯",
+      "detail": "ofend to 冒犯"
+    },
+    {
+      "prefix": "ofer",
+      "body": "供奉",
+      "detail": "ofer to 供奉"
+    },
+    {
+      "prefix": "ofert",
+      "body": "献",
+      "detail": "ofert to 献"
+    },
+    {
+      "prefix": "ofic",
+      "body": "务ᴏ",
+      "detail": "ofic to 务ᴏ"
+    },
+    {
+      "prefix": "oficial",
+      "body": "官",
+      "detail": "oficial to 官"
+    },
+    {
+      "prefix": "oficir",
+      "body": "军官",
+      "detail": "oficir to 军官"
+    },
+    {
+      "prefix": "oft",
+      "body": "频",
+      "detail": "oft to 频"
+    },
+    {
+      "prefix": "ok",
+      "body": "八",
+      "detail": "ok to 八"
+    },
+    {
+      "prefix": "okaz",
+      "body": "发生",
+      "detail": "okaz to 发生"
+    },
+    {
+      "prefix": "okcident",
+      "body": "西",
+      "detail": "okcident to 西"
+    },
+    {
+      "prefix": "oksigen",
+      "body": "氧",
+      "detail": "oksigen to 氧"
+    },
+    {
+      "prefix": "oktav",
+      "body": "八度",
+      "detail": "oktav to 八度"
+    },
+    {
+      "prefix": "oktobr",
+      "body": "十月",
+      "detail": "oktobr to 十月"
+    },
+    {
+      "prefix": "okul",
+      "body": "眼",
+      "detail": "okul to 眼"
+    },
+    {
+      "prefix": "okult",
+      "body": "隐",
+      "detail": "okult to 隐"
+    },
+    {
+      "prefix": "okup",
+      "body": "事ᴏ",
+      "detail": "okup to 事ᴏ"
+    },
+    {
+      "prefix": "ol",
+      "body": "比",
+      "detail": "ol to 比"
+    },
+    {
+      "prefix": "ole",
+      "body": "油",
+      "detail": "ole to 油"
+    },
+    {
+      "prefix": "oliv",
+      "body": "橄榄",
+      "detail": "oliv to 橄榄"
+    },
+    {
+      "prefix": "ombr",
+      "body": "影ᴏ",
+      "detail": "ombr to 影ᴏ"
+    },
+    {
+      "prefix": "ombrel",
+      "body": "伞",
+      "detail": "ombrel to 伞"
+    },
+    {
+      "prefix": "omnibus",
+      "body": "公车ᴏ",
+      "detail": "omnibus to 公车ᴏ"
+    },
+    {
+      "prefix": "on",
+      "body": "分ᴏ",
+      "detail": "on to 分ᴏ"
+    },
+    {
+      "prefix": "ond",
+      "body": "波",
+      "detail": "ond to 波"
+    },
+    {
+      "prefix": "oni",
+      "body": "人ᴏ",
+      "detail": "oni to 人ᴏ"
+    },
+    {
+      "prefix": "onkl",
+      "body": "叔",
+      "detail": "onkl to 叔"
+    },
+    {
+      "prefix": "op",
+      "body": "合",
+      "detail": "op to 合"
+    },
+    {
+      "prefix": "oper",
+      "body": "歌剧",
+      "detail": "oper to 歌剧"
+    },
+    {
+      "prefix": "operaci",
+      "body": "手术",
+      "detail": "operaci to 手术"
+    },
+    {
+      "prefix": "opini",
+      "body": "见ᴏ",
+      "detail": "opini to 见ᴏ"
+    },
+    {
+      "prefix": "opon",
+      "body": "反对",
+      "detail": "opon to 反对"
+    },
+    {
+      "prefix": "oportun",
+      "body": "宜ᴏ",
+      "detail": "oportun to 宜ᴏ"
+    },
+    {
+      "prefix": "opozici",
+      "body": "反对ᴏᴢ",
+      "detail": "opozici to 反对ᴏᴢ"
+    },
+    {
+      "prefix": "optativ",
+      "body": "愿ᴏ",
+      "detail": "optativ to 愿ᴏ"
+    },
+    {
+      "prefix": "optimism",
+      "body": "乐观主义",
+      "detail": "optimism to 乐观主义"
+    },
+    {
+      "prefix": "optimist",
+      "body": "乐观家",
+      "detail": "optimist to 乐观家"
+    },
+    {
+      "prefix": "or",
+      "body": "金",
+      "detail": "or to 金"
+    },
+    {
+      "prefix": "orangx",
+      "body": "橙",
+      "detail": "orangx to 橙"
+    },
+    {
+      "prefix": "orator",
+      "body": "演说家",
+      "detail": "orator to 演说家"
+    },
+    {
+      "prefix": "orbit",
+      "body": "轨道",
+      "detail": "orbit to 轨道"
+    },
+    {
+      "prefix": "ord",
+      "body": "序",
+      "detail": "ord to 序"
+    },
+    {
+      "prefix": "ordinar",
+      "body": "常",
+      "detail": "ordinar to 常"
+    },
+    {
+      "prefix": "ordon",
+      "body": "命ᴏ",
+      "detail": "ordon to 命ᴏ"
+    },
+    {
+      "prefix": "orel",
+      "body": "耳",
+      "detail": "orel to 耳"
+    },
+    {
+      "prefix": "orf",
+      "body": "孤儿",
+      "detail": "orf to 孤儿"
+    },
+    {
+      "prefix": "organ",
+      "body": "器官",
+      "detail": "organ to 器官"
+    },
+    {
+      "prefix": "organism",
+      "body": "生体",
+      "detail": "organism to 生体"
+    },
+    {
+      "prefix": "organiz",
+      "body": "组ᴏ",
+      "detail": "organiz to 组ᴏ"
+    },
+    {
+      "prefix": "orient",
+      "body": "东方",
+      "detail": "orient to 东方"
+    },
+    {
+      "prefix": "origin",
+      "body": "源ᴏ",
+      "detail": "origin to 源ᴏ"
+    },
+    {
+      "prefix": "original",
+      "body": "原ᴏ",
+      "detail": "original to 原ᴏ"
+    },
+    {
+      "prefix": "orkestr",
+      "body": "乐队",
+      "detail": "orkestr to 乐队"
+    },
+    {
+      "prefix": "ornam",
+      "body": "饰ᴏ",
+      "detail": "ornam to 饰ᴏ"
+    },
+    {
+      "prefix": "ort",
+      "body": "直",
+      "detail": "ort to 直"
+    },
+    {
+      "prefix": "ost",
+      "body": "骨",
+      "detail": "ost to 骨"
+    },
+    {
+      "prefix": "ov",
+      "body": "卵",
+      "detail": "ov to 卵"
+    },
+    {
+      "prefix": "oval",
+      "body": "卵形",
+      "detail": "oval to 卵形"
+    },
+    {
+      "prefix": "ozon",
+      "body": "臭氧",
+      "detail": "ozon to 臭氧"
+    }
+  ]
+}

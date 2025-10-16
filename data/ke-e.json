@@ -1,0 +1,529 @@
+{
+  "items": [
+    {
+      "prefix": "eben",
+      "body": "平",
+      "detail": "eben to 平"
+    },
+    {
+      "prefix": "ebl",
+      "body": "可ᴇ",
+      "detail": "ebl to 可ᴇ"
+    },
+    {
+      "prefix": "ebri",
+      "body": "醉",
+      "detail": "ebri to 醉"
+    },
+    {
+      "prefix": "ebur",
+      "body": "象牙",
+      "detail": "ebur to 象牙"
+    },
+    {
+      "prefix": "ec",
+      "body": "性",
+      "detail": "ec to 性"
+    },
+    {
+      "prefix": "edif",
+      "body": "建",
+      "detail": "edif to 建"
+    },
+    {
+      "prefix": "edikt",
+      "body": "告ᴇ",
+      "detail": "edikt to 告ᴇ"
+    },
+    {
+      "prefix": "eduk",
+      "body": "育",
+      "detail": "eduk to 育"
+    },
+    {
+      "prefix": "edz",
+      "body": "夫",
+      "detail": "edz to 夫"
+    },
+    {
+      "prefix": "efekt",
+      "body": "效ᴇᴛ",
+      "detail": "efekt to 效ᴇᴛ"
+    },
+    {
+      "prefix": "efektiv",
+      "body": "实际",
+      "detail": "efektiv to 实际"
+    },
+    {
+      "prefix": "efik",
+      "body": "效",
+      "detail": "efik to 效"
+    },
+    {
+      "prefix": "eg",
+      "body": "巨",
+      "detail": "eg to 巨"
+    },
+    {
+      "prefix": "egal",
+      "body": "等",
+      "detail": "egal to 等"
+    },
+    {
+      "prefix": "ego",
+      "body": "自我",
+      "detail": "ego to 自我"
+    },
+    {
+      "prefix": "ej",
+      "body": "处",
+      "detail": "ej to 处"
+    },
+    {
+      "prefix": "ek",
+      "body": "始",
+      "detail": "ek to 始"
+    },
+    {
+      "prefix": "ekip",
+      "body": "装备",
+      "detail": "ekip to 装备"
+    },
+    {
+      "prefix": "eklips",
+      "body": "蚀",
+      "detail": "eklips to 蚀"
+    },
+    {
+      "prefix": "ekonomi",
+      "body": "经济",
+      "detail": "ekonomi to 经济"
+    },
+    {
+      "prefix": "ekran",
+      "body": "屏",
+      "detail": "ekran to 屏"
+    },
+    {
+      "prefix": "eks",
+      "body": "前",
+      "detail": "eks to 前"
+    },
+    {
+      "prefix": "eksces",
+      "body": "过度",
+      "detail": "eksces to 过度"
+    },
+    {
+      "prefix": "ekscit",
+      "body": "兴奋",
+      "detail": "ekscit to 兴奋"
+    },
+    {
+      "prefix": "ekskluziv",
+      "body": "专",
+      "detail": "ekskluziv to 专"
+    },
+    {
+      "prefix": "ekskrement",
+      "body": "粪",
+      "detail": "ekskrement to 粪"
+    },
+    {
+      "prefix": "ekskurs",
+      "body": "游览",
+      "detail": "ekskurs to 游览"
+    },
+    {
+      "prefix": "eksped",
+      "body": "发ᴇ",
+      "detail": "eksped to 发ᴇ"
+    },
+    {
+      "prefix": "eksperiment",
+      "body": "实验",
+      "detail": "eksperiment to 实验"
+    },
+    {
+      "prefix": "eksplod",
+      "body": "爆",
+      "detail": "eksplod to 爆"
+    },
+    {
+      "prefix": "ekspluat",
+      "body": "开发",
+      "detail": "ekspluat to 开发"
+    },
+    {
+      "prefix": "eksport",
+      "body": "出口",
+      "detail": "eksport to 出口"
+    },
+    {
+      "prefix": "ekspozici",
+      "body": "展览",
+      "detail": "ekspozici to 展览"
+    },
+    {
+      "prefix": "ekspres",
+      "body": "快ᴇ",
+      "detail": "ekspres to 快ᴇ"
+    },
+    {
+      "prefix": "ekster",
+      "body": "外",
+      "detail": "ekster to 外"
+    },
+    {
+      "prefix": "ekstr",
+      "body": "额ᴇ",
+      "detail": "ekstr to 额ᴇ"
+    },
+    {
+      "prefix": "ekstrem",
+      "body": "极ᴇ",
+      "detail": "ekstrem to 极ᴇ"
+    },
+    {
+      "prefix": "ekvator",
+      "body": "赤道",
+      "detail": "ekvator to 赤道"
+    },
+    {
+      "prefix": "ekvilibr",
+      "body": "平衡ᴇ",
+      "detail": "ekvilibr to 平衡ᴇ"
+    },
+    {
+      "prefix": "ekzakt",
+      "body": "准确",
+      "detail": "ekzakt to 准确"
+    },
+    {
+      "prefix": "ekzamen",
+      "body": "考试",
+      "detail": "ekzamen to 考试"
+    },
+    {
+      "prefix": "ekzempl",
+      "body": "例",
+      "detail": "ekzempl to 例"
+    },
+    {
+      "prefix": "ekzempler",
+      "body": "部ᴇ",
+      "detail": "ekzempler to 部ᴇ"
+    },
+    {
+      "prefix": "ekzerc",
+      "body": "练",
+      "detail": "ekzerc to 练"
+    },
+    {
+      "prefix": "ekzist",
+      "body": "存ᴇ",
+      "detail": "ekzist to 存ᴇ"
+    },
+    {
+      "prefix": "el",
+      "body": "出",
+      "detail": "el to 出"
+    },
+    {
+      "prefix": "elast",
+      "body": "弹",
+      "detail": "elast to 弹"
+    },
+    {
+      "prefix": "elefant",
+      "body": "象",
+      "detail": "elefant to 象"
+    },
+    {
+      "prefix": "elegant",
+      "body": "雅ᴇ",
+      "detail": "elegant to 雅ᴇ"
+    },
+    {
+      "prefix": "elekt",
+      "body": "选",
+      "detail": "elekt to 选"
+    },
+    {
+      "prefix": "elektr",
+      "body": "电",
+      "detail": "elektr to 电"
+    },
+    {
+      "prefix": "elektronik",
+      "body": "电子",
+      "detail": "elektronik to 电子"
+    },
+    {
+      "prefix": "element",
+      "body": "元ᴇ",
+      "detail": "element to 元ᴇ"
+    },
+    {
+      "prefix": "elizi",
+      "body": "省略",
+      "detail": "elizi to 省略"
+    },
+    {
+      "prefix": "em",
+      "body": "向ᴇ",
+      "detail": "em to 向ᴇ"
+    },
+    {
+      "prefix": "emancip",
+      "body": "解放",
+      "detail": "emancip to 解放"
+    },
+    {
+      "prefix": "emfaz",
+      "body": "强调",
+      "detail": "emfaz to 强调"
+    },
+    {
+      "prefix": "eminent",
+      "body": "卓越",
+      "detail": "eminent to 卓越"
+    },
+    {
+      "prefix": "emoci",
+      "body": "情",
+      "detail": "emoci to 情"
+    },
+    {
+      "prefix": "en",
+      "body": "内",
+      "detail": "en to 内"
+    },
+    {
+      "prefix": "enciklopedi",
+      "body": "百科",
+      "detail": "enciklopedi to 百科"
+    },
+    {
+      "prefix": "end",
+      "body": "须",
+      "detail": "end to 须"
+    },
+    {
+      "prefix": "energi",
+      "body": "能",
+      "detail": "energi to 能"
+    },
+    {
+      "prefix": "enigm",
+      "body": "谜",
+      "detail": "enigm to 谜"
+    },
+    {
+      "prefix": "enket",
+      "body": "调查",
+      "detail": "enket to 调查"
+    },
+    {
+      "prefix": "entrepren",
+      "body": "承办",
+      "detail": "entrepren to 承办"
+    },
+    {
+      "prefix": "entuziasm",
+      "body": "热情",
+      "detail": "entuziasm to 热情"
+    },
+    {
+      "prefix": "enu",
+      "body": "闷",
+      "detail": "enu to 闷"
+    },
+    {
+      "prefix": "envi",
+      "body": "羡",
+      "detail": "envi to 羡"
+    },
+    {
+      "prefix": "epiderm",
+      "body": "表皮",
+      "detail": "epiderm to 表皮"
+    },
+    {
+      "prefix": "epilog",
+      "body": "终语",
+      "detail": "epilog to 终语"
+    },
+    {
+      "prefix": "epizod",
+      "body": "插话",
+      "detail": "epizod to 插话"
+    },
+    {
+      "prefix": "epok",
+      "body": "代",
+      "detail": "epok to 代"
+    },
+    {
+      "prefix": "er",
+      "body": "粒",
+      "detail": "er to 粒"
+    },
+    {
+      "prefix": "erar",
+      "body": "错",
+      "detail": "erar to 错"
+    },
+    {
+      "prefix": "erotik",
+      "body": "色ᴇ",
+      "detail": "erotik to 色ᴇ"
+    },
+    {
+      "prefix": "erupci",
+      "body": "喷发",
+      "detail": "erupci to 喷发"
+    },
+    {
+      "prefix": "escept",
+      "body": "例外",
+      "detail": "escept to 例外"
+    },
+    {
+      "prefix": "esenc",
+      "body": "本",
+      "detail": "esenc to 本"
+    },
+    {
+      "prefix": "eskap",
+      "body": "脱",
+      "detail": "eskap to 脱"
+    },
+    {
+      "prefix": "esper",
+      "body": "希",
+      "detail": "esper to 希"
+    },
+    {
+      "prefix": "esperant",
+      "body": "世界语",
+      "detail": "esperant to 世界语"
+    },
+    {
+      "prefix": "esplor",
+      "body": "探ᴇ",
+      "detail": "esplor to 探ᴇ"
+    },
+    {
+      "prefix": "esprim",
+      "body": "表ᴇ",
+      "detail": "esprim to 表ᴇ"
+    },
+    {
+      "prefix": "est",
+      "body": "是",
+      "detail": "est to 是"
+    },
+    {
+      "prefix": "establ",
+      "body": "设",
+      "detail": "establ to 设"
+    },
+    {
+      "prefix": "estim",
+      "body": "敬ᴇ",
+      "detail": "estim to 敬ᴇ"
+    },
+    {
+      "prefix": "esting",
+      "body": "熄",
+      "detail": "esting to 熄"
+    },
+    {
+      "prefix": "estr",
+      "body": "领",
+      "detail": "estr to 领"
+    },
+    {
+      "prefix": "estrad",
+      "body": "高台",
+      "detail": "estrad to 高台"
+    },
+    {
+      "prefix": "et",
+      "body": "小",
+      "detail": "et to 小"
+    },
+    {
+      "prefix": "etagx",
+      "body": "层",
+      "detail": "etagx to 层"
+    },
+    {
+      "prefix": "etap",
+      "body": "段ᴇ",
+      "detail": "etap to 段ᴇ"
+    },
+    {
+      "prefix": "etat",
+      "body": "报表",
+      "detail": "etat to 报表"
+    },
+    {
+      "prefix": "etend",
+      "body": "延",
+      "detail": "etend to 延"
+    },
+    {
+      "prefix": "etern",
+      "body": "永远",
+      "detail": "etern to 永远"
+    },
+    {
+      "prefix": "etik",
+      "body": "伦理",
+      "detail": "etik to 伦理"
+    },
+    {
+      "prefix": "etiket",
+      "body": "礼节",
+      "detail": "etiket to 礼节"
+    },
+    {
+      "prefix": "etn",
+      "body": "族",
+      "detail": "etn to 族"
+    },
+    {
+      "prefix": "event",
+      "body": "事件",
+      "detail": "event to 事件"
+    },
+    {
+      "prefix": "eventual",
+      "body": "终究",
+      "detail": "eventual to 终究"
+    },
+    {
+      "prefix": "evident",
+      "body": "显",
+      "detail": "evident to 显"
+    },
+    {
+      "prefix": "evit",
+      "body": "避",
+      "detail": "evit to 避"
+    },
+    {
+      "prefix": "evolu",
+      "body": "演化",
+      "detail": "evolu to 演化"
+    },
+    {
+      "prefix": "evoluci",
+      "body": "进化",
+      "detail": "evoluci to 进化"
+    }
+  ]
+}
