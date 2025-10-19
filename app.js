@@ -151,7 +151,7 @@ require(['vs/editor/editor.main'], function () {
   try { saved = localStorage.getItem(STORAGE_KEY); } catch { }
 
   const editor = monaco.editor.create(host, Object.assign({
-    value: saved || 'Kiam Okcidento renkontas Orienton kaj surmetas orientan veston, unu sola lingvo akiras du aspektojn — ambaŭ belajn —, kaj naskiĝas nova kompreno.\n何时 西o 遇as 东方on 和 上置is 东方an 服物on, 一 语o 今 有as 二 观ojn - 两 美aj, 新a 懂o 生成as.\n',
+    value: saved || 'Kiam Okcidento renkontas Orienton kaj surmetas orientan veston, unu sola lingvo akiras du aspektojn — ambaŭ belajn —, kaj naskiĝas nova kompreno.\n何时 西o 遇as 东方on 和 上置as 东方an 服on, 一 独a 语o 获as 二 观ojn — 两 美ajn —, 和 生成as 新a 懂o.\n',
     language: 'kanji-esperanto',
     theme: 'vs',
     fontSize: 16,
